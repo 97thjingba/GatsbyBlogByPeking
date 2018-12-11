@@ -1,0 +1,1924 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/lgy/gatsby_test/blog_gatsby/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6ef06038d83b80f23dde53cb9e12341a",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7a599c2b4e3cd28f67d2a33452938128",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5d992226fe9813896e3d4c3981f84b53",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2d1ff955fe6cd3fe0b22dc9d413b0c3e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a389bad8a75516e70a09fda1b6c37666",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5863ac63a153aaa16af4929bca9327c1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e7752745-5ebb-559e-97a9-909bbbb62861": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-source-filesystem",
+      "id": "e7752745-5ebb-559e-97a9-909bbbb62861",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "/Users/lgy/gatsby_test/blog_gatsby/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.10",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9de88197901c23cfa032d386a32d3403",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.15",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "734387218fdb448b88b7d80a9b25a957",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-plugin-emotion",
+      "id": "2c5d3a96-6fe0-5775-b8fc-e9860a1a2177",
+      "name": "gatsby-plugin-emotion",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-plugin-emotion",
+      "packageJson": {
+        "name": "gatsby-plugin-emotion",
+        "description": "Gatsby plugin to add support for Emotion",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "emotion",
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Tegan Churchill",
+          "email": "churchill.tegan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "emotion",
+            "version": "7 || 8 || 9"
+          },
+          {
+            "name": "emotion-server",
+            "version": "7 || 8 || 9"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "db8a097698de274559562f1f3d682947",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-plugin-typography",
+      "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.2",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1447e0449639e594950fa8175883fea4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "69811b66d2a20d43e0758cef5a106692",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "Gatsby hello world starter",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bulma",
+            "version": "^0.7.2"
+          },
+          {
+            "name": "emotion",
+            "version": "^9.2.12"
+          },
+          {
+            "name": "emotion-server",
+            "version": "^9.2.12"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.2"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.15"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.1"
+          },
+          {
+            "name": "react-emotion",
+            "version": "^9.2.12"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "reactbulma",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.17"
+          },
+          {
+            "name": "typography-theme-kirkham",
+            "version": "^0.16.3"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e3bd68092e3e7fd8ff14b0971acd3dba",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "38f92e54-fbfc-570e-b4dc-d3faf688903d": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-plugin-page-creator",
+      "id": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f7fb4c31c861312ed4d8a356d7451233",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Pandas Eating Lots"
+      },
+      "port": 8001,
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-12-11T02:20:31.295Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e04365e77b370cab359a0ecadb4ef15b",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c9e874a7-1080-51b8-b5b9-18a92b48c1fb": {
+      "id": "c9e874a7-1080-51b8-b5b9-18a92b48c1fb",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5ab5ae386199d9cba0e95a7a347ff8bb",
+        "type": "Directory",
+        "description": "Directory \"src\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-12-03T13:53:13.832Z",
+      "accessTime": "2018-12-11T02:20:37.446Z",
+      "changeTime": "2018-12-11T02:20:08.632Z",
+      "birthTime": "2018-11-17T11:40:22.948Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312611,
+      "blocks": 0,
+      "atimeMs": 1544494837446.1062,
+      "mtimeMs": 1543845193832.0464,
+      "ctimeMs": 1544494808632.4185,
+      "birthtimeMs": 1542454822947.9124,
+      "atime": "2018-12-11T02:20:37.446Z",
+      "mtime": "2018-12-03T13:53:13.832Z",
+      "ctime": "2018-12-11T02:20:08.632Z",
+      "birthtime": "2018-11-17T11:40:22.948Z"
+    },
+    "3c4d73b4-5d69-5ef5-86b1-1e4f63b30696": {
+      "id": "3c4d73b4-5d69-5ef5-86b1-1e4f63b30696",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "af68b418599f85b1db34390cbda9ab48",
+        "type": "Directory",
+        "description": "Directory \"src/components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-12-03T13:53:23.762Z",
+      "accessTime": "2018-12-11T02:20:37.450Z",
+      "changeTime": "2018-12-11T02:20:08.627Z",
+      "birthTime": "2018-11-17T11:44:40.777Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312620,
+      "blocks": 0,
+      "atimeMs": 1544494837450.0757,
+      "mtimeMs": 1543845203761.76,
+      "ctimeMs": 1544494808627.1921,
+      "birthtimeMs": 1542455080777.0718,
+      "atime": "2018-12-11T02:20:37.450Z",
+      "mtime": "2018-12-03T13:53:23.762Z",
+      "ctime": "2018-12-11T02:20:08.627Z",
+      "birthtime": "2018-11-17T11:44:40.777Z"
+    },
+    "634489d2-33b2-5b69-8732-39e560b3e4e4": {
+      "id": "634489d2-33b2-5b69-8732-39e560b3e4e4",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ad66213bd4c51fdca79e0ffe766fbe79",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-12-03T13:06:36.269Z",
+      "accessTime": "2018-12-11T02:20:37.450Z",
+      "changeTime": "2018-12-11T02:20:08.632Z",
+      "birthTime": "2018-11-17T11:40:22.948Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312624,
+      "blocks": 0,
+      "atimeMs": 1544494837450.1072,
+      "mtimeMs": 1543842396268.5842,
+      "ctimeMs": 1544494808632.006,
+      "birthtimeMs": 1542454822947.964,
+      "atime": "2018-12-11T02:20:37.450Z",
+      "mtime": "2018-12-03T13:06:36.269Z",
+      "ctime": "2018-12-11T02:20:08.632Z",
+      "birthtime": "2018-11-17T11:40:22.948Z"
+    },
+    "a7318365-3c77-5966-a967-442ae47fde72": {
+      "id": "a7318365-3c77-5966-a967-442ae47fde72",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8ad9fc521049101fc408a95785e569c7",
+        "type": "Directory",
+        "description": "Directory \"src/imgs\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs",
+      "relativePath": "imgs",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-12-04T07:50:06.037Z",
+      "accessTime": "2018-12-11T02:20:37.450Z",
+      "changeTime": "2018-12-11T02:20:08.625Z",
+      "birthTime": "2018-12-03T13:53:13.832Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src",
+      "base": "imgs",
+      "ext": "",
+      "name": "imgs",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312612,
+      "blocks": 0,
+      "atimeMs": 1544494837450.148,
+      "mtimeMs": 1543909806037.191,
+      "ctimeMs": 1544494808624.5132,
+      "birthtimeMs": 1543845193832.029,
+      "atime": "2018-12-11T02:20:37.450Z",
+      "mtime": "2018-12-04T07:50:06.037Z",
+      "ctime": "2018-12-11T02:20:08.625Z",
+      "birthtime": "2018-12-03T13:53:13.832Z"
+    },
+    "a3736207-fadf-5b15-a01c-ee0ecb740579": {
+      "id": "a3736207-fadf-5b15-a01c-ee0ecb740579",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9beee5dcf3b1f601470758ca705be00b",
+        "type": "Directory",
+        "description": "Directory \"src/utils\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/utils",
+      "relativePath": "utils",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-11-17T11:46:17.367Z",
+      "accessTime": "2018-12-11T02:20:37.450Z",
+      "changeTime": "2018-12-11T02:20:08.626Z",
+      "birthTime": "2018-11-17T11:46:06.507Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src",
+      "base": "utils",
+      "ext": "",
+      "name": "utils",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312618,
+      "blocks": 0,
+      "atimeMs": 1544494837450.1743,
+      "mtimeMs": 1542455177367.4275,
+      "ctimeMs": 1544494808625.772,
+      "birthtimeMs": 1542455166507.3606,
+      "atime": "2018-12-11T02:20:37.450Z",
+      "mtime": "2018-11-17T11:46:17.367Z",
+      "ctime": "2018-12-11T02:20:08.626Z",
+      "birthtime": "2018-11-17T11:46:06.507Z"
+    },
+    "52bfaaf9-5c53-5171-a5f5-d49a457361e0": {
+      "id": "52bfaaf9-5c53-5171-a5f5-d49a457361e0",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c0d97e07dec62967669d5962a088341f",
+        "type": "Directory",
+        "description": "Directory \"src/templates\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-12-02T14:24:15.966Z",
+      "accessTime": "2018-12-11T02:20:37.450Z",
+      "changeTime": "2018-12-11T02:20:08.628Z",
+      "birthTime": "2018-12-02T14:23:47.588Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312622,
+      "blocks": 0,
+      "atimeMs": 1544494837450.2043,
+      "mtimeMs": 1543760655965.7468,
+      "ctimeMs": 1544494808628.2397,
+      "birthtimeMs": 1543760627588.4695,
+      "atime": "2018-12-11T02:20:37.450Z",
+      "mtime": "2018-12-02T14:24:15.966Z",
+      "ctime": "2018-12-11T02:20:08.628Z",
+      "birthtime": "2018-12-02T14:23:47.588Z"
+    },
+    "85c96896-7410-5d3f-87db-f303ba13b812": {
+      "id": "85c96896-7410-5d3f-87db-f303ba13b812",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cb72a2a1fa7e016e3b577b1d044dd02c",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/layout.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/layout.js",
+      "relativePath": "components/layout.js",
+      "extension": "js",
+      "size": 984,
+      "prettySize": "984 B",
+      "modifiedTime": "2018-12-04T07:18:03.857Z",
+      "accessTime": "2018-12-11T02:20:08.622Z",
+      "changeTime": "2018-12-11T02:20:08.627Z",
+      "birthTime": "2018-11-17T11:45:18.243Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components",
+      "base": "layout.js",
+      "ext": ".js",
+      "name": "layout",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312621,
+      "blocks": 8,
+      "atimeMs": 1544494808621.5332,
+      "mtimeMs": 1543907883857.3572,
+      "ctimeMs": 1544494808627.0127,
+      "birthtimeMs": 1542455118242.5176,
+      "atime": "2018-12-11T02:20:08.622Z",
+      "mtime": "2018-12-04T07:18:03.857Z",
+      "ctime": "2018-12-11T02:20:08.627Z",
+      "birthtime": "2018-11-17T11:45:18.243Z"
+    },
+    "7de2beaf-885c-545a-977d-cb86a288cec6": {
+      "id": "7de2beaf-885c-545a-977d-cb86a288cec6",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fd63d09a944eff7f1b47d16501f6f06a",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 1735,
+      "prettySize": "1.74 kB",
+      "modifiedTime": "2018-12-04T07:38:22.942Z",
+      "accessTime": "2018-12-11T02:20:08.624Z",
+      "changeTime": "2018-12-11T02:20:08.630Z",
+      "birthTime": "2018-11-17T11:40:22.948Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312627,
+      "blocks": 8,
+      "atimeMs": 1544494808623.738,
+      "mtimeMs": 1543909102941.7234,
+      "ctimeMs": 1544494808630.4265,
+      "birthtimeMs": 1542454822948.052,
+      "atime": "2018-12-11T02:20:08.624Z",
+      "mtime": "2018-12-04T07:38:22.942Z",
+      "ctime": "2018-12-11T02:20:08.630Z",
+      "birthtime": "2018-11-17T11:40:22.948Z"
+    },
+    "c71ffccc-26e9-54f1-becf-7357400f3c97": {
+      "id": "c71ffccc-26e9-54f1-becf-7357400f3c97",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1ffae5813ce615fae4a743518c42c248",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/about.js",
+      "relativePath": "pages/about.js",
+      "extension": "js",
+      "size": 467,
+      "prettySize": "467 B",
+      "modifiedTime": "2018-12-04T07:18:32.931Z",
+      "accessTime": "2018-12-11T02:20:08.624Z",
+      "changeTime": "2018-12-11T02:20:08.629Z",
+      "birthTime": "2018-11-17T11:45:51.253Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312625,
+      "blocks": 8,
+      "atimeMs": 1544494808623.609,
+      "mtimeMs": 1543907912931.317,
+      "ctimeMs": 1544494808629.1868,
+      "birthtimeMs": 1542455151252.605,
+      "atime": "2018-12-11T02:20:08.624Z",
+      "mtime": "2018-12-04T07:18:32.931Z",
+      "ctime": "2018-12-11T02:20:08.629Z",
+      "birthtime": "2018-11-17T11:45:51.253Z"
+    },
+    "f4311f7c-9084-5bd0-bd85-437cf894c576": {
+      "id": "f4311f7c-9084-5bd0-bd85-437cf894c576",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "345d4ee30edb6cdb73ea1740e68e3721",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/my-files.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/my-files.js",
+      "relativePath": "pages/my-files.js",
+      "extension": "js",
+      "size": 1041,
+      "prettySize": "1.04 kB",
+      "modifiedTime": "2018-12-02T13:45:56.000Z",
+      "accessTime": "2018-12-11T02:20:08.624Z",
+      "changeTime": "2018-12-11T02:20:08.632Z",
+      "birthTime": "2018-12-02T13:41:57.068Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
+      "base": "my-files.js",
+      "ext": ".js",
+      "name": "my-files",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312629,
+      "blocks": 8,
+      "atimeMs": 1544494808623.8457,
+      "mtimeMs": 1543758356000.4983,
+      "ctimeMs": 1544494808631.8918,
+      "birthtimeMs": 1543758117068.2202,
+      "atime": "2018-12-11T02:20:08.624Z",
+      "mtime": "2018-12-02T13:45:56.000Z",
+      "ctime": "2018-12-11T02:20:08.632Z",
+      "birthtime": "2018-12-02T13:41:57.068Z"
+    },
+    "f07ae99f-72ed-530c-b490-ce92b07cbd78": {
+      "id": "f07ae99f-72ed-530c-b490-ce92b07cbd78",
+      "children": [
+        "b804479a-2ba4-5ddd-92a0-74a5877f324f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "db14dd7610dd8008ffaf0710e7c399fb",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/sweet-pandas-eating-sweets.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/sweet-pandas-eating-sweets.md",
+      "relativePath": "pages/sweet-pandas-eating-sweets.md",
+      "extension": "md",
+      "size": 300,
+      "prettySize": "300 B",
+      "modifiedTime": "2018-12-06T04:47:55.239Z",
+      "accessTime": "2018-12-11T02:18:33.031Z",
+      "changeTime": "2018-12-11T02:20:08.630Z",
+      "birthTime": "2018-12-02T13:52:57.482Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
+      "base": "sweet-pandas-eating-sweets.md",
+      "ext": ".md",
+      "name": "sweet-pandas-eating-sweets",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312626,
+      "blocks": 8,
+      "atimeMs": 1544494713031.4106,
+      "mtimeMs": 1544071675239.2854,
+      "ctimeMs": 1544494808629.8438,
+      "birthtimeMs": 1543758777481.707,
+      "atime": "2018-12-11T02:18:33.031Z",
+      "mtime": "2018-12-06T04:47:55.239Z",
+      "ctime": "2018-12-11T02:20:08.630Z",
+      "birthtime": "2018-12-02T13:52:57.482Z"
+    },
+    "b294a07c-9666-57a9-93ae-e005654b1e49": {
+      "id": "b294a07c-9666-57a9-93ae-e005654b1e49",
+      "children": [
+        "4de431f8-fe9a-50ec-9d2e-19b490196831"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "370bc7fedfb00e61cc283c58beafee10",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/pandas-and-bananas.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/pandas-and-bananas.md",
+      "relativePath": "pages/pandas-and-bananas.md",
+      "extension": "md",
+      "size": 3649,
+      "prettySize": "3.65 kB",
+      "modifiedTime": "2018-12-04T14:45:30.783Z",
+      "accessTime": "2018-12-11T02:18:33.031Z",
+      "changeTime": "2018-12-11T02:20:08.631Z",
+      "birthTime": "2018-12-02T14:02:26.551Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
+      "base": "pandas-and-bananas.md",
+      "ext": ".md",
+      "name": "pandas-and-bananas",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312628,
+      "blocks": 8,
+      "atimeMs": 1544494713031.375,
+      "mtimeMs": 1543934730782.8552,
+      "ctimeMs": 1544494808631.1729,
+      "birthtimeMs": 1543759346550.9695,
+      "atime": "2018-12-11T02:18:33.031Z",
+      "mtime": "2018-12-04T14:45:30.783Z",
+      "ctime": "2018-12-11T02:20:08.631Z",
+      "birthtime": "2018-12-02T14:02:26.551Z"
+    },
+    "5204ae4c-d062-5e13-b6ed-0e0e1beea845": {
+      "id": "5204ae4c-d062-5e13-b6ed-0e0e1beea845",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ed66e9b72767c27bdfdb68c4ebf132ec",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/imgs/mohu.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/mohu.jpg",
+      "relativePath": "imgs/mohu.jpg",
+      "extension": "jpg",
+      "size": 56156,
+      "prettySize": "56.2 kB",
+      "modifiedTime": "2018-12-03T13:53:20.353Z",
+      "accessTime": "2018-12-11T02:18:33.031Z",
+      "changeTime": "2018-12-11T02:20:08.622Z",
+      "birthTime": "2018-12-03T13:53:20.353Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs",
+      "base": "mohu.jpg",
+      "ext": ".jpg",
+      "name": "mohu",
+      "relativeDirectory": "imgs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312614,
+      "blocks": 112,
+      "atimeMs": 1544494713030.849,
+      "mtimeMs": 1543845200353.177,
+      "ctimeMs": 1544494808621.5378,
+      "birthtimeMs": 1543845200352.5056,
+      "atime": "2018-12-11T02:18:33.031Z",
+      "mtime": "2018-12-03T13:53:20.353Z",
+      "ctime": "2018-12-11T02:20:08.622Z",
+      "birthtime": "2018-12-03T13:53:20.353Z"
+    },
+    "ee64868a-4657-54a4-b39b-52682e245d89": {
+      "id": "ee64868a-4657-54a4-b39b-52682e245d89",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a7a792ee7268977550e929779b0c37da",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/utils/typography.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 203,
+      "prettySize": "203 B",
+      "modifiedTime": "2018-11-17T11:46:23.018Z",
+      "accessTime": "2018-12-11T02:20:08.621Z",
+      "changeTime": "2018-12-11T02:20:08.625Z",
+      "birthTime": "2018-11-17T11:46:17.367Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312619,
+      "blocks": 8,
+      "atimeMs": 1544494808620.8816,
+      "mtimeMs": 1542455183018.1958,
+      "ctimeMs": 1544494808625.4773,
+      "birthtimeMs": 1542455177367.4111,
+      "atime": "2018-12-11T02:20:08.621Z",
+      "mtime": "2018-11-17T11:46:23.018Z",
+      "ctime": "2018-12-11T02:20:08.625Z",
+      "birthtime": "2018-11-17T11:46:17.367Z"
+    },
+    "f1ab8536-ae96-55b0-938c-2291e7052ea3": {
+      "id": "f1ab8536-ae96-55b0-938c-2291e7052ea3",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4f0009a00cd18dfa6ddc595226d611c2",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 892,
+      "prettySize": "892 B",
+      "modifiedTime": "2018-12-04T09:18:56.205Z",
+      "accessTime": "2018-12-11T02:20:08.622Z",
+      "changeTime": "2018-12-11T02:20:08.628Z",
+      "birthTime": "2018-12-02T14:24:04.755Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312623,
+      "blocks": 8,
+      "atimeMs": 1544494808622.3801,
+      "mtimeMs": 1543915136205.486,
+      "ctimeMs": 1544494808628.131,
+      "birthtimeMs": 1543760644755.4248,
+      "atime": "2018-12-11T02:20:08.622Z",
+      "mtime": "2018-12-04T09:18:56.205Z",
+      "ctime": "2018-12-11T02:20:08.628Z",
+      "birthtime": "2018-12-02T14:24:04.755Z"
+    },
+    "3e81b875-5926-5c7e-962f-e778e792af4d": {
+      "id": "3e81b875-5926-5c7e-962f-e778e792af4d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cabd0310b5737449f81a800269a7d5e1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/imgs/lv.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/lv.jpg",
+      "relativePath": "imgs/lv.jpg",
+      "extension": "jpg",
+      "size": 102967,
+      "prettySize": "103 kB",
+      "modifiedTime": "2018-12-03T14:47:36.294Z",
+      "accessTime": "2018-12-11T02:18:33.031Z",
+      "changeTime": "2018-12-11T02:20:08.620Z",
+      "birthTime": "2018-12-03T14:47:36.284Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs",
+      "base": "lv.jpg",
+      "ext": ".jpg",
+      "name": "lv",
+      "relativeDirectory": "imgs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312613,
+      "blocks": 208,
+      "atimeMs": 1544494713030.8105,
+      "mtimeMs": 1543848456293.6038,
+      "ctimeMs": 1544494808620.1892,
+      "birthtimeMs": 1543848456284.3662,
+      "atime": "2018-12-11T02:18:33.031Z",
+      "mtime": "2018-12-03T14:47:36.294Z",
+      "ctime": "2018-12-11T02:20:08.620Z",
+      "birthtime": "2018-12-03T14:47:36.284Z"
+    },
+    "b804479a-2ba4-5ddd-92a0-74a5877f324f": {
+      "id": "b804479a-2ba4-5ddd-92a0-74a5877f324f",
+      "children": [],
+      "parent": "f07ae99f-72ed-530c-b490-ce92b07cbd78",
+      "internal": {
+        "content": "\n\n\nHere's a video of \n\n<iframe width=\"560\" height=\"315\" src=\"//f.us.sinaimg.cn/0049V7cclx07mynmXP6801040201bSj60k010.mp4?label=mp4_hd&template=854x480.28&Expires=1544075155&ssig=fPa%2BJJcWRo&KID=unistore,video\" frameborder=\"0\" allowfullscreen></iframe>\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "e32018848997c935aedd90823f2911e2",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "三下乡",
+        "date": "2017-08-10",
+        "_PARENT": "f07ae99f-72ed-530c-b490-ce92b07cbd78"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n\n\nHere's a video of \n\n<iframe width=\"560\" height=\"315\" src=\"//f.us.sinaimg.cn/0049V7cclx07mynmXP6801040201bSj60k010.mp4?label=mp4_hd&template=854x480.28&Expires=1544075155&ssig=fPa%2BJJcWRo&KID=unistore,video\" frameborder=\"0\" allowfullscreen></iframe>\n\n",
+      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/sweet-pandas-eating-sweets.md",
+      "fields": {
+        "slug": "/sweet-pandas-eating-sweets/"
+      }
+    },
+    "4de431f8-fe9a-50ec-9d2e-19b490196831": {
+      "id": "4de431f8-fe9a-50ec-9d2e-19b490196831",
+      "children": [],
+      "parent": "b294a07c-9666-57a9-93ae-e005654b1e49",
+      "internal": {
+        "content": "\n<p class=\"has-text-primary\">珂珂的日常 每一天都很充实， 成长营，成果展，志交会，残疾人技能大赛 忙着做事，忙着吃，忙着玩。 \n    现在都结束了，认真的期末备考吧! 然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈</p>\n<div style=\"border:solid\">\n<center>\n    <a href=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/8hRAgpYFBQFiNPqtdGmfRjlsquK.2Efg2g9tjUBLusA!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=OATWBjgE1gYRIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\"><img width=\"450\"  src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/8hRAgpYFBQFiNPqtdGmfRjlsquK.2Efg2g9tjUBLusA!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=OATWBjgE1gYRIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\"/></a>\n</center>\n</div>\n\n\n<div class=\"is-mobile\">\n <center class=\"thrid\" style=\"display:flex;align-items:center;just;justify-content:center\">\n    <img width=\"385\"  src=\"http://a1.qpic.cn/psb?/V13TlSHj43hfpa/eDUPE.WxmWaJgPQ.xjXBed54F7JZqVsZqcJ7oTHQPaw!/b/dPQAAAAAAAAA&ek=1&kp=1&pt=0&bo=3AXcBdwF3AURECc!&tl=1&vuin=1079937489&tm=1543906800&sce=60-4-3&rf=viewer_311\" style=\"box-shadow: 10px 10px 5px #888888;margin-right:50px\"/>\n    <img width=\"290\"  src=\"http://a1.qpic.cn/psb?/V13TlSHj43hfpa/TlY4HH06ZzvQWUEsp.JGMiSKviu61nQpvcmRzoaXx5I!/b/dPQAAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 10px 10px 5px #888888;\"/>\n    <img width=\"280\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/y5AAPd.qRxLXV9IPBRYf60CPOJNbsWjIXXqdxf14O70!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 10px 10px 5px #888888;margin-left:50px\">\n</center>  \n</div> \n\n<div class=\"is-mobile\">\n    <center class=\"thrid\" style=\"display:flex;align-items:center;just;justify-content:center\">\n        <img width=\"365\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/*2cVJuaBSA3gu0DGp2rMYn1Ycqq9CTscM9oGeTWzZqY!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 2px 10px 5px #888888;margin-right:50px\"/>\n        <img width=\"550\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/QWBMmBSROiH6mFND7eX7H3HRV7yBNvBFTpkiMr5FnZk!/b/dN0AAAAAAAAA&ek=1&kp=1&pt=0&bo=3AXcBdwF3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 2px 10px 5px #888888;\"/>\n        <img width=\"382\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/y5AAPd.qRxLXV9IPBRYf60CPOJNbsWjIXXqdxf14O70!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 2px 10px 5px #888888;margin-left:50px\"/>\n    </center>\n</div>\n<div class=\"is-mobile\">\n    <center>\n        <img width=\"322\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/wCcXXJo8zoQOkEq1Tr6bT4MK6LYlvfGix7aB5UmmTlo!/b/dA0BAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURECc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 2px 10px 5px #888888;\"/>\n    </center>\n<div>\n<div style=\"\">\n    <center>\n        <img width=\"300\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/8ijsaZhXYhyqumvCLYO.VH2gJUO.StVh5zOfrWMUinc!/b/dA0BAAAAAAAA&ek=1&kp=1&pt=0&bo=6ANsCugDbAoRIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"\">\n    </center>\n</div>\n\n\n<font color=#e9635F size=3 face=\"宋体\">珂珂的日常 每一天都很充实， 成长营，成果展，志交会，残疾人技能大赛 忙着做事，忙着吃，忙着玩。 \n    现在都结束了，认真的期末备考吧! 然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈</font>",
+        "type": "MarkdownRemark",
+        "contentDigest": "341b71cc890bcb4201597ee2c8f1dc65",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "珂珂的日常",
+        "date": "2018-12-03",
+        "_PARENT": "b294a07c-9666-57a9-93ae-e005654b1e49"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<p class=\"has-text-primary\">珂珂的日常 每一天都很充实， 成长营，成果展，志交会，残疾人技能大赛 忙着做事，忙着吃，忙着玩。 \n    现在都结束了，认真的期末备考吧! 然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈</p>\n<div style=\"border:solid\">\n<center>\n    <a href=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/8hRAgpYFBQFiNPqtdGmfRjlsquK.2Efg2g9tjUBLusA!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=OATWBjgE1gYRIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\"><img width=\"450\"  src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/8hRAgpYFBQFiNPqtdGmfRjlsquK.2Efg2g9tjUBLusA!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=OATWBjgE1gYRIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\"/></a>\n</center>\n</div>\n\n\n<div class=\"is-mobile\">\n <center class=\"thrid\" style=\"display:flex;align-items:center;just;justify-content:center\">\n    <img width=\"385\"  src=\"http://a1.qpic.cn/psb?/V13TlSHj43hfpa/eDUPE.WxmWaJgPQ.xjXBed54F7JZqVsZqcJ7oTHQPaw!/b/dPQAAAAAAAAA&ek=1&kp=1&pt=0&bo=3AXcBdwF3AURECc!&tl=1&vuin=1079937489&tm=1543906800&sce=60-4-3&rf=viewer_311\" style=\"box-shadow: 10px 10px 5px #888888;margin-right:50px\"/>\n    <img width=\"290\"  src=\"http://a1.qpic.cn/psb?/V13TlSHj43hfpa/TlY4HH06ZzvQWUEsp.JGMiSKviu61nQpvcmRzoaXx5I!/b/dPQAAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 10px 10px 5px #888888;\"/>\n    <img width=\"280\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/y5AAPd.qRxLXV9IPBRYf60CPOJNbsWjIXXqdxf14O70!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 10px 10px 5px #888888;margin-left:50px\">\n</center>  \n</div> \n\n<div class=\"is-mobile\">\n    <center class=\"thrid\" style=\"display:flex;align-items:center;just;justify-content:center\">\n        <img width=\"365\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/*2cVJuaBSA3gu0DGp2rMYn1Ycqq9CTscM9oGeTWzZqY!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 2px 10px 5px #888888;margin-right:50px\"/>\n        <img width=\"550\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/QWBMmBSROiH6mFND7eX7H3HRV7yBNvBFTpkiMr5FnZk!/b/dN0AAAAAAAAA&ek=1&kp=1&pt=0&bo=3AXcBdwF3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 2px 10px 5px #888888;\"/>\n        <img width=\"382\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/y5AAPd.qRxLXV9IPBRYf60CPOJNbsWjIXXqdxf14O70!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 2px 10px 5px #888888;margin-left:50px\"/>\n    </center>\n</div>\n<div class=\"is-mobile\">\n    <center>\n        <img width=\"322\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/wCcXXJo8zoQOkEq1Tr6bT4MK6LYlvfGix7aB5UmmTlo!/b/dA0BAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURECc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"box-shadow: 2px 10px 5px #888888;\"/>\n    </center>\n<div>\n<div style=\"\">\n    <center>\n        <img width=\"300\" src=\"http://a2.qpic.cn/psb?/V13TlSHj43hfpa/8ijsaZhXYhyqumvCLYO.VH2gJUO.StVh5zOfrWMUinc!/b/dA0BAAAAAAAA&ek=1&kp=1&pt=0&bo=6ANsCugDbAoRIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311\" style=\"\">\n    </center>\n</div>\n\n\n<font color=#e9635F size=3 face=\"宋体\">珂珂的日常 每一天都很充实， 成长营，成果展，志交会，残疾人技能大赛 忙着做事，忙着吃，忙着玩。 \n    现在都结束了，认真的期末备考吧! 然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈</font>",
+      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/pandas-and-bananas.md",
+      "fields": {
+        "slug": "/pandas-and-bananas/"
+      }
+    },
+    "3dd6b73b-ddcf-5171-8b6e-ed372ace6147": {
+      "id": "3dd6b73b-ddcf-5171-8b6e-ed372ace6147",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "364fe595c3009b5b4dddb9e845aa9a93",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/imgs/psb.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/psb.jpeg",
+      "relativePath": "imgs/psb.jpeg",
+      "extension": "jpeg",
+      "size": 291656,
+      "prettySize": "292 kB",
+      "modifiedTime": "2018-12-04T07:50:06.039Z",
+      "accessTime": "2018-12-11T02:18:33.031Z",
+      "changeTime": "2018-12-11T02:20:08.622Z",
+      "birthTime": "2018-12-04T07:50:06.037Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs",
+      "base": "psb.jpeg",
+      "ext": ".jpeg",
+      "name": "psb",
+      "relativeDirectory": "imgs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312615,
+      "blocks": 576,
+      "atimeMs": 1544494713030.888,
+      "mtimeMs": 1543909806038.6863,
+      "ctimeMs": 1544494808622.2405,
+      "birthtimeMs": 1543909806037.1714,
+      "atime": "2018-12-11T02:18:33.031Z",
+      "mtime": "2018-12-04T07:50:06.039Z",
+      "ctime": "2018-12-11T02:20:08.622Z",
+      "birthtime": "2018-12-04T07:50:06.037Z"
+    },
+    "8c6587d2-57dd-5559-9a28-08750d5e5cb7": {
+      "id": "8c6587d2-57dd-5559-9a28-08750d5e5cb7",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a4af7bf284e2dbaebf5229c8478228b2",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/imgs/datu.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/datu.jpeg",
+      "relativePath": "imgs/datu.jpeg",
+      "extension": "jpeg",
+      "size": 803966,
+      "prettySize": "804 kB",
+      "modifiedTime": "2018-12-03T14:16:07.283Z",
+      "accessTime": "2018-12-11T02:18:33.031Z",
+      "changeTime": "2018-12-11T02:20:08.624Z",
+      "birthTime": "2018-12-03T14:16:07.280Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs",
+      "base": "datu.jpeg",
+      "ext": ".jpeg",
+      "name": "datu",
+      "relativeDirectory": "imgs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312617,
+      "blocks": 1576,
+      "atimeMs": 1544494713030.7695,
+      "mtimeMs": 1543846567282.685,
+      "ctimeMs": 1544494808624.3906,
+      "birthtimeMs": 1543846567280.0332,
+      "atime": "2018-12-11T02:18:33.031Z",
+      "mtime": "2018-12-03T14:16:07.283Z",
+      "ctime": "2018-12-11T02:20:08.624Z",
+      "birthtime": "2018-12-03T14:16:07.280Z"
+    },
+    "53cde08b-bede-5e64-92ee-6ce1f5bdb025": {
+      "id": "53cde08b-bede-5e64-92ee-6ce1f5bdb025",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "37b44bb686ebdbf24e61882ab9b767f1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/imgs/914910.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/914910.jpg",
+      "relativePath": "imgs/914910.jpg",
+      "extension": "jpg",
+      "size": 1135354,
+      "prettySize": "1.14 MB",
+      "modifiedTime": "2018-12-03T15:04:19.952Z",
+      "accessTime": "2018-12-11T02:19:23.229Z",
+      "changeTime": "2018-12-11T02:20:08.624Z",
+      "birthTime": "2018-12-03T15:04:19.948Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs",
+      "base": "914910.jpg",
+      "ext": ".jpg",
+      "name": "914910",
+      "relativeDirectory": "imgs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888312616,
+      "blocks": 2224,
+      "atimeMs": 1544494763228.711,
+      "mtimeMs": 1543849459952.373,
+      "ctimeMs": 1544494808623.5913,
+      "birthtimeMs": 1543849459947.998,
+      "atime": "2018-12-11T02:19:23.229Z",
+      "mtime": "2018-12-03T15:04:19.952Z",
+      "ctime": "2018-12-11T02:20:08.624Z",
+      "birthtime": "2018-12-03T15:04:19.948Z"
+    },
+    "SitePage /sweet-pandas-eating-sweets/": {
+      "jsonName": "sweet-pandas-eating-sweets-34f",
+      "internalComponentName": "ComponentSweetPandasEatingSweets",
+      "path": "/sweet-pandas-eating-sweets/",
+      "component": "/Users/lgy/gatsby_test/blog_gatsby/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/sweet-pandas-eating-sweets/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/templates/blog-post.js",
+      "id": "SitePage /sweet-pandas-eating-sweets/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "945724892006ced88374b611ce323ff3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /pandas-and-bananas/": {
+      "jsonName": "pandas-and-bananas-c27",
+      "internalComponentName": "ComponentPandasAndBananas",
+      "path": "/pandas-and-bananas/",
+      "component": "/Users/lgy/gatsby_test/blog_gatsby/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/pandas-and-bananas/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/templates/blog-post.js",
+      "id": "SitePage /pandas-and-bananas/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d9980d97087e87490625493c2dc1a845",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+      "pluginCreatorId": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b6870a155ec86ef3945128f6f832ea76",
+        "description": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+      "pluginCreatorId": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6a1a750edc389a9816384a41663d2485",
+        "description": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /my-files/": {
+      "jsonName": "my-files-317",
+      "internalComponentName": "ComponentMyFiles",
+      "path": "/my-files/",
+      "component": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/my-files.js",
+      "componentChunkName": "component---src-pages-my-files-js",
+      "context": {},
+      "pluginCreator___NODE": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+      "pluginCreatorId": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/my-files.js",
+      "id": "SitePage /my-files/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d3ec16bdcae7ee5af77ed0078c6e665d",
+        "description": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "17762aace54c43508a53f6ae5fc3db32"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "/about/"
+      ],
+      "b804479a-2ba4-5ddd-92a0-74a5877f324f": [
+        "/sweet-pandas-eating-sweets/"
+      ],
+      "4de431f8-fe9a-50ec-9d2e-19b490196831": [
+        "/pandas-and-bananas/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        "/"
+      ],
+      "File": [
+        "/my-files/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "about-f34": "174/path---about-f-34-4c2-hRx9gYIHzxRutAycoPREtUcvSa4",
+    "sq--src-components-layout-js": 3892401927,
+    "my-files-317": "407/path---my-files-317-4c7-mVLHqCWxGpYKClfTEba8i4YnY0",
+    "index": "941/path---index-6a9-FfPe3yL4fsvr4T9rdprYRMjY",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sweet-pandas-eating-sweets-34f": "884/path---sweet-pandas-eating-sweets-34-f-7c4-h5Nug9Kxkl1KrwgMpeg41heus",
+    "pandas-and-bananas-c27": "456/path---pandas-and-bananas-c-27-086-VliUpb7CVWJEjXQFKLYDfyuo0XY"
+  },
+  "components": {
+    "/Users/lgy/gatsby_test/blog_gatsby/src/templates/blog-post.js": {
+      "query": "query usersLgyGatsbyTestBlogGatsbySrcTemplatesBlogPostJs861893041(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/templates/blog-post.js"
+    },
+    "/Users/lgy/gatsby_test/blog_gatsby/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/.cache/dev-404-page.js"
+    },
+    "/Users/lgy/gatsby_test/blog_gatsby/src/pages/about.js": {
+      "query": "query usersLgyGatsbyTestBlogGatsbySrcPagesAboutJs1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/about.js"
+    },
+    "/Users/lgy/gatsby_test/blog_gatsby/src/pages/index.js": {
+      "query": "query usersLgyGatsbyTestBlogGatsbySrcPagesIndexJs2201080808 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    totalCount\n    edges {\n      node {\n        id\n        frontmatter {\n          title\n          date\n        }\n        fields {\n          slug\n        }\n        excerpt(pruneLength: 100)\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/index.js"
+    },
+    "/Users/lgy/gatsby_test/blog_gatsby/src/pages/my-files.js": {
+      "query": "query usersLgyGatsbyTestBlogGatsbySrcPagesMyFilesJs3953592347 {\n  allFile {\n    edges {\n      node {\n        relativePath\n        prettySize\n        extension\n        birthTime(fromNow: true)\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/my-files.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "usersLgyGatsbyTestBlogGatsbySrcComponentsLayoutJs3892401927",
+      "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query usersLgyGatsbyTestBlogGatsbySrcComponentsLayoutJs3892401927 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 3892401927
+    }
+  }
+}
