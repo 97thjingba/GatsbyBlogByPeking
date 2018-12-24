@@ -1,12 +1,4 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
+# 李贝贝的小博客
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+##  https://flamboyant-liskov-886aeb.netlify.com/
 
-Or [view the live demo here](https://gatsby-starter-hello-world-demo.netlify.com/).
-
-## Running in development
-`gatsby develop`
