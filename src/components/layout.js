@@ -1,8 +1,9 @@
 import React from "react"
-import { css } from "react-emotion"
 import { StaticQuery, Link, graphql } from "gatsby"
 import { Section,Container,Image} from 'reactbulma'
 import { rhythm } from "../utils/typography"
+import './layout.css';
+
 
 export default ({ children }) => (
   <StaticQuery
@@ -19,14 +20,18 @@ export default ({ children }) => (
     
     render={data => (
       <body>
-        <Section large clasName="hero is-fullheight" style={{background:`url(${require("../imgs/914910.jpg")}) no-repeat center bottom`}}>
+        <Section large clasName="hero is-fullheight" id="bg" style={{background:`url(${require("../imgs/914910.jpg")}) no-repeat center bottom`}}>
             <div>
-              <nav className="navbar is-transparent nav-top" style={{backgroundColor:'transparent',position:"absolute",top:10}}> 
-                <div clasName="navbar-brand"><p className="has-text-white title is-4">BeiBei-blog</p></div>
-                <div className="navbar-menu"></div>
+              <nav className="navbar is-transparent nav-top nav_bg"> 
+                  <div clasName="navbar-brand"><p className="has-text-white title is-4">BeiBei-blog</p></div>
               </nav>
+              <div className="center">
+                  <div className="title has-text-white center">
+                    <p className="layout_title_style center">沉舟侧畔千帆过，病树前头万木春</p>
+                  </div>
+              </div>
             </div>
-        </Section>
+        </Section>  
         {children}
       </body>
     )}

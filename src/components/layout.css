@@ -1,0 +1,26 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.nav_bg{
+    background-color: transparent;
+    position: absolute;
+    top:10px;
+}
+
+#bg{
+    min-height:40rem;
+}
+
+
+@media (max-width:768px) {
+    .layout_title_style{
+        font-size: 1rem;
+    }
+
+    #bg{
+        min-height:10rem;
+    }
+}

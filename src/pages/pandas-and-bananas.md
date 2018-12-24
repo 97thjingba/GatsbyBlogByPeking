@@ -2,42 +2,13 @@
 title: "珂珂的日常"
 date: "2018-12-03"
 ---
-
-<p class="has-text-primary">珂珂的日常 每一天都很充实， 成长营，成果展，志交会，残疾人技能大赛 忙着做事，忙着吃，忙着玩。 
-    现在都结束了，认真的期末备考吧! 然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈</p>
-<div style="border:solid">
-<center>
-    <a href="http://a2.qpic.cn/psb?/V13TlSHj43hfpa/8hRAgpYFBQFiNPqtdGmfRjlsquK.2Efg2g9tjUBLusA!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=OATWBjgE1gYRIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311"><img width="450"  src="http://a2.qpic.cn/psb?/V13TlSHj43hfpa/8hRAgpYFBQFiNPqtdGmfRjlsquK.2Efg2g9tjUBLusA!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=OATWBjgE1gYRIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311"/></a>
-</center>
-</div>
+今天去看了90多岁的爷爷奶奶们，爷爷对心心妹儿爱不释手，奶奶紧紧牵着我的手，看着宝贝儿们对爷爷奶奶们写的信，只是又想起了爷爷。
+还好婆婆，奶奶，外公最近过得挺好。
+大哥准备了很久的青翼成果展，又想凉山的那些娃娃了，拉哈，拉坡，恼火，阿玉史安，小龙，时不时还会给我发消息说想我们了。
+很开心我身边现在有很多很多我在意的人。即使有的不常见面。
+希望自己不要放弃去成就“志愿“这件大事，我还有好多好多的故事没有说给你们听
 
 
-<div class="is-mobile">
- <center class="thrid" style="display:flex;align-items:center;just;justify-content:center">
-    <img width="385"  src="http://a1.qpic.cn/psb?/V13TlSHj43hfpa/eDUPE.WxmWaJgPQ.xjXBed54F7JZqVsZqcJ7oTHQPaw!/b/dPQAAAAAAAAA&ek=1&kp=1&pt=0&bo=3AXcBdwF3AURECc!&tl=1&vuin=1079937489&tm=1543906800&sce=60-4-3&rf=viewer_311" style="box-shadow: 10px 10px 5px #888888;margin-right:50px"/>
-    <img width="290"  src="http://a1.qpic.cn/psb?/V13TlSHj43hfpa/TlY4HH06ZzvQWUEsp.JGMiSKviu61nQpvcmRzoaXx5I!/b/dPQAAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311" style="box-shadow: 10px 10px 5px #888888;"/>
-    <img width="280" src="http://a2.qpic.cn/psb?/V13TlSHj43hfpa/y5AAPd.qRxLXV9IPBRYf60CPOJNbsWjIXXqdxf14O70!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311" style="box-shadow: 10px 10px 5px #888888;margin-left:50px">
-</center>  
-</div> 
-
-<div class="is-mobile">
-    <center class="thrid" style="display:flex;align-items:center;just;justify-content:center">
-        <img width="365" src="http://a2.qpic.cn/psb?/V13TlSHj43hfpa/*2cVJuaBSA3gu0DGp2rMYn1Ycqq9CTscM9oGeTWzZqY!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311" style="box-shadow: 2px 10px 5px #888888;margin-right:50px"/>
-        <img width="550" src="http://a2.qpic.cn/psb?/V13TlSHj43hfpa/QWBMmBSROiH6mFND7eX7H3HRV7yBNvBFTpkiMr5FnZk!/b/dN0AAAAAAAAA&ek=1&kp=1&pt=0&bo=3AXcBdwF3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311" style="box-shadow: 2px 10px 5px #888888;"/>
-        <img width="382" src="http://a2.qpic.cn/psb?/V13TlSHj43hfpa/y5AAPd.qRxLXV9IPBRYf60CPOJNbsWjIXXqdxf14O70!/b/dIUBAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311" style="box-shadow: 2px 10px 5px #888888;margin-left:50px"/>
-    </center>
-</div>
-<div class="is-mobile">
-    <center>
-        <img width="322" src="http://a2.qpic.cn/psb?/V13TlSHj43hfpa/wCcXXJo8zoQOkEq1Tr6bT4MK6LYlvfGix7aB5UmmTlo!/b/dA0BAAAAAAAA&ek=1&kp=1&pt=0&bo=6APcBegD3AURECc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311" style="box-shadow: 2px 10px 5px #888888;"/>
-    </center>
-<div>
-<div style="">
-    <center>
-        <img width="300" src="http://a2.qpic.cn/psb?/V13TlSHj43hfpa/8ijsaZhXYhyqumvCLYO.VH2gJUO.StVh5zOfrWMUinc!/b/dA0BAAAAAAAA&ek=1&kp=1&pt=0&bo=6ANsCugDbAoRIBc!&tl=1&vuin=523980657&tm=1543906800&sce=50-1-1&rf=viewer_311" style="">
-    </center>
-</div>
 
 
-<font color=#e9635F size=3 face="宋体">珂珂的日常 每一天都很充实， 成长营，成果展，志交会，残疾人技能大赛 忙着做事，忙着吃，忙着玩。 
-    现在都结束了，认真的期末备考吧! 然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈</font>
+
