@@ -42,17 +42,12 @@ const IndexPage = ({ data, pathContext }) => {
                     {group.map(({ node }) => (
                         <div key={node.id} className="blog_style box">
                             <article className="media">
-                                <div className="media-left">
-                                    <figure class="image is-64x64">
-                                        <img src="https://bulma.io/images/placeholders/128x128.png"></img>
-                                    </figure>
-                                </div>
                                 <div className="media-content">
                                     <div className="content">
                                         <Link to={node.fields.slug}>
-                                        <h3 className="title center">
+                                        <h3 className="title center ">
                                             {node.frontmatter.title}
-                                            <span className="subtitle center"> 
+                                            <span className="subtitle center "> 
                                                 — {node.frontmatter.date}
                                             </span>
                                         </h3>
