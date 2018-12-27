@@ -1,0 +1,49 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog_style {
+    margin-top: 5rem;
+}
+
+.index_article_style {
+    font-family: STFangsong,Fangsong,FangSong_GB2312,STSong,serif;
+    font-size: 15px;
+    text-align: justify;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    color:black;
+}
+
+.index_title_style{
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125; 
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:768px){
+    .index_title_style{
+        color: #363636;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.125; 
+    }
+
+    .index_article_style {
+        font-family: STFangsong,Fangsong,FangSong_GB2312,STSong,serif;
+        font-size: 13px;
+        text-align: justify;
+        white-space: pre-wrap;
+        line-height: 1.5;
+        color:black;
+    }
+}

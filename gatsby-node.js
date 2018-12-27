@@ -1,5 +1,6 @@
-const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const path = require(`path`);
+const { createFilePath } = require(`gatsby-source-filesystem`);
+const createPaginatedPages = require("gatsby-paginate");
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -13,34 +14,49 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
+exports.createPages = ({ graphql, boundActionCreators }) => {
+  const { createPage } = boundActionCreators;
   return new Promise((resolve, reject) => {
     graphql(`
       {
-        allMarkdownRemark {
+        posts: allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: DESC }
+        ) {
+          totalCount
           edges {
             node {
+              id
+              frontmatter {
+                title
+                date
+              }
               fields {
                 slug
               }
+              excerpt(pruneLength: 200 truncate: true)
             }
           }
         }
       }
     `).then(result => {
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      createPaginatedPages({
+        edges: result.data.posts.edges,
+        createPage: createPage,
+        pageTemplate: "src/templates/posts.js",
+        pageLength: 5, // This is optional and defaults to 10 if not used
+        pathPrefix: "", // This is optional and defaults to an empty string if not used
+        context: {} // This is optional and defaults to an empty object if not used
+      });
+      result.data.posts.edges.map(({ node }) => {
         createPage({
           path: node.fields.slug,
-          component: path.resolve(`./src/templates/blog-post.js`),
+          component: path.resolve("./src/templates/blog-post.js"),
           context: {
-            // Data passed to context is available
-            // in page queries as GraphQL variables.
-            slug: node.fields.slug,
-          },
-        })
-      })
-      resolve()
-    })
-  })
-}
+            slug: node.fields.slug
+          }
+        });
+      });
+      resolve();
+    });
+  });
+};

@@ -1,13 +1,48 @@
 [
     {
-        "componentChunkName": "component---src-pages-index-js",
+        "componentChunkName": "component---src-templates-posts-js",
         "jsonName": "index",
         "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-templates-posts-js",
+        "jsonName": "2-de0",
+        "path": "/2"
     },
     {
         "componentChunkName": "component---src-pages-about-js",
         "jsonName": "about-f34",
         "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-1-1f3",
+        "path": "/blog-1/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-2-112",
+        "path": "/blog-2/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-3-82c",
+        "path": "/blog-3/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-4-319",
+        "path": "/blog-4/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-5-8d2",
+        "path": "/blog-5/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-6-6ac",
+        "path": "/blog-6/"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
@@ -18,15 +53,5 @@
         "componentChunkName": "component---src-pages-my-files-js",
         "jsonName": "my-files-317",
         "path": "/my-files/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "pandas-and-bananas-c27",
-        "path": "/pandas-and-bananas/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "sweet-pandas-eating-sweets-34f",
-        "path": "/sweet-pandas-eating-sweets/"
     }
 ]
