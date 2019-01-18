@@ -1,10 +1,4 @@
-var plugins = [{
-      plugin: require('/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-plugin-emotion/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-plugin-typography/gatsby-ssr'),
-      options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
-    }]
+var plugins = []
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {

@@ -1,7 +1,6 @@
 import React from "react"
-import { StaticQuery, Link, graphql } from "gatsby"
-import { Section,Container,Image} from 'reactbulma'
-import { rhythm } from "../utils/typography"
+import { StaticQuery, graphql } from "gatsby"
+import { Section } from 'reactbulma'
 import './layout.css';
 
 
@@ -20,7 +19,7 @@ export default ({ children }) => (
     
     render={data => (
       <body>
-        <Section large clasName="hero is-fullheight" id="bg" style={{background:`url(${require("../imgs/914910.jpg")}) no-repeat center bottom`}}>
+        <Section large clasName="hero is-fullheight" id="bg">
             <div>
               <nav className="navbar is-transparent nav-top nav_bg"> 
                   <div clasName="navbar-brand"><p className="has-text-white title is-4">BeiBei-blog</p></div>

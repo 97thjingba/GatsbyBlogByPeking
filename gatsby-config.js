@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Pandas Eating Lots`,
+    title: `beibei-blog`,
   },
   plugins: [
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -10,14 +11,19 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-emotion`,
-    
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`, //remarkdown里配置maxwidth的大小
+            options: {
+              maxWidth: 1100,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
       },
-    },
+    }
   ],
 }
