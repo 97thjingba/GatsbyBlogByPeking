@@ -26,7 +26,7 @@ export default ({ children }) => (
               </nav>
               <div className="center">
                   <div className="title has-text-white center">
-                    <p className="layout_title_style center">沉舟侧畔千帆过，病树前头万木春</p>
+                    <p className="layout_title_style center">李贝贝</p>
                   </div>
               </div>
             </div>

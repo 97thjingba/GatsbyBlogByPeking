@@ -4,11 +4,19 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/`,
+        name: `blog`,
+        path: `${__dirname}/src/components/blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `imgs`,
+        path: `${__dirname}/src/imgs`,
       },
     },
     {
@@ -19,7 +27,7 @@ module.exports = {
             resolve: `gatsby-remark-images`, //remarkdown里配置maxwidth的大小
             options: {
               maxWidth: 1100,
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: false, //是否给大图片增加链接
             },
           },
         ],

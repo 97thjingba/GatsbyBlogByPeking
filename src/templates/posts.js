@@ -8,7 +8,7 @@ import './posts.css'
 
 const NavLink = props => {
   if (!props.test) {
-    return <Link to={props.url}>{props.text}</Link>;
+    return <Link to={props.url} id="navlink" className="has-text-primary">{props.text}</Link>;
   } else {
     return <span>{props.text}</span>;
   }
@@ -26,7 +26,7 @@ const IndexPage = ({ data, pathContext }) => {
   const { group, index, first, last, pageCount } = pathContext;
   const previousUrl = index - 1 == 1 ? "" : (index - 1).toString();
   const nextUrl = (index + 1).toString();
-  
+
 
   return (
     <div>
@@ -60,11 +60,10 @@ const IndexPage = ({ data, pathContext }) => {
                     ))}
                   </div>
                   </div>
-                <div className=" pagination">
-                    <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
-                    <NavLink test={last} url={nextUrl} text="Go to Next Page" /> 
+                <div className="pagination" id="pagination">
+                    <NavLink test={first} url={previousUrl} text="<<<上一页"/>
+                    <NavLink test={last} url={nextUrl} text="下一页>>>" /> 
                 </div>
-                  
             </Section>
       </Layout>
     </div>

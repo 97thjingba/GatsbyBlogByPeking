@@ -327,15 +327,111 @@
         "owner": "internal-data-bridge"
       }
     },
-    "e7752745-5ebb-559e-97a9-909bbbb62861": {
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.10",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "164845ab1168ca65793f7c48308975a7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f2ad59ee-2c4d-5074-a1fd-0030dc0a8cdb": {
       "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-source-filesystem",
-      "id": "e7752745-5ebb-559e-97a9-909bbbb62861",
+      "id": "f2ad59ee-2c4d-5074-a1fd-0030dc0a8cdb",
       "name": "gatsby-source-filesystem",
       "version": "2.0.10",
       "pluginOptions": {
         "plugins": [],
-        "name": "src",
-        "path": "/Users/lgy/gatsby_test/blog_gatsby/src/"
+        "name": "blog",
+        "path": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -445,7 +541,130 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9de88197901c23cfa032d386a32d3403",
+        "contentDigest": "615d93487509275992c08361638c8cbb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "33fc918e-476f-5fba-9d4c-2bd778e1b54e": {
+      "resolve": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-source-filesystem",
+      "id": "33fc918e-476f-5fba-9d4c-2bd778e1b54e",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "imgs",
+        "path": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lgy/gatsby_test/blog_gatsby/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.10",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d41910e6df33b7bdd9dedbb3958ea4dd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -728,7 +947,7 @@
       "resolve": "/Users/lgy/gatsby_test/blog_gatsby",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "b34abfdb9a956d5c429720bdf8335876",
+      "version": "ef2e992e79c05f44048c728b493392b6",
       "pluginOptions": {
         "plugins": []
       },
@@ -759,6 +978,10 @@
           {
             "name": "gatsby",
             "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.26"
           },
           {
             "name": "gatsby-paginate",
@@ -833,7 +1056,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d518268ea6599f55835fdebd902fe431",
+        "contentDigest": "3682c545600f71c146d76c54125fcbf8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -947,212 +1170,485 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-01-18T06:50:12.592Z",
+      "buildTime": "2019-01-18T07:56:47.237Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6ec1c75e91658a67b03a4aa97d0cc660",
+        "contentDigest": "9a6af50f8a54f198ec581ac2862a5054",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "c9e874a7-1080-51b8-b5b9-18a92b48c1fb": {
-      "id": "c9e874a7-1080-51b8-b5b9-18a92b48c1fb",
+    "a8338d03-f4d7-5b47-85e4-41522b057789": {
+      "id": "a8338d03-f4d7-5b47-85e4-41522b057789",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "77e069b08ac3091c7d46eae4f6ba805a",
+        "contentDigest": "52010295ecd3c25196b081cab22beec1",
         "type": "Directory",
-        "description": "Directory \"src\"",
+        "description": "Directory \"src/components/blog\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/",
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog",
       "relativePath": "",
       "extension": "",
-      "size": 224,
-      "prettySize": "224 B",
-      "modifiedTime": "2019-01-18T04:56:28.043Z",
-      "accessTime": "2019-01-18T06:50:17.622Z",
-      "changeTime": "2019-01-18T04:56:28.043Z",
-      "birthTime": "2019-01-18T04:56:27.993Z",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2019-01-18T07:54:39.136Z",
+      "accessTime": "2019-01-18T07:56:52.976Z",
+      "changeTime": "2019-01-18T07:54:39.136Z",
+      "birthTime": "2019-01-18T07:53:58.824Z",
       "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby",
-      "base": "src",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components",
+      "base": "blog",
       "ext": "",
-      "name": "src",
+      "name": "blog",
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 7,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 12889565729,
+      "ino": 12889593032,
       "blocks": 0,
-      "atimeMs": 1547794217621.8152,
-      "mtimeMs": 1547787388042.6685,
-      "ctimeMs": 1547787388042.6685,
-      "birthtimeMs": 1547787387992.8164,
-      "atime": "2019-01-18T06:50:17.622Z",
-      "mtime": "2019-01-18T04:56:28.043Z",
-      "ctime": "2019-01-18T04:56:28.043Z",
-      "birthtime": "2019-01-18T04:56:27.993Z"
+      "atimeMs": 1547798212976.4155,
+      "mtimeMs": 1547798079136.3423,
+      "ctimeMs": 1547798079136.3423,
+      "birthtimeMs": 1547798038823.5947,
+      "atime": "2019-01-18T07:56:52.976Z",
+      "mtime": "2019-01-18T07:54:39.136Z",
+      "ctime": "2019-01-18T07:54:39.136Z",
+      "birthtime": "2019-01-18T07:53:58.824Z"
     },
-    "3c4d73b4-5d69-5ef5-86b1-1e4f63b30696": {
-      "id": "3c4d73b4-5d69-5ef5-86b1-1e4f63b30696",
-      "children": [],
+    "aac00469-d465-5378-a805-0c145c1c3d81": {
+      "id": "aac00469-d465-5378-a805-0c145c1c3d81",
+      "children": [
+        "d8ef1042-cd66-5761-b3f4-653281a46a9e"
+      ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "93e0b89da0724174255fb41ffa964960",
-        "type": "Directory",
-        "description": "Directory \"src/components\"",
+        "contentDigest": "d4c16ee1d5c0511ab16582a9a3a09c56",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/components/blog/blog-2.md\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components",
-      "relativePath": "components",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2019-01-18T04:56:27.993Z",
-      "accessTime": "2019-01-18T06:50:17.624Z",
-      "changeTime": "2019-01-18T04:56:27.993Z",
-      "birthTime": "2019-01-18T04:56:27.993Z",
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-2.md",
+      "relativePath": "blog-2.md",
+      "extension": "md",
+      "size": 186,
+      "prettySize": "186 B",
+      "modifiedTime": "2019-01-18T04:56:28.041Z",
+      "accessTime": "2019-01-18T07:54:39.384Z",
+      "changeTime": "2019-01-18T07:54:39.146Z",
+      "birthTime": "2019-01-18T04:56:28.041Z",
       "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src",
-      "base": "components",
-      "ext": "",
-      "name": "components",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog",
+      "base": "blog-2.md",
+      "ext": ".md",
+      "name": "blog-2",
       "relativeDirectory": "",
       "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
+      "mode": 33188,
+      "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 12889565730,
-      "blocks": 0,
-      "atimeMs": 1547794217624.425,
-      "mtimeMs": 1547787387993.242,
-      "ctimeMs": 1547787387993.242,
-      "birthtimeMs": 1547787387992.8945,
-      "atime": "2019-01-18T06:50:17.624Z",
-      "mtime": "2019-01-18T04:56:27.993Z",
-      "ctime": "2019-01-18T04:56:27.993Z",
-      "birthtime": "2019-01-18T04:56:27.993Z"
+      "ino": 12889593207,
+      "blocks": 8,
+      "atimeMs": 1547798079383.7302,
+      "mtimeMs": 1547787388040.612,
+      "ctimeMs": 1547798079145.519,
+      "birthtimeMs": 1547787388040.5115,
+      "atime": "2019-01-18T07:54:39.384Z",
+      "mtime": "2019-01-18T04:56:28.041Z",
+      "ctime": "2019-01-18T07:54:39.146Z",
+      "birthtime": "2019-01-18T04:56:28.041Z"
     },
-    "52bfaaf9-5c53-5171-a5f5-d49a457361e0": {
-      "id": "52bfaaf9-5c53-5171-a5f5-d49a457361e0",
-      "children": [],
+    "aa4b110c-26f7-592f-b7c9-3252ed418817": {
+      "id": "aa4b110c-26f7-592f-b7c9-3252ed418817",
+      "children": [
+        "af48f22d-34c1-5f75-ac10-f96d08ad24aa"
+      ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "747ea4acb15423c5a54299de497f5a7f",
-        "type": "Directory",
-        "description": "Directory \"src/templates\"",
+        "contentDigest": "86dcb0afbe919dcca30ddc8c7bebc7e5",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/components/blog/blog-3.md\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/templates",
-      "relativePath": "templates",
-      "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2019-01-18T04:56:28.042Z",
-      "accessTime": "2019-01-18T06:50:17.624Z",
-      "changeTime": "2019-01-18T04:56:28.042Z",
-      "birthTime": "2019-01-18T04:56:28.042Z",
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-3.md",
+      "relativePath": "blog-3.md",
+      "extension": "md",
+      "size": 664,
+      "prettySize": "664 B",
+      "modifiedTime": "2019-01-18T04:56:28.041Z",
+      "accessTime": "2019-01-18T07:54:39.384Z",
+      "changeTime": "2019-01-18T07:54:39.146Z",
+      "birthTime": "2019-01-18T04:56:28.041Z",
       "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src",
-      "base": "templates",
-      "ext": "",
-      "name": "templates",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog",
+      "base": "blog-3.md",
+      "ext": ".md",
+      "name": "blog-3",
       "relativeDirectory": "",
       "dev": 16777220,
-      "mode": 16877,
-      "nlink": 5,
+      "mode": 33188,
+      "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 12889565749,
-      "blocks": 0,
-      "atimeMs": 1547794217624.322,
-      "mtimeMs": 1547787388042.4866,
-      "ctimeMs": 1547787388042.4866,
-      "birthtimeMs": 1547787388042.0303,
-      "atime": "2019-01-18T06:50:17.624Z",
-      "mtime": "2019-01-18T04:56:28.042Z",
-      "ctime": "2019-01-18T04:56:28.042Z",
-      "birthtime": "2019-01-18T04:56:28.042Z"
+      "ino": 12889593208,
+      "blocks": 8,
+      "atimeMs": 1547798079383.8286,
+      "mtimeMs": 1547787388040.8123,
+      "ctimeMs": 1547798079146.3784,
+      "birthtimeMs": 1547787388040.7346,
+      "atime": "2019-01-18T07:54:39.384Z",
+      "mtime": "2019-01-18T04:56:28.041Z",
+      "ctime": "2019-01-18T07:54:39.146Z",
+      "birthtime": "2019-01-18T04:56:28.041Z"
     },
-    "634489d2-33b2-5b69-8732-39e560b3e4e4": {
-      "id": "634489d2-33b2-5b69-8732-39e560b3e4e4",
-      "children": [],
+    "e61f3b3d-d1a8-57bf-8e53-c26b2d6b633b": {
+      "id": "e61f3b3d-d1a8-57bf-8e53-c26b2d6b633b",
+      "children": [
+        "90b517f4-27bb-5b00-a241-4b8393a1b0ac"
+      ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cdc71e744579ff411b646289a24bdc2b",
-        "type": "Directory",
-        "description": "Directory \"src/pages\"",
+        "contentDigest": "7af0079b1d097c94e2132ba1e267e913",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/components/blog/blog-4.md\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "relativePath": "pages",
-      "extension": "",
-      "size": 352,
-      "prettySize": "352 B",
-      "modifiedTime": "2019-01-18T04:56:28.042Z",
-      "accessTime": "2019-01-18T06:50:17.624Z",
-      "changeTime": "2019-01-18T04:56:28.042Z",
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-4.md",
+      "relativePath": "blog-4.md",
+      "extension": "md",
+      "size": 279,
+      "prettySize": "279 B",
+      "modifiedTime": "2019-01-18T04:56:28.041Z",
+      "accessTime": "2019-01-18T07:54:39.364Z",
+      "changeTime": "2019-01-18T07:54:39.147Z",
+      "birthTime": "2019-01-18T04:56:28.041Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog",
+      "base": "blog-4.md",
+      "ext": ".md",
+      "name": "blog-4",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12889593209,
+      "blocks": 8,
+      "atimeMs": 1547798079363.9626,
+      "mtimeMs": 1547787388041.1057,
+      "ctimeMs": 1547798079147.2964,
+      "birthtimeMs": 1547787388040.933,
+      "atime": "2019-01-18T07:54:39.364Z",
+      "mtime": "2019-01-18T04:56:28.041Z",
+      "ctime": "2019-01-18T07:54:39.147Z",
+      "birthtime": "2019-01-18T04:56:28.041Z"
+    },
+    "42c773e0-3c0e-56a6-947d-de8577083473": {
+      "id": "42c773e0-3c0e-56a6-947d-de8577083473",
+      "children": [
+        "00290e97-7fac-5744-a6a7-ed3ec5f610d6"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e92a5d8a2bd0a8c1a7089d4ecfcc5894",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/components/blog/blog-1.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-1.md",
+      "relativePath": "blog-1.md",
+      "extension": "md",
+      "size": 217,
+      "prettySize": "217 B",
+      "modifiedTime": "2019-01-18T07:57:33.796Z",
+      "accessTime": "2019-01-18T07:57:33.796Z",
+      "changeTime": "2019-01-18T07:57:33.796Z",
       "birthTime": "2019-01-18T04:56:28.040Z",
       "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src",
-      "base": "pages",
-      "ext": "",
-      "name": "pages",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog",
+      "base": "blog-1.md",
+      "ext": ".md",
+      "name": "blog-1",
       "relativeDirectory": "",
       "dev": 16777220,
-      "mode": 16877,
-      "nlink": 11,
+      "mode": 33188,
+      "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 12889565739,
-      "blocks": 0,
-      "atimeMs": 1547794217624.3691,
-      "mtimeMs": 1547787388041.8674,
-      "ctimeMs": 1547787388041.8674,
-      "birthtimeMs": 1547787388040.0312,
-      "atime": "2019-01-18T06:50:17.624Z",
-      "mtime": "2019-01-18T04:56:28.042Z",
-      "ctime": "2019-01-18T04:56:28.042Z",
+      "ino": 12889593206,
+      "blocks": 8,
+      "atimeMs": 1547798253796.0334,
+      "mtimeMs": 1547798253796.383,
+      "ctimeMs": 1547798253796.383,
+      "birthtimeMs": 1547787388040.3428,
+      "atime": "2019-01-18T07:57:33.796Z",
+      "mtime": "2019-01-18T07:57:33.796Z",
+      "ctime": "2019-01-18T07:57:33.796Z",
       "birthtime": "2019-01-18T04:56:28.040Z"
+    },
+    "9916cf13-531d-5877-a487-aa8cb1c1d213": {
+      "id": "9916cf13-531d-5877-a487-aa8cb1c1d213",
+      "children": [
+        "78903406-44b6-5568-8fd3-efa030e31555"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a3b177645022e2c041d9698353957fd0",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/components/blog/blog-5.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-5.md",
+      "relativePath": "blog-5.md",
+      "extension": "md",
+      "size": 241,
+      "prettySize": "241 B",
+      "modifiedTime": "2019-01-18T04:56:28.041Z",
+      "accessTime": "2019-01-18T07:54:39.389Z",
+      "changeTime": "2019-01-18T07:54:39.148Z",
+      "birthTime": "2019-01-18T04:56:28.041Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog",
+      "base": "blog-5.md",
+      "ext": ".md",
+      "name": "blog-5",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12889593210,
+      "blocks": 8,
+      "atimeMs": 1547798079388.616,
+      "mtimeMs": 1547787388041.3293,
+      "ctimeMs": 1547798079148.391,
+      "birthtimeMs": 1547787388041.2507,
+      "atime": "2019-01-18T07:54:39.389Z",
+      "mtime": "2019-01-18T04:56:28.041Z",
+      "ctime": "2019-01-18T07:54:39.148Z",
+      "birthtime": "2019-01-18T04:56:28.041Z"
+    },
+    "50187e1c-e9e5-599b-ad3d-b7e1818b3e7c": {
+      "id": "50187e1c-e9e5-599b-ad3d-b7e1818b3e7c",
+      "children": [
+        "b60d14f2-2f27-59d4-96bd-568a350e6401"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6b2c5a8548d020783679d10048c36dca",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/components/blog/blog-6.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-6.md",
+      "relativePath": "blog-6.md",
+      "extension": "md",
+      "size": 280,
+      "prettySize": "280 B",
+      "modifiedTime": "2019-01-18T04:56:28.042Z",
+      "accessTime": "2019-01-18T07:54:39.393Z",
+      "changeTime": "2019-01-18T07:54:39.150Z",
+      "birthTime": "2019-01-18T04:56:28.042Z",
+      "root": "/",
+      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog",
+      "base": "blog-6.md",
+      "ext": ".md",
+      "name": "blog-6",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12889593211,
+      "blocks": 8,
+      "atimeMs": 1547798079392.8174,
+      "mtimeMs": 1547787388041.608,
+      "ctimeMs": 1547798079149.536,
+      "birthtimeMs": 1547787388041.512,
+      "atime": "2019-01-18T07:54:39.393Z",
+      "mtime": "2019-01-18T04:56:28.042Z",
+      "ctime": "2019-01-18T07:54:39.150Z",
+      "birthtime": "2019-01-18T04:56:28.042Z"
+    },
+    "d8ef1042-cd66-5761-b3f4-653281a46a9e": {
+      "id": "d8ef1042-cd66-5761-b3f4-653281a46a9e",
+      "children": [],
+      "parent": "aac00469-d465-5378-a805-0c145c1c3d81",
+      "internal": {
+        "content": "真的可以说是很崩溃了。\n就是崩溃，就是恼火。\n求求你们\n连假笑都已经笑不出来了\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "840c983eee93cbc411d6cfa8fbfe4886",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "这是唯一一条负能量说说",
+        "date": "2018-10-11",
+        "_PARENT": "aac00469-d465-5378-a805-0c145c1c3d81"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "真的可以说是很崩溃了。\n就是崩溃，就是恼火。\n求求你们\n连假笑都已经笑不出来了\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-2.md",
+      "fields": {
+        "slug": "/blog-2/"
+      }
+    },
+    "af48f22d-34c1-5f75-ac10-f96d08ad24aa": {
+      "id": "af48f22d-34c1-5f75-ac10-f96d08ad24aa",
+      "children": [],
+      "parent": "aa4b110c-26f7-592f-b7c9-3252ed418817",
+      "internal": {
+        "content": "今天去看了90多岁的爷爷奶奶们，爷爷对心心妹儿爱不释手，奶奶紧紧牵着我的手，看着宝贝儿们对爷爷奶奶们写的信，只是又想起了爷爷。\n还好婆婆，奶奶，外公最近过得挺好。\n大哥准备了很久的青翼成果展，又想凉山的那些娃娃了，拉哈，拉坡，恼火，阿玉史安，小龙，时不时还会给我发消息说想我们了。\n很开心我身边现在有很多很多我在意的人。即使有的不常见面。\n希望自己不要放弃去成就“志愿“这件大事，我还有好多好多的故事没有说给你们听\n\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "d009ccf487ba62c9973f3892f48a0db2",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "年少有为",
+        "date": "2018-10-18",
+        "_PARENT": "aa4b110c-26f7-592f-b7c9-3252ed418817"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "今天去看了90多岁的爷爷奶奶们，爷爷对心心妹儿爱不释手，奶奶紧紧牵着我的手，看着宝贝儿们对爷爷奶奶们写的信，只是又想起了爷爷。\n还好婆婆，奶奶，外公最近过得挺好。\n大哥准备了很久的青翼成果展，又想凉山的那些娃娃了，拉哈，拉坡，恼火，阿玉史安，小龙，时不时还会给我发消息说想我们了。\n很开心我身边现在有很多很多我在意的人。即使有的不常见面。\n希望自己不要放弃去成就“志愿“这件大事，我还有好多好多的故事没有说给你们听\n\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-3.md",
+      "fields": {
+        "slug": "/blog-3/"
+      }
+    },
+    "90b517f4-27bb-5b00-a241-4b8393a1b0ac": {
+      "id": "90b517f4-27bb-5b00-a241-4b8393a1b0ac",
+      "children": [],
+      "parent": "e61f3b3d-d1a8-57bf-8e53-c26b2d6b633b",
+      "internal": {
+        "content": "发个说说，纪念一下早睡的一天\n是青协，是青翼，是Yi Shen，是联盟\n已经成了习惯，花大把时间去做好它们。\n再忙也不能忘记吃肉，朋友们!\n晚安，相约在梦里\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "216c12baa3b64652e29e39c708ef6981",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "纪念一下早睡的一天",
+        "date": "2018-11-03",
+        "_PARENT": "e61f3b3d-d1a8-57bf-8e53-c26b2d6b633b"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "发个说说，纪念一下早睡的一天\n是青协，是青翼，是Yi Shen，是联盟\n已经成了习惯，花大把时间去做好它们。\n再忙也不能忘记吃肉，朋友们!\n晚安，相约在梦里\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-4.md",
+      "fields": {
+        "slug": "/blog-4/"
+      }
+    },
+    "78903406-44b6-5568-8fd3-efa030e31555": {
+      "id": "78903406-44b6-5568-8fd3-efa030e31555",
+      "children": [],
+      "parent": "9916cf13-531d-5877-a487-aa8cb1c1d213",
+      "internal": {
+        "content": "嗯，恭喜一下自己两次发展对象谈话都没过。\n其实，我们应该多喜欢一下群众这个称呼吼，\n毕竟命重要，毕竟自己开心就好。\n嘻嘻嘻嘻嘻嘻\n\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "53e743e3df6dc2a99a8b6ff2c4895eaf",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "谈话没过",
+        "date": "2018-11-19",
+        "_PARENT": "9916cf13-531d-5877-a487-aa8cb1c1d213"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "嗯，恭喜一下自己两次发展对象谈话都没过。\n其实，我们应该多喜欢一下群众这个称呼吼，\n毕竟命重要，毕竟自己开心就好。\n嘻嘻嘻嘻嘻嘻\n\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-5.md",
+      "fields": {
+        "slug": "/blog-5/"
+      }
+    },
+    "b60d14f2-2f27-59d4-96bd-568a350e6401": {
+      "id": "b60d14f2-2f27-59d4-96bd-568a350e6401",
+      "children": [],
+      "parent": "50187e1c-e9e5-599b-ad3d-b7e1818b3e7c",
+      "internal": {
+        "content": "每一天都很充实，\n成长营，成果展，志交会，残疾人技能大赛\n忙着做事，忙着吃，忙着玩。\n现在都结束了，认真的期末备考吧!\n然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈\n\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "eedca03c84461ed5a3c6751f485bfe15",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "珂珂的日常",
+        "date": "2018-12-03",
+        "_PARENT": "50187e1c-e9e5-599b-ad3d-b7e1818b3e7c"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "每一天都很充实，\n成长营，成果展，志交会，残疾人技能大赛\n忙着做事，忙着吃，忙着玩。\n现在都结束了，认真的期末备考吧!\n然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈\n\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-6.md",
+      "fields": {
+        "slug": "/blog-6/"
+      }
     },
     "a7318365-3c77-5966-a967-442ae47fde72": {
       "id": "a7318365-3c77-5966-a967-442ae47fde72",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c6e06c31068ab0a8800eede83dbb62cf",
+        "contentDigest": "28f47239150780974dda08a84a31170a",
         "type": "Directory",
         "description": "Directory \"src/imgs\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
+      "sourceInstanceName": "imgs",
       "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs",
-      "relativePath": "imgs",
+      "relativePath": "",
       "extension": "",
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-18T04:56:28.037Z",
-      "accessTime": "2019-01-18T06:50:17.624Z",
+      "accessTime": "2019-01-18T07:56:53.020Z",
       "changeTime": "2019-01-18T04:56:28.037Z",
       "birthTime": "2019-01-18T04:56:27.993Z",
       "root": "/",
@@ -1160,7 +1656,7 @@
       "base": "imgs",
       "ext": "",
       "name": "imgs",
-      "relativeDirectory": "",
+      "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
       "nlink": 7,
@@ -1170,614 +1666,20 @@
       "blksize": 4096,
       "ino": 12889565733,
       "blocks": 0,
-      "atimeMs": 1547794217624.391,
+      "atimeMs": 1547798213019.805,
       "mtimeMs": 1547787388037.1997,
       "ctimeMs": 1547787388037.1997,
       "birthtimeMs": 1547787387993.4668,
-      "atime": "2019-01-18T06:50:17.624Z",
+      "atime": "2019-01-18T07:56:53.020Z",
       "mtime": "2019-01-18T04:56:28.037Z",
       "ctime": "2019-01-18T04:56:28.037Z",
       "birthtime": "2019-01-18T04:56:27.993Z"
     },
-    "a3736207-fadf-5b15-a01c-ee0ecb740579": {
-      "id": "a3736207-fadf-5b15-a01c-ee0ecb740579",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "757c960a857e2ecea8d8e34722a0bb88",
-        "type": "Directory",
-        "description": "Directory \"src/utils\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/utils",
-      "relativePath": "utils",
-      "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2019-01-18T04:56:28.043Z",
-      "accessTime": "2019-01-18T06:50:17.625Z",
-      "changeTime": "2019-01-18T04:56:28.043Z",
-      "birthTime": "2019-01-18T04:56:28.043Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src",
-      "base": "utils",
-      "ext": "",
-      "name": "utils",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 3,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565753,
-      "blocks": 0,
-      "atimeMs": 1547794217624.563,
-      "mtimeMs": 1547787388042.8003,
-      "ctimeMs": 1547787388042.8003,
-      "birthtimeMs": 1547787388042.6597,
-      "atime": "2019-01-18T06:50:17.625Z",
-      "mtime": "2019-01-18T04:56:28.043Z",
-      "ctime": "2019-01-18T04:56:28.043Z",
-      "birthtime": "2019-01-18T04:56:28.043Z"
-    },
-    "f1ab8536-ae96-55b0-938c-2291e7052ea3": {
-      "id": "f1ab8536-ae96-55b0-938c-2291e7052ea3",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4f0009a00cd18dfa6ddc595226d611c2",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/templates/blog-post.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/templates/blog-post.js",
-      "relativePath": "templates/blog-post.js",
-      "extension": "js",
-      "size": 892,
-      "prettySize": "892 B",
-      "modifiedTime": "2019-01-18T04:56:28.042Z",
-      "accessTime": "2019-01-18T06:49:40.718Z",
-      "changeTime": "2019-01-18T04:56:28.042Z",
-      "birthTime": "2019-01-18T04:56:28.042Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/templates",
-      "base": "blog-post.js",
-      "ext": ".js",
-      "name": "blog-post",
-      "relativeDirectory": "templates",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565750,
-      "blocks": 8,
-      "atimeMs": 1547794180718.4653,
-      "mtimeMs": 1547787388042.2156,
-      "ctimeMs": 1547787388042.2156,
-      "birthtimeMs": 1547787388042.1406,
-      "atime": "2019-01-18T06:49:40.718Z",
-      "mtime": "2019-01-18T04:56:28.042Z",
-      "ctime": "2019-01-18T04:56:28.042Z",
-      "birthtime": "2019-01-18T04:56:28.042Z"
-    },
-    "f9846240-441b-52da-a8fd-96895faec2c9": {
-      "id": "f9846240-441b-52da-a8fd-96895faec2c9",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "047576468983cd57b2e923939b2d3681",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/templates/posts.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/templates/posts.js",
-      "relativePath": "templates/posts.js",
-      "extension": "js",
-      "size": 2790,
-      "prettySize": "2.79 kB",
-      "modifiedTime": "2019-01-18T06:12:53.061Z",
-      "accessTime": "2019-01-18T06:49:40.718Z",
-      "changeTime": "2019-01-18T06:12:53.061Z",
-      "birthTime": "2019-01-18T04:56:28.042Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/templates",
-      "base": "posts.js",
-      "ext": ".js",
-      "name": "posts",
-      "relativeDirectory": "templates",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565752,
-      "blocks": 8,
-      "atimeMs": 1547794180718.482,
-      "mtimeMs": 1547791973061.3894,
-      "ctimeMs": 1547791973061.3894,
-      "birthtimeMs": 1547787388042.478,
-      "atime": "2019-01-18T06:49:40.718Z",
-      "mtime": "2019-01-18T06:12:53.061Z",
-      "ctime": "2019-01-18T06:12:53.061Z",
-      "birthtime": "2019-01-18T04:56:28.042Z"
-    },
-    "c71ffccc-26e9-54f1-becf-7357400f3c97": {
-      "id": "c71ffccc-26e9-54f1-becf-7357400f3c97",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d4ae2e800a86e39a6fcda3e969cc5ffe",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/about.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/about.js",
-      "relativePath": "pages/about.js",
-      "extension": "js",
-      "size": 312,
-      "prettySize": "312 B",
-      "modifiedTime": "2019-01-18T06:12:00.738Z",
-      "accessTime": "2019-01-18T06:50:11.145Z",
-      "changeTime": "2019-01-18T06:12:00.738Z",
-      "birthTime": "2019-01-18T04:56:28.040Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "base": "about.js",
-      "ext": ".js",
-      "name": "about",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565740,
-      "blocks": 8,
-      "atimeMs": 1547794211144.7722,
-      "mtimeMs": 1547791920737.8535,
-      "ctimeMs": 1547791920737.8535,
-      "birthtimeMs": 1547787388040.1519,
-      "atime": "2019-01-18T06:50:11.145Z",
-      "mtime": "2019-01-18T06:12:00.738Z",
-      "ctime": "2019-01-18T06:12:00.738Z",
-      "birthtime": "2019-01-18T04:56:28.040Z"
-    },
-    "383d0b7b-aa91-55f9-a769-01730f31fff7": {
-      "id": "383d0b7b-aa91-55f9-a769-01730f31fff7",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d503058c4132135fdf0e4fc843638158",
-        "type": "File",
-        "mediaType": "text/css",
-        "description": "File \"src/templates/posts.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/templates/posts.css",
-      "relativePath": "templates/posts.css",
-      "extension": "css",
-      "size": 1044,
-      "prettySize": "1.04 kB",
-      "modifiedTime": "2019-01-18T04:56:28.042Z",
-      "accessTime": "2019-01-18T06:49:40.718Z",
-      "changeTime": "2019-01-18T04:56:28.042Z",
-      "birthTime": "2019-01-18T04:56:28.042Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/templates",
-      "base": "posts.css",
-      "ext": ".css",
-      "name": "posts",
-      "relativeDirectory": "templates",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565751,
-      "blocks": 8,
-      "atimeMs": 1547794180718.4717,
-      "mtimeMs": 1547787388042.3882,
-      "ctimeMs": 1547787388042.3882,
-      "birthtimeMs": 1547787388042.314,
-      "atime": "2019-01-18T06:49:40.718Z",
-      "mtime": "2019-01-18T04:56:28.042Z",
-      "ctime": "2019-01-18T04:56:28.042Z",
-      "birthtime": "2019-01-18T04:56:28.042Z"
-    },
-    "0723fe29-dd3f-5965-af8f-f36a15db9517": {
-      "id": "0723fe29-dd3f-5965-af8f-f36a15db9517",
-      "children": [
-        "d20a16e6-52fa-5e3b-bd2d-64d48c994f42"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c6fbf34e3e5a48421f1443e8c3ed0b38",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/blog-1.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-1.md",
-      "relativePath": "pages/blog-1.md",
-      "extension": "md",
-      "size": 214,
-      "prettySize": "214 B",
-      "modifiedTime": "2019-01-18T05:56:20.311Z",
-      "accessTime": "2019-01-18T06:49:36.048Z",
-      "changeTime": "2019-01-18T05:56:20.311Z",
-      "birthTime": "2019-01-18T04:56:28.040Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "base": "blog-1.md",
-      "ext": ".md",
-      "name": "blog-1",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565741,
-      "blocks": 8,
-      "atimeMs": 1547794176047.7693,
-      "mtimeMs": 1547790980311.2559,
-      "ctimeMs": 1547790980311.2559,
-      "birthtimeMs": 1547787388040.3428,
-      "atime": "2019-01-18T06:49:36.048Z",
-      "mtime": "2019-01-18T05:56:20.311Z",
-      "ctime": "2019-01-18T05:56:20.311Z",
-      "birthtime": "2019-01-18T04:56:28.040Z"
-    },
-    "b39c2a2a-0212-58ce-9ca3-1d7f2a62ec3b": {
-      "id": "b39c2a2a-0212-58ce-9ca3-1d7f2a62ec3b",
-      "children": [
-        "d968e6e8-536c-5ac4-be38-519794af8125"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "86dcb0afbe919dcca30ddc8c7bebc7e5",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/blog-3.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-3.md",
-      "relativePath": "pages/blog-3.md",
-      "extension": "md",
-      "size": 664,
-      "prettySize": "664 B",
-      "modifiedTime": "2019-01-18T04:56:28.041Z",
-      "accessTime": "2019-01-18T06:49:36.048Z",
-      "changeTime": "2019-01-18T04:56:28.041Z",
-      "birthTime": "2019-01-18T04:56:28.041Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "base": "blog-3.md",
-      "ext": ".md",
-      "name": "blog-3",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565743,
-      "blocks": 8,
-      "atimeMs": 1547794176048.0247,
-      "mtimeMs": 1547787388040.8123,
-      "ctimeMs": 1547787388040.8123,
-      "birthtimeMs": 1547787388040.7346,
-      "atime": "2019-01-18T06:49:36.048Z",
-      "mtime": "2019-01-18T04:56:28.041Z",
-      "ctime": "2019-01-18T04:56:28.041Z",
-      "birthtime": "2019-01-18T04:56:28.041Z"
-    },
-    "3b141d0a-d204-539e-8aff-4de4c6b1af4b": {
-      "id": "3b141d0a-d204-539e-8aff-4de4c6b1af4b",
-      "children": [
-        "378f38d7-935c-59e5-9e8d-ac790e22b753"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d4c16ee1d5c0511ab16582a9a3a09c56",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/blog-2.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-2.md",
-      "relativePath": "pages/blog-2.md",
-      "extension": "md",
-      "size": 186,
-      "prettySize": "186 B",
-      "modifiedTime": "2019-01-18T04:56:28.041Z",
-      "accessTime": "2019-01-18T06:49:36.048Z",
-      "changeTime": "2019-01-18T04:56:28.041Z",
-      "birthTime": "2019-01-18T04:56:28.041Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "base": "blog-2.md",
-      "ext": ".md",
-      "name": "blog-2",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565742,
-      "blocks": 8,
-      "atimeMs": 1547794176047.926,
-      "mtimeMs": 1547787388040.612,
-      "ctimeMs": 1547787388040.612,
-      "birthtimeMs": 1547787388040.5115,
-      "atime": "2019-01-18T06:49:36.048Z",
-      "mtime": "2019-01-18T04:56:28.041Z",
-      "ctime": "2019-01-18T04:56:28.041Z",
-      "birthtime": "2019-01-18T04:56:28.041Z"
-    },
-    "af5a0ba0-9a6a-5d65-84d7-fd148907b591": {
-      "id": "af5a0ba0-9a6a-5d65-84d7-fd148907b591",
-      "children": [
-        "187d069f-3b39-5cc0-b0f7-f7c2d12b0c14"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "7af0079b1d097c94e2132ba1e267e913",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/blog-4.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-4.md",
-      "relativePath": "pages/blog-4.md",
-      "extension": "md",
-      "size": 279,
-      "prettySize": "279 B",
-      "modifiedTime": "2019-01-18T04:56:28.041Z",
-      "accessTime": "2019-01-18T06:49:36.048Z",
-      "changeTime": "2019-01-18T04:56:28.041Z",
-      "birthTime": "2019-01-18T04:56:28.041Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "base": "blog-4.md",
-      "ext": ".md",
-      "name": "blog-4",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565744,
-      "blocks": 8,
-      "atimeMs": 1547794176048.1484,
-      "mtimeMs": 1547787388041.1057,
-      "ctimeMs": 1547787388041.1057,
-      "birthtimeMs": 1547787388040.933,
-      "atime": "2019-01-18T06:49:36.048Z",
-      "mtime": "2019-01-18T04:56:28.041Z",
-      "ctime": "2019-01-18T04:56:28.041Z",
-      "birthtime": "2019-01-18T04:56:28.041Z"
-    },
-    "10590a78-6cf3-523a-b5e0-9409623651b0": {
-      "id": "10590a78-6cf3-523a-b5e0-9409623651b0",
-      "children": [
-        "5856ae23-d0ae-5559-89a3-daf26c94df46"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a3b177645022e2c041d9698353957fd0",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/blog-5.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-5.md",
-      "relativePath": "pages/blog-5.md",
-      "extension": "md",
-      "size": 241,
-      "prettySize": "241 B",
-      "modifiedTime": "2019-01-18T04:56:28.041Z",
-      "accessTime": "2019-01-18T06:49:36.048Z",
-      "changeTime": "2019-01-18T04:56:28.041Z",
-      "birthTime": "2019-01-18T04:56:28.041Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "base": "blog-5.md",
-      "ext": ".md",
-      "name": "blog-5",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565745,
-      "blocks": 8,
-      "atimeMs": 1547794176048.2595,
-      "mtimeMs": 1547787388041.3293,
-      "ctimeMs": 1547787388041.3293,
-      "birthtimeMs": 1547787388041.2507,
-      "atime": "2019-01-18T06:49:36.048Z",
-      "mtime": "2019-01-18T04:56:28.041Z",
-      "ctime": "2019-01-18T04:56:28.041Z",
-      "birthtime": "2019-01-18T04:56:28.041Z"
-    },
-    "55ed60c9-ac9f-5c39-924a-6042f848dbd8": {
-      "id": "55ed60c9-ac9f-5c39-924a-6042f848dbd8",
-      "children": [
-        "1937ca97-298e-58e4-84b9-b2981746c9ba"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6b2c5a8548d020783679d10048c36dca",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/blog-6.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-6.md",
-      "relativePath": "pages/blog-6.md",
-      "extension": "md",
-      "size": 280,
-      "prettySize": "280 B",
-      "modifiedTime": "2019-01-18T04:56:28.042Z",
-      "accessTime": "2019-01-18T06:49:36.048Z",
-      "changeTime": "2019-01-18T04:56:28.042Z",
-      "birthTime": "2019-01-18T04:56:28.042Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "base": "blog-6.md",
-      "ext": ".md",
-      "name": "blog-6",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565746,
-      "blocks": 8,
-      "atimeMs": 1547794176048.3564,
-      "mtimeMs": 1547787388041.608,
-      "ctimeMs": 1547787388041.608,
-      "birthtimeMs": 1547787388041.512,
-      "atime": "2019-01-18T06:49:36.048Z",
-      "mtime": "2019-01-18T04:56:28.042Z",
-      "ctime": "2019-01-18T04:56:28.042Z",
-      "birthtime": "2019-01-18T04:56:28.042Z"
-    },
-    "4128afbe-ce16-515e-92ad-6bef018584ce": {
-      "id": "4128afbe-ce16-515e-92ad-6bef018584ce",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "499755a9e5fdb7130cd6896ec79b2dc2",
-        "type": "File",
-        "mediaType": "text/css",
-        "description": "File \"src/pages/index.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/index.css",
-      "relativePath": "pages/index.css",
-      "extension": "css",
-      "size": 838,
-      "prettySize": "838 B",
-      "modifiedTime": "2019-01-18T04:56:28.042Z",
-      "accessTime": "2019-01-18T06:49:36.049Z",
-      "changeTime": "2019-01-18T04:56:28.042Z",
-      "birthTime": "2019-01-18T04:56:28.042Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "base": "index.css",
-      "ext": ".css",
-      "name": "index",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565747,
-      "blocks": 8,
-      "atimeMs": 1547794176048.6335,
-      "mtimeMs": 1547787388041.7769,
-      "ctimeMs": 1547787388041.7769,
-      "birthtimeMs": 1547787388041.7102,
-      "atime": "2019-01-18T06:49:36.049Z",
-      "mtime": "2019-01-18T04:56:28.042Z",
-      "ctime": "2019-01-18T04:56:28.042Z",
-      "birthtime": "2019-01-18T04:56:28.042Z"
-    },
-    "f4311f7c-9084-5bd0-bd85-437cf894c576": {
-      "id": "f4311f7c-9084-5bd0-bd85-437cf894c576",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "345d4ee30edb6cdb73ea1740e68e3721",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/my-files.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/my-files.js",
-      "relativePath": "pages/my-files.js",
-      "extension": "js",
-      "size": 1041,
-      "prettySize": "1.04 kB",
-      "modifiedTime": "2019-01-18T04:56:28.042Z",
-      "accessTime": "2019-01-18T06:49:40.718Z",
-      "changeTime": "2019-01-18T04:56:28.042Z",
-      "birthTime": "2019-01-18T04:56:28.042Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/pages",
-      "base": "my-files.js",
-      "ext": ".js",
-      "name": "my-files",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565748,
-      "blocks": 8,
-      "atimeMs": 1547794180718.3792,
-      "mtimeMs": 1547787388041.9402,
-      "ctimeMs": 1547787388041.9402,
-      "birthtimeMs": 1547787388041.8608,
-      "atime": "2019-01-18T06:49:40.718Z",
-      "mtime": "2019-01-18T04:56:28.042Z",
-      "ctime": "2019-01-18T04:56:28.042Z",
-      "birthtime": "2019-01-18T04:56:28.042Z"
-    },
     "5204ae4c-d062-5e13-b6ed-0e0e1beea845": {
       "id": "5204ae4c-d062-5e13-b6ed-0e0e1beea845",
-      "children": [],
+      "children": [
+        "f8423109-3b54-56b4-bbe5-ed336f4295ae"
+      ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "ed66e9b72767c27bdfdb68c4ebf132ec",
@@ -1786,14 +1688,14 @@
         "description": "File \"src/imgs/mohu.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
+      "sourceInstanceName": "imgs",
       "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/mohu.jpg",
-      "relativePath": "imgs/mohu.jpg",
+      "relativePath": "mohu.jpg",
       "extension": "jpg",
       "size": 56156,
       "prettySize": "56.2 kB",
       "modifiedTime": "2019-01-18T04:56:28.037Z",
-      "accessTime": "2019-01-18T06:49:36.231Z",
+      "accessTime": "2019-01-18T07:05:57.939Z",
       "changeTime": "2019-01-18T04:56:28.037Z",
       "birthTime": "2019-01-18T04:56:28.037Z",
       "root": "/",
@@ -1801,7 +1703,7 @@
       "base": "mohu.jpg",
       "ext": ".jpg",
       "name": "mohu",
-      "relativeDirectory": "imgs",
+      "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1811,153 +1713,30 @@
       "blksize": 4096,
       "ino": 12889565737,
       "blocks": 112,
-      "atimeMs": 1547794176231.008,
+      "atimeMs": 1547795157938.9,
       "mtimeMs": 1547787388037.0298,
       "ctimeMs": 1547787388037.0298,
       "birthtimeMs": 1547787388036.6062,
-      "atime": "2019-01-18T06:49:36.231Z",
+      "atime": "2019-01-18T07:05:57.939Z",
       "mtime": "2019-01-18T04:56:28.037Z",
       "ctime": "2019-01-18T04:56:28.037Z",
       "birthtime": "2019-01-18T04:56:28.037Z"
     },
-    "af48780e-9bc0-5ea6-839f-bad547e56b33": {
-      "id": "af48780e-9bc0-5ea6-839f-bad547e56b33",
+    "f8423109-3b54-56b4-bbe5-ed336f4295ae": {
+      "id": "f8423109-3b54-56b4-bbe5-ed336f4295ae",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": "5204ae4c-d062-5e13-b6ed-0e0e1beea845",
       "internal": {
-        "contentDigest": "192c9fbdd6a225394683d68f16ea38e5",
-        "type": "File",
-        "mediaType": "text/css",
-        "description": "File \"src/components/layout.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/layout.css",
-      "relativePath": "components/layout.css",
-      "extension": "css",
-      "size": 393,
-      "prettySize": "393 B",
-      "modifiedTime": "2019-01-18T05:03:05.860Z",
-      "accessTime": "2019-01-18T06:49:40.718Z",
-      "changeTime": "2019-01-18T05:03:05.860Z",
-      "birthTime": "2019-01-18T04:56:27.993Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components",
-      "base": "layout.css",
-      "ext": ".css",
-      "name": "layout",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565731,
-      "blocks": 8,
-      "atimeMs": 1547794180718.0806,
-      "mtimeMs": 1547787785860.1711,
-      "ctimeMs": 1547787785860.1711,
-      "birthtimeMs": 1547787387993.0261,
-      "atime": "2019-01-18T06:49:40.718Z",
-      "mtime": "2019-01-18T05:03:05.860Z",
-      "ctime": "2019-01-18T05:03:05.860Z",
-      "birthtime": "2019-01-18T04:56:27.993Z"
-    },
-    "ee64868a-4657-54a4-b39b-52682e245d89": {
-      "id": "ee64868a-4657-54a4-b39b-52682e245d89",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a7a792ee7268977550e929779b0c37da",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/utils/typography.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/utils/typography.js",
-      "relativePath": "utils/typography.js",
-      "extension": "js",
-      "size": 203,
-      "prettySize": "203 B",
-      "modifiedTime": "2019-01-18T04:56:28.043Z",
-      "accessTime": "2019-01-18T06:49:36.323Z",
-      "changeTime": "2019-01-18T04:56:28.043Z",
-      "birthTime": "2019-01-18T04:56:28.043Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/utils",
-      "base": "typography.js",
-      "ext": ".js",
-      "name": "typography",
-      "relativeDirectory": "utils",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565754,
-      "blocks": 8,
-      "atimeMs": 1547794176322.8022,
-      "mtimeMs": 1547787388042.8882,
-      "ctimeMs": 1547787388042.8882,
-      "birthtimeMs": 1547787388042.7905,
-      "atime": "2019-01-18T06:49:36.323Z",
-      "mtime": "2019-01-18T04:56:28.043Z",
-      "ctime": "2019-01-18T04:56:28.043Z",
-      "birthtime": "2019-01-18T04:56:28.043Z"
-    },
-    "85c96896-7410-5d3f-87db-f303ba13b812": {
-      "id": "85c96896-7410-5d3f-87db-f303ba13b812",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "33ed5017d0991e4b9b2ca1573f1d1e81",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/components/layout.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/layout.js",
-      "relativePath": "components/layout.js",
-      "extension": "js",
-      "size": 981,
-      "prettySize": "981 B",
-      "modifiedTime": "2019-01-18T06:48:03.689Z",
-      "accessTime": "2019-01-18T06:49:40.718Z",
-      "changeTime": "2019-01-18T06:48:03.689Z",
-      "birthTime": "2019-01-18T04:56:27.993Z",
-      "root": "/",
-      "dir": "/Users/lgy/gatsby_test/blog_gatsby/src/components",
-      "base": "layout.js",
-      "ext": ".js",
-      "name": "layout",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12889565732,
-      "blocks": 8,
-      "atimeMs": 1547794180718.088,
-      "mtimeMs": 1547794083688.9126,
-      "ctimeMs": 1547794083688.9126,
-      "birthtimeMs": 1547787387993.2314,
-      "atime": "2019-01-18T06:49:40.718Z",
-      "mtime": "2019-01-18T06:48:03.689Z",
-      "ctime": "2019-01-18T06:48:03.689Z",
-      "birthtime": "2019-01-18T04:56:27.993Z"
+        "contentDigest": "ed66e9b72767c27bdfdb68c4ebf132ec",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "3e81b875-5926-5c7e-962f-e778e792af4d": {
       "id": "3e81b875-5926-5c7e-962f-e778e792af4d",
-      "children": [],
+      "children": [
+        "4fdc3366-bde3-5066-876c-33b65f8b948b"
+      ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "cabd0310b5737449f81a800269a7d5e1",
@@ -1966,14 +1745,14 @@
         "description": "File \"src/imgs/lv.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
+      "sourceInstanceName": "imgs",
       "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/lv.jpg",
-      "relativePath": "imgs/lv.jpg",
+      "relativePath": "lv.jpg",
       "extension": "jpg",
       "size": 102967,
       "prettySize": "103 kB",
       "modifiedTime": "2019-01-18T04:56:28.036Z",
-      "accessTime": "2019-01-18T06:49:36.231Z",
+      "accessTime": "2019-01-18T07:05:57.939Z",
       "changeTime": "2019-01-18T04:56:28.036Z",
       "birthTime": "2019-01-18T04:56:28.034Z",
       "root": "/",
@@ -1981,7 +1760,7 @@
       "base": "lv.jpg",
       "ext": ".jpg",
       "name": "lv",
-      "relativeDirectory": "imgs",
+      "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1991,168 +1770,30 @@
       "blksize": 4096,
       "ino": 12889565736,
       "blocks": 208,
-      "atimeMs": 1547794176230.984,
+      "atimeMs": 1547795157938.876,
       "mtimeMs": 1547787388036.4102,
       "ctimeMs": 1547787388036.4102,
       "birthtimeMs": 1547787388033.5298,
-      "atime": "2019-01-18T06:49:36.231Z",
+      "atime": "2019-01-18T07:05:57.939Z",
       "mtime": "2019-01-18T04:56:28.036Z",
       "ctime": "2019-01-18T04:56:28.036Z",
       "birthtime": "2019-01-18T04:56:28.034Z"
     },
-    "d20a16e6-52fa-5e3b-bd2d-64d48c994f42": {
-      "id": "d20a16e6-52fa-5e3b-bd2d-64d48c994f42",
+    "4fdc3366-bde3-5066-876c-33b65f8b948b": {
+      "id": "4fdc3366-bde3-5066-876c-33b65f8b948b",
       "children": [],
-      "parent": "0723fe29-dd3f-5965-af8f-f36a15db9517",
+      "parent": "3e81b875-5926-5c7e-962f-e778e792af4d",
       "internal": {
-        "content": "今日份的开心!今日份的小仙女 必须夸我!\n\n忙完九月，开始十月的忙碌。\n\n在这条路上有你们真好。\n\n\n![avatar](../imgs/914910.jpg)",
-        "type": "MarkdownRemark",
-        "contentDigest": "6ac45c4361e3e7b6b0ad4040ee546e74",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "十月，快乐",
-        "date": "2018-10-01",
-        "_PARENT": "0723fe29-dd3f-5965-af8f-f36a15db9517"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "今日份的开心!今日份的小仙女 必须夸我!\n\n忙完九月，开始十月的忙碌。\n\n在这条路上有你们真好。\n\n\n![avatar](../imgs/914910.jpg)",
-      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-1.md",
-      "fields": {
-        "slug": "/blog-1/"
-      }
-    },
-    "d968e6e8-536c-5ac4-be38-519794af8125": {
-      "id": "d968e6e8-536c-5ac4-be38-519794af8125",
-      "children": [],
-      "parent": "b39c2a2a-0212-58ce-9ca3-1d7f2a62ec3b",
-      "internal": {
-        "content": "今天去看了90多岁的爷爷奶奶们，爷爷对心心妹儿爱不释手，奶奶紧紧牵着我的手，看着宝贝儿们对爷爷奶奶们写的信，只是又想起了爷爷。\n还好婆婆，奶奶，外公最近过得挺好。\n大哥准备了很久的青翼成果展，又想凉山的那些娃娃了，拉哈，拉坡，恼火，阿玉史安，小龙，时不时还会给我发消息说想我们了。\n很开心我身边现在有很多很多我在意的人。即使有的不常见面。\n希望自己不要放弃去成就“志愿“这件大事，我还有好多好多的故事没有说给你们听\n\n\n\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "bf61de758f02c52b7c39d5c4f9084a11",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "年少有为",
-        "date": "2018-10-18",
-        "_PARENT": "b39c2a2a-0212-58ce-9ca3-1d7f2a62ec3b"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "今天去看了90多岁的爷爷奶奶们，爷爷对心心妹儿爱不释手，奶奶紧紧牵着我的手，看着宝贝儿们对爷爷奶奶们写的信，只是又想起了爷爷。\n还好婆婆，奶奶，外公最近过得挺好。\n大哥准备了很久的青翼成果展，又想凉山的那些娃娃了，拉哈，拉坡，恼火，阿玉史安，小龙，时不时还会给我发消息说想我们了。\n很开心我身边现在有很多很多我在意的人。即使有的不常见面。\n希望自己不要放弃去成就“志愿“这件大事，我还有好多好多的故事没有说给你们听\n\n\n\n\n\n",
-      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-3.md",
-      "fields": {
-        "slug": "/blog-3/"
-      }
-    },
-    "378f38d7-935c-59e5-9e8d-ac790e22b753": {
-      "id": "378f38d7-935c-59e5-9e8d-ac790e22b753",
-      "children": [],
-      "parent": "3b141d0a-d204-539e-8aff-4de4c6b1af4b",
-      "internal": {
-        "content": "真的可以说是很崩溃了。\n就是崩溃，就是恼火。\n求求你们\n连假笑都已经笑不出来了\n\n\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "f1d71375c0e84df660269f9a35faa3b3",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "这是唯一一条负能量说说",
-        "date": "2018-10-11",
-        "_PARENT": "3b141d0a-d204-539e-8aff-4de4c6b1af4b"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "真的可以说是很崩溃了。\n就是崩溃，就是恼火。\n求求你们\n连假笑都已经笑不出来了\n\n\n\n\n",
-      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-2.md",
-      "fields": {
-        "slug": "/blog-2/"
-      }
-    },
-    "5856ae23-d0ae-5559-89a3-daf26c94df46": {
-      "id": "5856ae23-d0ae-5559-89a3-daf26c94df46",
-      "children": [],
-      "parent": "10590a78-6cf3-523a-b5e0-9409623651b0",
-      "internal": {
-        "content": "嗯，恭喜一下自己两次发展对象谈话都没过。\n其实，我们应该多喜欢一下群众这个称呼吼，\n毕竟命重要，毕竟自己开心就好。\n嘻嘻嘻嘻嘻嘻\n\n\n\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "9fbca539306d817cd43a6288425806b5",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "谈话没过",
-        "date": "2018-11-19",
-        "_PARENT": "10590a78-6cf3-523a-b5e0-9409623651b0"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "嗯，恭喜一下自己两次发展对象谈话都没过。\n其实，我们应该多喜欢一下群众这个称呼吼，\n毕竟命重要，毕竟自己开心就好。\n嘻嘻嘻嘻嘻嘻\n\n\n\n\n\n",
-      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-5.md",
-      "fields": {
-        "slug": "/blog-5/"
-      }
-    },
-    "187d069f-3b39-5cc0-b0f7-f7c2d12b0c14": {
-      "id": "187d069f-3b39-5cc0-b0f7-f7c2d12b0c14",
-      "children": [],
-      "parent": "af5a0ba0-9a6a-5d65-84d7-fd148907b591",
-      "internal": {
-        "content": "发个说说，纪念一下早睡的一天\n是青协，是青翼，是Yi Shen，是联盟\n已经成了习惯，花大把时间去做好它们。\n再忙也不能忘记吃肉，朋友们!\n晚安，相约在梦里\n\n\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "8aadc4c75289a33d2dacfd65c384fc98",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "纪念一下早睡的一天",
-        "date": "2018-11-03",
-        "_PARENT": "af5a0ba0-9a6a-5d65-84d7-fd148907b591"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "发个说说，纪念一下早睡的一天\n是青协，是青翼，是Yi Shen，是联盟\n已经成了习惯，花大把时间去做好它们。\n再忙也不能忘记吃肉，朋友们!\n晚安，相约在梦里\n\n\n\n\n",
-      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-4.md",
-      "fields": {
-        "slug": "/blog-4/"
-      }
-    },
-    "1937ca97-298e-58e4-84b9-b2981746c9ba": {
-      "id": "1937ca97-298e-58e4-84b9-b2981746c9ba",
-      "children": [],
-      "parent": "55ed60c9-ac9f-5c39-924a-6042f848dbd8",
-      "internal": {
-        "content": "每一天都很充实，\n成长营，成果展，志交会，残疾人技能大赛\n忙着做事，忙着吃，忙着玩。\n现在都结束了，认真的期末备考吧!\n然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈\n\n\n\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "6dd22d1f3bd217e4d10125c14960eb7a",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "珂珂的日常",
-        "date": "2018-12-03",
-        "_PARENT": "55ed60c9-ac9f-5c39-924a-6042f848dbd8"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "每一天都很充实，\n成长营，成果展，志交会，残疾人技能大赛\n忙着做事，忙着吃，忙着玩。\n现在都结束了，认真的期末备考吧!\n然后就是放假 诶嘿嘿嘿嘿，啊哈哈哈哈\n\n\n\n\n\n",
-      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/blog-6.md",
-      "fields": {
-        "slug": "/blog-6/"
+        "contentDigest": "cabd0310b5737449f81a800269a7d5e1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "3dd6b73b-ddcf-5171-8b6e-ed372ace6147": {
       "id": "3dd6b73b-ddcf-5171-8b6e-ed372ace6147",
-      "children": [],
+      "children": [
+        "45d3460f-8f94-5558-90f3-89a50b65704b"
+      ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "364fe595c3009b5b4dddb9e845aa9a93",
@@ -2161,14 +1802,14 @@
         "description": "File \"src/imgs/psb.jpeg\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
+      "sourceInstanceName": "imgs",
       "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/psb.jpeg",
-      "relativePath": "imgs/psb.jpeg",
+      "relativePath": "psb.jpeg",
       "extension": "jpeg",
       "size": 291656,
       "prettySize": "292 kB",
       "modifiedTime": "2019-01-18T04:56:28.040Z",
-      "accessTime": "2019-01-18T06:49:36.231Z",
+      "accessTime": "2019-01-18T07:05:57.939Z",
       "changeTime": "2019-01-18T04:56:28.040Z",
       "birthTime": "2019-01-18T04:56:28.037Z",
       "root": "/",
@@ -2176,7 +1817,7 @@
       "base": "psb.jpeg",
       "ext": ".jpeg",
       "name": "psb",
-      "relativeDirectory": "imgs",
+      "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2186,18 +1827,30 @@
       "blksize": 4096,
       "ino": 12889565738,
       "blocks": 576,
-      "atimeMs": 1547794176231.0317,
+      "atimeMs": 1547795157938.9229,
       "mtimeMs": 1547787388039.8538,
       "ctimeMs": 1547787388039.8538,
       "birthtimeMs": 1547787388037.185,
-      "atime": "2019-01-18T06:49:36.231Z",
+      "atime": "2019-01-18T07:05:57.939Z",
       "mtime": "2019-01-18T04:56:28.040Z",
       "ctime": "2019-01-18T04:56:28.040Z",
       "birthtime": "2019-01-18T04:56:28.037Z"
     },
+    "45d3460f-8f94-5558-90f3-89a50b65704b": {
+      "id": "45d3460f-8f94-5558-90f3-89a50b65704b",
+      "children": [],
+      "parent": "3dd6b73b-ddcf-5171-8b6e-ed372ace6147",
+      "internal": {
+        "contentDigest": "364fe595c3009b5b4dddb9e845aa9a93",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "8c6587d2-57dd-5559-9a28-08750d5e5cb7": {
       "id": "8c6587d2-57dd-5559-9a28-08750d5e5cb7",
-      "children": [],
+      "children": [
+        "960635d4-f149-512a-ba11-b46770afd2d8"
+      ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "a4af7bf284e2dbaebf5229c8478228b2",
@@ -2206,14 +1859,14 @@
         "description": "File \"src/imgs/datu.jpeg\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
+      "sourceInstanceName": "imgs",
       "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/datu.jpeg",
-      "relativePath": "imgs/datu.jpeg",
+      "relativePath": "datu.jpeg",
       "extension": "jpeg",
       "size": 803966,
       "prettySize": "804 kB",
       "modifiedTime": "2019-01-18T04:56:28.033Z",
-      "accessTime": "2019-01-18T06:49:36.231Z",
+      "accessTime": "2019-01-18T07:05:57.939Z",
       "changeTime": "2019-01-18T04:56:28.033Z",
       "birthTime": "2019-01-18T04:56:27.998Z",
       "root": "/",
@@ -2221,7 +1874,7 @@
       "base": "datu.jpeg",
       "ext": ".jpeg",
       "name": "datu",
-      "relativeDirectory": "imgs",
+      "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2231,18 +1884,30 @@
       "blksize": 4096,
       "ino": 12889565735,
       "blocks": 1576,
-      "atimeMs": 1547794176230.9587,
+      "atimeMs": 1547795157938.8518,
       "mtimeMs": 1547787388033.2566,
       "ctimeMs": 1547787388033.2566,
       "birthtimeMs": 1547787387998.4773,
-      "atime": "2019-01-18T06:49:36.231Z",
+      "atime": "2019-01-18T07:05:57.939Z",
       "mtime": "2019-01-18T04:56:28.033Z",
       "ctime": "2019-01-18T04:56:28.033Z",
       "birthtime": "2019-01-18T04:56:27.998Z"
     },
+    "960635d4-f149-512a-ba11-b46770afd2d8": {
+      "id": "960635d4-f149-512a-ba11-b46770afd2d8",
+      "children": [],
+      "parent": "8c6587d2-57dd-5559-9a28-08750d5e5cb7",
+      "internal": {
+        "contentDigest": "a4af7bf284e2dbaebf5229c8478228b2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "53cde08b-bede-5e64-92ee-6ce1f5bdb025": {
       "id": "53cde08b-bede-5e64-92ee-6ce1f5bdb025",
-      "children": [],
+      "children": [
+        "aabacfd2-5ebc-5120-8352-7badc6f16df6"
+      ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "37b44bb686ebdbf24e61882ab9b767f1",
@@ -2251,14 +1916,14 @@
         "description": "File \"src/imgs/914910.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "src",
+      "sourceInstanceName": "imgs",
       "absolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/imgs/914910.jpg",
-      "relativePath": "imgs/914910.jpg",
+      "relativePath": "914910.jpg",
       "extension": "jpg",
       "size": 1135354,
       "prettySize": "1.14 MB",
       "modifiedTime": "2019-01-18T04:56:27.998Z",
-      "accessTime": "2019-01-18T06:49:40.718Z",
+      "accessTime": "2019-01-18T07:54:30.588Z",
       "changeTime": "2019-01-18T04:56:27.998Z",
       "birthTime": "2019-01-18T04:56:27.994Z",
       "root": "/",
@@ -2266,7 +1931,7 @@
       "base": "914910.jpg",
       "ext": ".jpg",
       "name": "914910",
-      "relativeDirectory": "imgs",
+      "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2276,14 +1941,24 @@
       "blksize": 4096,
       "ino": 12889565734,
       "blocks": 2224,
-      "atimeMs": 1547794180718.1748,
+      "atimeMs": 1547798070588.0627,
       "mtimeMs": 1547787387998.1826,
       "ctimeMs": 1547787387998.1826,
       "birthtimeMs": 1547787387993.632,
-      "atime": "2019-01-18T06:49:40.718Z",
+      "atime": "2019-01-18T07:54:30.588Z",
       "mtime": "2019-01-18T04:56:27.998Z",
       "ctime": "2019-01-18T04:56:27.998Z",
       "birthtime": "2019-01-18T04:56:27.994Z"
+    },
+    "aabacfd2-5ebc-5120-8352-7badc6f16df6": {
+      "id": "aabacfd2-5ebc-5120-8352-7badc6f16df6",
+      "children": [],
+      "parent": "53cde08b-bede-5e64-92ee-6ce1f5bdb025",
+      "internal": {
+        "contentDigest": "37b44bb686ebdbf24e61882ab9b767f1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "SitePage /": {
       "jsonName": "index",
@@ -2295,7 +1970,7 @@
         "group": [
           {
             "node": {
-              "id": "1937ca97-298e-58e4-84b9-b2981746c9ba",
+              "id": "b60d14f2-2f27-59d4-96bd-568a350e6401",
               "frontmatter": {
                 "title": "珂珂的日常",
                 "date": "2018-12-03"
@@ -2308,7 +1983,7 @@
           },
           {
             "node": {
-              "id": "5856ae23-d0ae-5559-89a3-daf26c94df46",
+              "id": "78903406-44b6-5568-8fd3-efa030e31555",
               "frontmatter": {
                 "title": "谈话没过",
                 "date": "2018-11-19"
@@ -2321,7 +1996,7 @@
           },
           {
             "node": {
-              "id": "187d069f-3b39-5cc0-b0f7-f7c2d12b0c14",
+              "id": "90b517f4-27bb-5b00-a241-4b8393a1b0ac",
               "frontmatter": {
                 "title": "纪念一下早睡的一天",
                 "date": "2018-11-03"
@@ -2334,7 +2009,7 @@
           },
           {
             "node": {
-              "id": "d968e6e8-536c-5ac4-be38-519794af8125",
+              "id": "af48f22d-34c1-5f75-ac10-f96d08ad24aa",
               "frontmatter": {
                 "title": "年少有为",
                 "date": "2018-10-18"
@@ -2347,7 +2022,7 @@
           },
           {
             "node": {
-              "id": "378f38d7-935c-59e5-9e8d-ac790e22b753",
+              "id": "d8ef1042-cd66-5761-b3f4-653281a46a9e",
               "frontmatter": {
                 "title": "这是唯一一条负能量说说",
                 "date": "2018-10-11"
@@ -2374,7 +2049,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cc474ad12a02759347f8224589bc94e4",
+        "contentDigest": "bfeaf2c4184702fa0ce211be6b87aacf",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2389,7 +2064,7 @@
         "group": [
           {
             "node": {
-              "id": "d20a16e6-52fa-5e3b-bd2d-64d48c994f42",
+              "id": "00290e97-7fac-5744-a6a7-ed3ec5f610d6",
               "frontmatter": {
                 "title": "十月，快乐",
                 "date": "2018-10-01"
@@ -2416,7 +2091,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1acc9f907f7d74c2b04d81b21f4cc2fb",
+        "contentDigest": "adf5ac175d1117dd50c9c3d63156e38f",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2592,33 +2267,58 @@
         "description": "38f92e54-fbfc-570e-b4dc-d3faf688903d",
         "owner": "internal-data-bridge"
       }
+    },
+    "00290e97-7fac-5744-a6a7-ed3ec5f610d6": {
+      "id": "00290e97-7fac-5744-a6a7-ed3ec5f610d6",
+      "children": [],
+      "parent": "42c773e0-3c0e-56a6-947d-de8577083473",
+      "internal": {
+        "content": "今日份的开心!今日份的小仙女 必须夸我!\n\n忙完九月，开始十月的忙碌。\n\n在这条路上有你们真好。\n\n\n![avatar](../../imgs/914910.jpg)",
+        "type": "MarkdownRemark",
+        "contentDigest": "f5702884c395c5463212c7b9b300246e",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "十月，快乐",
+        "date": "2018-10-01",
+        "_PARENT": "42c773e0-3c0e-56a6-947d-de8577083473"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "今日份的开心!今日份的小仙女 必须夸我!\n\n忙完九月，开始十月的忙碌。\n\n在这条路上有你们真好。\n\n\n![avatar](../../imgs/914910.jpg)",
+      "fileAbsolutePath": "/Users/lgy/gatsby_test/blog_gatsby/src/components/blog/blog-1.md",
+      "fields": {
+        "slug": "/blog-1/"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "115425fe5aa05d9592f438ec9191fcc2"
+    "PLUGINS_HASH": "9d8b724fcca09a4902e8a0c96cbd6dcc"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
       ],
-      "1937ca97-298e-58e4-84b9-b2981746c9ba": [
+      "b60d14f2-2f27-59d4-96bd-568a350e6401": [
         "/blog-6/"
       ],
-      "5856ae23-d0ae-5559-89a3-daf26c94df46": [
+      "78903406-44b6-5568-8fd3-efa030e31555": [
         "/blog-5/"
       ],
-      "187d069f-3b39-5cc0-b0f7-f7c2d12b0c14": [
+      "90b517f4-27bb-5b00-a241-4b8393a1b0ac": [
         "/blog-4/"
       ],
-      "d968e6e8-536c-5ac4-be38-519794af8125": [
+      "af48f22d-34c1-5f75-ac10-f96d08ad24aa": [
         "/blog-3/"
       ],
-      "378f38d7-935c-59e5-9e8d-ac790e22b753": [
+      "d8ef1042-cd66-5761-b3f4-653281a46a9e": [
         "/blog-2/"
       ],
-      "d20a16e6-52fa-5e3b-bd2d-64d48c994f42": [
+      "00290e97-7fac-5744-a6a7-ed3ec5f610d6": [
         "/blog-1/"
       ]
     },
@@ -2634,27 +2334,18 @@
     }
   },
   "jsonDataPaths": {
+    "about-f34": "576/path---about-f-34-4c2-Kn4eq1gOcmqCOc9AMQhmxQmFOwM",
+    "index": "434/path---index-6a9-huCovZXgPboYOrkaFHU0sAb14Wg",
     "sq--src-components-layout-js": 3892401927,
-    "my-files-317": "260/path---my-files-317-4c7-pKorroGiTPfrwVGrUgCaVBsmD0",
-    "index": "412/path---index-6a9-GLvoMSFAfaHcVEfiTjidmxt1JYs",
-    "pandas-and-bananas-c27": "576/path---pandas-and-bananas-c-27-086-2rLOAOK5Ek8wf5ORk2zxryjANQY",
-    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sweet-pandas-eating-sweets-34f": "915/path---sweet-pandas-eating-sweets-34-f-7c4-HnVrVHPXy3ZnVaAVb3EBKH2hf4",
-    "2-de0": "981/path---2-de-0-e4c-qSR9HJjIQqUVlYNOTSkMHf9x8k",
-    "3-f95": "711/path---3-f-95-466-9aRc2zeRWxfzpY5wSHgrEZE",
-    "pandas-and-bananas-1-6eb": "421/path---pandas-and-bananas-1-6-eb-e6b-if2NxvBstghohk2CLG4TDzMpxnQ",
-    "4-16e": "808/path---4-16-e-b93-ndZBaWnUjW9RYFws1Wrhv76oFuo",
-    "pandas-and-bananas-2-7da": "974/path---pandas-and-bananas-2-7-da-1dc-2X6oFom2RHJaw6kXhMBXG1x1AE",
-    "5-85b": "421/path---5-85-b-d65-2rznYYPwdDPaUSgobv52PzTsuFo",
-    "pandas-and-bananas-3-2d1": "265/path---pandas-and-bananas-3-2-d-1-b73-cVgFGSBdWUJ1QSl9kd68YYl5jBU",
-    "pandas-and-bananas-4-824": "192/path---pandas-and-bananas-4-824-fa1-brFxX0hy19q7RHXuii449FsTu58",
-    "blog-1-1f3": "448/path---blog-1-1-f-3-651-s6Vc2Ni3dkhBLdExqI0vvYPfcUY",
-    "blog-2-112": "392/path---blog-2-112-cfb-uPynYy1RJgH0LHK4lzrjDkm6A",
-    "blog-3-82c": "271/path---blog-3-82-c-d3c-HL5nlDw8KnrFqUcOsBvp8hgXyUs",
-    "blog-4-319": "224/path---blog-4-319-4fb-whI1Y0UpL7awMPt2ozJ9qYnKQQA",
+    "my-files-317": "728/path---my-files-317-4c7-RxbTqvfnOlH66RUFYoD1a96abu8",
+    "2-de0": "520/path---2-de-0-e4c-dnHEDuZltuQ2MMH7dqqIkQ4Ez1E",
+    "blog-6-6ac": "92/path---blog-6-6-ac-525-baJIJWgQEn4F4y1n1iNik7Y",
     "blog-5-8d2": "87/path---blog-5-8-d-2-85b-fa2cRANakWZTupricQRcnzbeEqs",
-    "blog-6-6ac": "92/path---blog-6-6-ac-525-baJIJWgQEn4F4y1n1iNik7Y"
+    "blog-4-319": "224/path---blog-4-319-4fb-whI1Y0UpL7awMPt2ozJ9qYnKQQA",
+    "blog-3-82c": "271/path---blog-3-82-c-d3c-HL5nlDw8KnrFqUcOsBvp8hgXyUs",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-2-112": "392/path---blog-2-112-cfb-uPynYy1RJgH0LHK4lzrjDkm6A",
+    "blog-1-1f3": "448/path---blog-1-1-f-3-651-s6Vc2Ni3dkhBLdExqI0vvYPfcUY"
   },
   "components": {
     "/Users/lgy/gatsby_test/blog_gatsby/src/templates/posts.js": {
@@ -2670,7 +2361,7 @@
       "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/.cache/dev-404-page.js"
     },
     "/Users/lgy/gatsby_test/blog_gatsby/src/pages/about.js": {
-      "query": "",
+      "query": "query usersLgyGatsbyTestBlogGatsbySrcPagesAboutJs1486892485 {\n  file(relativePath: {eq: \"imgs/914910.jpg\"}) {\n    childImageSharp {\n      fixed(width: 1200, height: 1000, duotone: {highlight: \"#ffffff\", shadow: \"#663399\"}) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
       "componentPath": "/Users/lgy/gatsby_test/blog_gatsby/src/pages/about.js"
     },
     "/Users/lgy/gatsby_test/blog_gatsby/src/pages/my-files.js": {

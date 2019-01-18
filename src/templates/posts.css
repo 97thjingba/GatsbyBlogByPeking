@@ -35,9 +35,10 @@
     height: 100%;
 }
 
-.box_style{
-    background: url("../imgs/914910.jpg")
+#pagination{
+    margin-top:2rem;
 }
+
 @media (max-width:768px){
     .index_title_style{
         color: #363636;
