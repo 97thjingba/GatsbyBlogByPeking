@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `beibei-blog`,
+    description:  `李贝贝的小博客`
   },
   plugins: [
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -11,6 +13,12 @@ module.exports = {
         name: `blog`,
         path: `${__dirname}/src/components/blog`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-132772037-1",
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,

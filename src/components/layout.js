@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { Section } from 'reactbulma'
 import './layout.css';
-
+import { Helmet} from 'react-helmet' 
 
 export default ({ children }) => (
   <StaticQuery
@@ -10,7 +10,8 @@ export default ({ children }) => (
       query {
         site {
           siteMetadata {
-            title
+            title,
+            description,
           }
         }
       }
@@ -19,6 +20,11 @@ export default ({ children }) => (
     
     render={data => (
       <body>
+        <Helmet>
+          <html lang="en" />
+          <title>{data.site.siteMetadata.title}</title>
+          <meta name="description" content={data.site.siteMetadata.description} />
+        </Helmet>
         <Section large clasName="hero is-fullheight" id="bg">
             <div>
               <nav className="navbar is-transparent nav-top nav_bg"> 
