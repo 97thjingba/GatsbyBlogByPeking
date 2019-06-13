@@ -25,10 +25,19 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               id
               frontmatter {
                 title
+                date
+                image{
+                    childImageSharp{
+                        fluid{
+                            src
+                        }
+                    }
+                }
               }
               fields {
                 slug
               }
+              excerpt(pruneLength:100)
             }
           }
         }

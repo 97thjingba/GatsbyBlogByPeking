@@ -5,26 +5,19 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog`,
-        path: `${__dirname}/src/components/blog`,
+        path: `${__dirname}/content`,
       },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-132772037-1",
-      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `imgs`,
-        path: `${__dirname}/src/imgs`,
+        path: `${__dirname}/static/assets/`,
+        name: `assets`,
       },
     },
     {
@@ -34,8 +27,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`, //remarkdown里配置maxwidth的大小
             options: {
-              maxWidth: 1100,
-              linkImagesToOriginal: false, //是否给大图片增加链接
+              maxWidth: 728,
             },
           },
         ],

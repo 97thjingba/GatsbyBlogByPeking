@@ -6,6 +6,7 @@
 
 .blog_style {
     margin-top: 5rem;
+    width:50%;
 }
 
 .index_article_style {
@@ -37,6 +38,10 @@
 
 #pagination{
     margin-top:2rem;
+}
+
+.card_box{
+    width:50%
 }
 
 @media (max-width:768px){
