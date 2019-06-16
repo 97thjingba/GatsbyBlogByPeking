@@ -24,13 +24,6 @@ export const query = graphql`
             frontmatter {
               title
               date
-              image{
-                childImageSharp{
-                    fluid{
-                        src
-                    }
-                }
-            }
             }
             fields {
               slug
