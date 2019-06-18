@@ -4,9 +4,12 @@
     justify-content: center;
 }
 
+.container{
+    width:60%;
+}
+
 .blog_style {
     margin-top: 5rem;
-    width:50%;
 }
 
 .index_article_style {
@@ -41,8 +44,11 @@
 }
 
 .card_box{
-    width:50%
+   height:0%;
 }
+
+
+
 
 @media (max-width:768px){
     .index_title_style{

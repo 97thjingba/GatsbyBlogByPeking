@@ -1,6 +1,4 @@
 import React from "react"
-// import { css } from "react-emotion"
-// import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import { Link, graphql, Img } from "gatsby"
 import { Card, Section, Title, SubTitle, Media, Content, Image } from 'reactbulma'
@@ -17,7 +15,7 @@ const NavLink = props => {
 export const query = graphql`
   query {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-        totalCount
+        totalCount  
         edges {
           node {
             id
@@ -46,32 +44,36 @@ const IndexPage = ({ data, pathContext }) => {
             <Layout>
                 <Section className="hero is-fullheight has-background-light">
                     <div className="container">
-                        <p className="center  index_title_style">李贝贝的小博客</p>
+                        <p className="center  index_title_style">lgy的小博客</p>
                         <SubTitle className="center index_title_style">
                             Record every day of life
                         </SubTitle>
                         <div>
                             <h4 className="center">{data.allMarkdownRemark.totalCount}篇小文章</h4>
-                            {group.map(({ node }) => (
-                                <div key={node.id} className="blog_style">
-                                    <Card>
-                                        <Card.Image src={node.frontmatter.image.childImageSharp.fluid.src} ratio='5by3' />
-                                        <Card.Content>
-                                            <Media>
-                                                <Media.Content>
-                                                    {/* <Title is='4'>John Smith</Title>
+                            <div className="container">
+                                {group.map(({ node }) => (
+                                    <div key={node.id} className="blog_style">
+                                        <Link to={node.fields.slug}>
+                                            <Card>
+                                                <Card.Image src={node.frontmatter.image.childImageSharp.fluid.src} ratio='5by3' />
+                                                <Card.Content>
+                                                    <Media>
+                                                        <Media.Content>
+                                                            {/* <Title is='4'>John Smith</Title>
                                                     <SubTitle is='6'>@johnsmith</SubTitle> */}
-                                                </Media.Content>
-                                            </Media>
-                                            <Content>
-                                                {node.excerpt}
-                                                <br />
-                                                <small>{node.frontmatter.date}</small>
-                                            </Content>
-                                        </Card.Content>
-                                    </Card>
-                                </div>
-                            ))}
+                                                        </Media.Content>
+                                                    </Media>
+                                                    <Content>
+                                                        {node.excerpt}
+                                                        <br />
+                                                        <small>{node.frontmatter.date}</small>
+                                                    </Content>
+                                                </Card.Content>
+                                            </Card>
+                                        </Link>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </div>
                     <div className="pagination" id="pagination">

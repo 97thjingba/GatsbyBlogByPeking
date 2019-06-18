@@ -11,7 +11,7 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "914910.jpg" }) {
+    file(relativePath: { eq: "" }) {
         childImageSharp {
           # Specify the image processing specifications right in the query.
           # Makes it trivial to update as your page's design changes.

@@ -47,7 +47,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           edges: result.data.allMarkdownRemark.edges,
           createPage: createPage,
           pageTemplate: 'src/templates/posts.js',
-          pageLength: 5, // This is optional and defaults to 10 if not used
+          pageLength: 4, // This is optional and defaults to 10 if not used
           pathPrefix: '/', //必须拥有
           context: {}, // This is optional and defaults to an empty object if not used
         })

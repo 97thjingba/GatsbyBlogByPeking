@@ -2,29 +2,26 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Section } from 'reactbulma'
-
-const textcenter={
-  display:'flex',
-  alignItems:'center',
-  justifyContent: 'center'
-}
+import './blog-post.css'
 
 export default ({ data }) => {
-  const post = data.markdownRemark
-  return (
-    <Layout>
-      <Section>
-        <h1 className="title" style={textcenter}>{post.frontmatter.title}</h1>
-        <section className="hero is-fullheight " >
-          <div className="hero-body">
-            <div className="container"> 
-              <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            </div>
-          </div>
-        </section>  
-      </Section>
-    </Layout>
-  )
+    const post = data.markdownRemark
+    return (
+        <Layout>
+            <Section className="has-background-light">
+            <h1 className="title center">{post.frontmatter.title}</h1>
+                <div className="container has-background-white">
+                    <section className="hero is-fullheight center" >
+                        <div className="hero-body">
+                            <div className="container">
+                                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                            </div>
+                    </div>
+                    </section>
+                </div>
+            </Section>
+        </Layout>
+    )
 }
 
 export const query = graphql`
