@@ -1,6 +1,6 @@
 # GATSBY BLOG
 
-**使用gatsby.js 搭建的一个个人静态博客(部署在Netlift)**
+**使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)**
 
 **所使用的技术:**
 
