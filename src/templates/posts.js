@@ -26,7 +26,7 @@ export const query = graphql`
             fields {
               slug
             }
-            excerpt(pruneLength:150)
+            excerpt(pruneLength:111)
           }
         }
       }
@@ -50,27 +50,29 @@ const IndexPage = ({ data, pathContext }) => {
                         </SubTitle>
                         <div>
                             <h4 className="center">{data.allMarkdownRemark.totalCount}篇小文章</h4>
-                            <div className="container">
+                            <div className="columns is-multiline">
                                 {group.map(({ node }) => (
-                                    <div key={node.id} className="blog_style">
-                                        <Link to={node.fields.slug}>
-                                            <Card>
-                                                <Card.Image src={node.frontmatter.image.childImageSharp.fluid.src} ratio='5by3' />
-                                                <Card.Content>
-                                                    <Media>
-                                                        <Media.Content>
-                                                            {/* <Title is='4'>John Smith</Title>
+                                    <div className="column is-half">
+                                        <div key={node.id} className="blog_style">
+                                            <Link to={node.fields.slug}>
+                                                <Card>
+                                                    <Card.Image src={node.frontmatter.image.childImageSharp.fluid.src} ratio='5by3' />
+                                                    <Card.Content>
+                                                        <Media>
+                                                            <Media.Content>
+                                                                {/* <Title is='4'>John Smith</Title>
                                                     <SubTitle is='6'>@johnsmith</SubTitle> */}
-                                                        </Media.Content>
-                                                    </Media>
-                                                    <Content>
-                                                        {node.excerpt}
-                                                        <br />
-                                                        <small>{node.frontmatter.date}</small>
-                                                    </Content>
-                                                </Card.Content>
-                                            </Card>
-                                        </Link>
+                                                            </Media.Content>
+                                                        </Media>
+                                                        <Content>
+                                                            {node.excerpt}
+                                                            <br />
+                                                            <small>{node.frontmatter.date}</small>
+                                                        </Content>
+                                                    </Card.Content>
+                                                </Card>
+                                            </Link>
+                                        </div>
                                     </div>
                                 ))}
                             </div>

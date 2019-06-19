@@ -1,7 +1,7 @@
 ---
 title: "blog"
 date: "2018-10-01"
-image: "./img-two.jpg"
+image: "./img-three.jpg"
 ---
 
 # GATSBY BLOG

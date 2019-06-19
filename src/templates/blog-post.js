@@ -9,15 +9,11 @@ export default ({ data }) => {
     return (
         <Layout>
             <Section className="has-background-light">
-            <h1 className="title center">{post.frontmatter.title}</h1>
-                <div className="container has-background-white">
-                    <section className="hero is-fullheight center" >
-                        <div className="hero-body">
-                            <div className="container">
-                                <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                            </div>
+                <h1 className="title center">{post.frontmatter.title}</h1>
+                <div className="container has-background-white border">
+                    <div className="hero-body">
+                        <div dangerouslySetInnerHTML={{ __html: post.html }} />
                     </div>
-                    </section>
                 </div>
             </Section>
         </Layout>

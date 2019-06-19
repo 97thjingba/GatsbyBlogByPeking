@@ -3,3 +3,9 @@
     align-items: center;
     justify-content: center;
 }
+
+.border{
+    width:45%;
+    border:1px solid;
+    border-radius:25px;
+}
