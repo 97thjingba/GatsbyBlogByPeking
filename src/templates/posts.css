@@ -47,9 +47,6 @@
    height:0%;
 }
 
-
-
-
 @media (max-width:768px){
     .index_title_style{
         color: #363636;
@@ -65,5 +62,14 @@
         white-space: pre-wrap;
         line-height: 1.5;
         color:black;
+    }
+
+    .container {
+        width:100%;
+        margin: 0 0 0 0
+    }
+
+    .section{
+        padding: 0 0 0 0 
     }
 }
