@@ -7,7 +7,7 @@ import { SectionsContainer, Section } from 'react-fullpage';
 
 let options = {
     sectionClassName: 'section',
-    anchors: ['sectionOne'],
+    anchors: ['sectionOne','sectionTwo'],
     scrollBar: false,
     navigation: false,
     verticalAlign: false,
@@ -45,9 +45,9 @@ export default ({ children }) => (
                                 <h1 className="has-text-white title title_position">LGY'S blog - by GATSBY</h1>
                             </div>
                         </Section>
+                        {children}
                     </SectionsContainer>
                 </div>
-                {children}
             </body>
         )}
     />
