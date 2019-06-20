@@ -55,7 +55,7 @@ const IndexPage = ({ data, pathContext }) => {
                                     <div className="column is-half">
                                         <div key={node.id} className="blog_style">
                                             <Link to={node.fields.slug}>
-                                                <Card>
+                                                <Card className="card_style">
                                                     <Card.Image src={node.frontmatter.image.childImageSharp.fluid.src} ratio='5by3' />
                                                     <Card.Content>
                                                         <Media>

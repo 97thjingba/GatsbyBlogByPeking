@@ -1,8 +1,21 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import { Section } from 'reactbulma'
-import './layout.css';
+import './layout.css'
 import { Helmet } from 'react-helmet'
+import { Container } from "reactbulma";
+import { SectionsContainer, Section } from 'react-fullpage';
+
+let options = {
+    sectionClassName: 'section',
+    anchors: ['sectionOne'],
+    scrollBar: false,
+    navigation: false,
+    verticalAlign: false,
+    sectionPaddingTop: '50px',
+    sectionPaddingBottom: '50px',
+    arrowNavigation: true
+};
+
 
 export default ({ children }) => (
     <StaticQuery
@@ -25,18 +38,15 @@ export default ({ children }) => (
                     <title>{data.site.siteMetadata.title}</title>
                     <meta name="description" content={data.site.siteMetadata.description} />
                 </Helmet>
-                <Section large clasName="hero is-fullheight" id="bg">
-                    <div>
-                        <nav className="navbar is-transparent nav-top nav_bg">
-                            <div clasName="navbar-brand"><p className="has-text-white title is-4">BeiBei-blog</p></div>
-                        </nav>
-                        <div className="center">
-                            <div className="title has-text-white center">
-                                <p className="layout_title_style center">李贝贝</p>
+                <div>
+                    <SectionsContainer {...options}>
+                        <Section id="slide">
+                            <div className="center">
+                                <h1 className="has-text-white title title_position">LGY'S blog - by GATSBY</h1>
                             </div>
-                        </div>
-                    </div>
-                </Section>
+                        </Section>
+                    </SectionsContainer>
+                </div>
                 {children}
             </body>
         )}
