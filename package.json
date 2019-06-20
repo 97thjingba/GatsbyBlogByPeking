@@ -9,6 +9,7 @@
         "serve": "gatsby serve"
     },
     "dependencies": {
+        "@fullpage/react-fullpage": "^0.1.14",
         "blueimp-md5": "^2.10.0",
         "bulma": "^0.7.2",
         "emotion": "^9.2.12",

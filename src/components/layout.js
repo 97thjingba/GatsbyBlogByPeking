@@ -3,17 +3,14 @@ import { StaticQuery, graphql } from "gatsby"
 import './layout.css'
 import { Helmet } from 'react-helmet'
 import { Container } from "reactbulma";
-import { SectionsContainer, Section } from 'react-fullpage';
+import { SectionsContainer, Section,ScrollToTopOnMount } from 'react-fullpage';
 
 let options = {
     sectionClassName: 'section',
-    autoScrolling:true,
+    anchors: ['one'],
     scrollBar: false,
-    navigation: false,
-    verticalAlign: false,
-    sectionPaddingTop: '50px',
-    sectionPaddingBottom: '50px',
-    dragAndMove:true,
+    arrowNavigation:true,
+    navigation:false,
 };
 
 
@@ -38,16 +35,16 @@ export default ({ children }) => (
                     <title>{data.site.siteMetadata.title}</title>
                     <meta name="description" content={data.site.siteMetadata.description} />
                 </Helmet>
-                <div>
-                    <SectionsContainer {...options}>
-                        <Section id="slide">
-                            <div className="center">
-                                <h1 className="has-text-white title title_position">LGY'S blog - by GATSBY</h1>
-                            </div>
-                        </Section>
-                    </SectionsContainer>
-                    {children}   
-                </div>
+                    <div>    
+                        <SectionsContainer {...options}>    
+                            <Section id="slide">
+                                <div className="center">
+                                    <h1 className="has-text-white title title_position">LGY'S blog - by GATSBY</h1>
+                                </div>
+                            </Section>
+                        </SectionsContainer>
+                        {children} 
+                    </div>  
             </body>
         )}
     />

@@ -644,6 +644,14 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.11.1"
 
+"@babel/polyfill@^7.2.5":
+  version "7.4.4"
+  resolved "https://registry.npm.taobao.org/@babel/polyfill/download/@babel/polyfill-7.4.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fpolyfill%2Fdownload%2F%40babel%2Fpolyfill-7.4.4.tgz#78801cf3dbe657844eeabf31c1cae3828051e893"
+  integrity sha1-eIAc89vmV4RO6r8xwcrjgoBR6JM=
+  dependencies:
+    core-js "^2.6.5"
+    regenerator-runtime "^0.13.2"
+
 "@babel/preset-env@^7.0.0":
   version "7.1.6"
   resolved "http://registry.npm.taobao.org/@babel/preset-env/download/@babel/preset-env-7.1.6.tgz#a0bf4b96b6bfcf6e000afc5b72b4abe7cc13ae97"
@@ -837,6 +845,14 @@
   version "0.8.2"
   resolved "https://registry.npm.taobao.org/@emotion/utils/download/@emotion/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
   integrity sha1-V2/3+xIwGFthmnXSWMvJjwhnqNw=
+
+"@fullpage/react-fullpage@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.npm.taobao.org/@fullpage/react-fullpage/download/@fullpage/react-fullpage-0.1.14.tgz#b248dc32c049de680fd4dc14f1893a715a809fc0"
+  integrity sha1-skjcMsBJ3mgP1NwU8Yk6cVqAn8A=
+  dependencies:
+    "@babel/polyfill" "^7.2.5"
+    fullpage.js "^3.0.5"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -3349,6 +3365,11 @@ core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
   resolved "http://registry.npm.taobao.org/core-js/download/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
   integrity sha1-+XJgj/DOrWi4QaFqky0LGDeRgU4=
 
+core-js@^2.6.5:
+  version "2.6.9"
+  resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.9.tgz?cache=0&sync_timestamp=1560599811627&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
+  integrity sha1-a0shRiDINBUuF5Mjcn/Bl0GwhPI=
+
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -5425,6 +5446,11 @@ fsevents@^1.2.7:
   dependencies:
     nan "^2.12.1"
     node-pre-gyp "^0.12.0"
+
+fullpage.js@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.npm.taobao.org/fullpage.js/download/fullpage.js-3.0.5.tgz#ed223ec81ea354bffcac37c24c946981a1124171"
+  integrity sha1-7SI+yB6jVL/8rDfCTJRpgaESQXE=
 
 function-bind@^1.0.2, function-bind@^1.1.0, function-bind@^1.1.1:
   version "1.1.1"
