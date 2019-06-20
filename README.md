@@ -1,5 +1,7 @@
 # GATSBY BLOG
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/db761dcb-0c2b-45ec-bc51-811f2e8f1161/deploy-status)](https://app.netlify.com/sites/flamboyant-liskov-886aeb/deploys)
+
 **使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)**
 
 **所使用的技术:**
