@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link, graphql, Img } from "gatsby"
-import { Card, Section, Title, SubTitle, Media, Content, Image } from 'reactbulma'
+import { Link, graphql, } from "gatsby"
+import { Card, Section, SubTitle, Media, Content, } from 'reactbulma'
 import './posts.css'
 
 const NavLink = props => {
