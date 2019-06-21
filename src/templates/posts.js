@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link, graphql, } from "gatsby"
-import { Card, Section, SubTitle, Media, Content,Title } from 'reactbulma'
+import { Card, Section, SubTitle, Media, Content, Title } from 'reactbulma'
 import './posts.css'
 
 const NavLink = props => {
@@ -26,7 +26,7 @@ export const query = graphql`
             fields {
               slug
             }
-            excerpt(pruneLength:111)
+            excerpt(pruneLength:50)
           }
         }
       }
@@ -69,8 +69,11 @@ const IndexPage = ({ data, pathContext }) => {
                                                             </Media.Content>
                                                         </Media>
                                                         <Content>
-                                                            {node.excerpt}
-                                                            {/* <small>{node.frontmatter.date}</small> */}
+                                                            <p className="title is-6">
+                                                                {node.frontmatter.coverText}
+                                                            </p>
+                                                            <br></br>
+                                                            <small>{node.frontmatter.date}</small>
                                                         </Content>
                                                     </Card.Content>
                                                 </Card>
