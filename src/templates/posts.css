@@ -34,18 +34,14 @@
     align-items: center;
 }
 
-.media_style_left{
-    width:30%;
-    height: 100%;
-}
-
 #pagination{
     margin-top:2rem;
 }
 
-.card_box{
-   height:0%;
+.card{
+    box-shadow: 4px 4px 15px
 }
+
 
 @media (max-width:768px){
     .index_title_style{

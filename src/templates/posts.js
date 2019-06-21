@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link, graphql, } from "gatsby"
-import { Card, Section, SubTitle, Media, Content, } from 'reactbulma'
+import { Card, Section, SubTitle, Media, Content,Title } from 'reactbulma'
 import './posts.css'
 
 const NavLink = props => {
@@ -52,7 +52,7 @@ const IndexPage = ({ data, pathContext }) => {
                             <h4 className="center">{data.allMarkdownRemark.totalCount}篇小文章</h4>
                             <div className="columns is-multiline">
                                 {group.map(({ node }) => (
-                                    <div className="column is-half">
+                                    <div className="column is-one-third">
                                         <div key={node.id} className="blog_style">
                                             <Link to={node.fields.slug}>
                                                 <Card className="card_style">
@@ -60,14 +60,17 @@ const IndexPage = ({ data, pathContext }) => {
                                                     <Card.Content>
                                                         <Media>
                                                             <Media.Content>
-                                                                {/* <Title is='4'>John Smith</Title>
-                                                    <SubTitle is='6'>@johnsmith</SubTitle> */}
+                                                                <Title is='4'>
+                                                                    test_title
+                                                                </Title>
+                                                                <SubTitle is='6'>
+                                                                    @Peking
+                                                                </SubTitle>
                                                             </Media.Content>
                                                         </Media>
                                                         <Content>
                                                             {node.excerpt}
-                                                            <br />
-                                                            <small>{node.frontmatter.date}</small>
+                                                            {/* <small>{node.frontmatter.date}</small> */}
                                                         </Content>
                                                     </Card.Content>
                                                 </Card>
