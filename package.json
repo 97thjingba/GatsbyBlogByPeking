@@ -33,6 +33,7 @@
         "react-dom": "^16.5.1",
         "react-emotion": "^9.2.12",
         "react-fullpage": "^0.1.19",
+        "react-fullpage-lgy": "0.1.19",
         "react-helmet": "^5.2.0",
         "react-typography": "^0.16.13",
         "reactbulma": "^3.0.4",
