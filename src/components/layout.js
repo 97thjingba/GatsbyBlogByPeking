@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 import './layout.css'
 import { Helmet } from 'react-helmet'
 import { Container } from "reactbulma";
-import { SectionsContainer, Section,ScrollToTopOnMount } from 'react-fullpage';
+import { SectionsContainer, Section} from 'react-fullpage-lgy';
 
 let options = {
     sectionClassName: 'section',
