@@ -1,6 +1,6 @@
 # GATSBY BLOG
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/db761dcb-0c2b-45ec-bc51-811f2e8f1161/deploy-status)](https://app.netlify.com/sites/flamboyant-liskov-886aeb/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72747953-bcd7-4a37-9954-f89e94ed8a5f/deploy-status)](https://app.netlify.com/sites/elated-lewin-51cf0d/deploys)
 
 **使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)**
 
