@@ -63,9 +63,7 @@ const IndexPage = ({ data, pathContext }) => {
                                                                 <Title is='4'>
                                                                     test_title
                                                                 </Title>
-                                                                <SubTitle is='6'>
-                                                                    @Peking
-                                                                </SubTitle>
+                                                               
                                                             </Media.Content>
                                                         </Media>
                                                         <Content>
