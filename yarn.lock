@@ -2792,11 +2792,6 @@ bulma@^0.6.0:
   resolved "https://registry.npm.taobao.org/bulma/download/bulma-0.6.2.tgz#f4b1d11d5acc51a79644eb0a2b0b10649d3d71f5"
   integrity sha1-9LHRHVrMUaeWROsKKwsQZJ09cfU=
 
-bulma@^0.7.2:
-  version "0.7.5"
-  resolved "https://registry.npm.taobao.org/bulma/download/bulma-0.7.5.tgz#35066c37f82c088b68f94450be758fc00a967208"
-  integrity sha1-NQZsN/gsCIto+URQvnWPwAqWcgg=
-
 bytes@3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.taobao.org/bytes/download/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
