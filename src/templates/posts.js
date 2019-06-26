@@ -13,7 +13,7 @@ import Typography from "@material-ui/core/Typography";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
-import "./posts.css";
+import '../style/posts.css'
 import useStyles from "../style/cardStyle"
 
 const NavLink = props => {
@@ -72,7 +72,6 @@ const IndexPage = ({ data, pathContext }) => {
                                 {group.map(({ node }) => (
                                     <div className="column is-one-third">
                                         <div key={node.id} className="blog_style">
-
                                             <Card className={classes.card}>
                                                 <Link to={node.fields.slug}>
                                                     <CardHeader
