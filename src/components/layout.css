@@ -13,6 +13,10 @@
     margin-top: 20%;
 }
 
+.footer{
+    max-height:100px;
+}
+
 @media (max-width:768px) {
     .layout_title_style{
         font-size: 1rem;
