@@ -1,30 +1,42 @@
-.center{
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.border{
-    width:45%;
-    border:1px solid;
-    border-radius:25px;
-}
-
-.container{
-    width: 100%
-}
-
-h1{
-   font-size: 200%;
-   font-weight:bold;
-}
-
-h3{
-    font-size:160%;
-    font-weight:bold;
-}
-
-h4{
-    font-size:150%;
-    font-weight:bold;
-}
+  }
+  
+  .blog_post_container {
+    width: 50%;
+  }
+  
+  h1 {
+    font-size: 200%;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 160%;
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: 150%;
+    font-weight: bold;
+  }
+  
+  .has-background-black {
+    background: rgb(243, 245, 247);
+  }
+  
+  .hero-body {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: white;
+    box-shadow: 5px 5px 5px #888888;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
