@@ -2,16 +2,19 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import './layout.css'
 import { Helmet } from 'react-helmet'
+import { FaGithub } from 'react-icons/fa';
 import { SectionsContainer, Section } from 'react-fullpage-lgy';
-import { FaGithub, FaTencentWeibo } from 'react-icons/fa';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
-let options = {
-    sectionClassName: 'section',
-    anchors: ['one'],
-    scrollBar: false,
-    arrowNavigation: true,
-    navigation: false,
-};
+
+// let options = {
+//     sectionClassName: 'section',
+//     anchors: ['one'],
+//     scrollBar: false,
+//     arrowNavigation: true,
+//     navigation: false,
+// };
 
 
 export default ({ children }) => (
@@ -36,13 +39,11 @@ export default ({ children }) => (
                     <meta name="description" content={data.site.siteMetadata.description} />
                 </Helmet>
                 <div>
-                    <SectionsContainer {...options}>
-                        <Section id="slide">
-                            <div className="center">
-                                <h1 className="has-text-white title title_position">LGY'S blog - by GATSBY</h1>
-                            </div>
-                        </Section>
-                    </SectionsContainer>
+                    
+                        <div>
+                            <LazyLoadImage effect="blur" src={require('./HomePage.jpg')}/>                         
+                        </div>
+                    
                     {children}
                     <footer class="footer">
                         <div class="content has-text-centered">
