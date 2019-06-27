@@ -41,7 +41,7 @@ export default ({ children }) => (
                             <div className="center">
                                 <h1 className="has-text-white title title_position">LGY'S blog - by GATSBY</h1>
                             </div>
-                        </Section>
+                        </Section>                          
                     </SectionsContainer>
                     {children}
                     <footer class="footer">

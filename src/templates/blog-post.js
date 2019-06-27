@@ -1,14 +1,18 @@
 import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
 import { Container } from "reactbulma";
-import "./blog-post.css"
+import "./blog-post.css";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default ({ data }) => {
     const post = data.markdownRemark
     return (
-        <Layout>
             <div className="has-background-black">
+                <LazyLoadImage
+                    src={post.frontmatter.image.publicURL}
+                    effect="blur"
+                />
                 <h1 className="title center">{post.frontmatter.title}</h1>
                 <div className="container has-background-white blog_post_container">
                     <div className="hero-body font-size font-weight">
@@ -16,7 +20,6 @@ export default ({ data }) => {
                     </div>
                 </div>
             </div>
-        </Layout>
     )
 }
 
@@ -26,6 +29,9 @@ export const query = graphql`
       html
       frontmatter {
         title
+        image {
+            publicURL
+          }
       }
     }
   }
