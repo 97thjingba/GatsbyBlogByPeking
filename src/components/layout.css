@@ -4,11 +4,6 @@
     justify-content: center
 }
 
-#slide{
-    background-image: url('../../static/assets/HomePage.jpg');
-    background-position: 51% 70%;
-}
-
 .title_position{
     margin-top: 20%;
 }
