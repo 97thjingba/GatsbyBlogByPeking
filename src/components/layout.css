@@ -17,6 +17,10 @@
     max-height:100px;
 }
 
+.content{
+    margin-top: -1rem;
+}
+
 @media (max-width:768px) {
     .layout_title_style{
         font-size: 1rem;
