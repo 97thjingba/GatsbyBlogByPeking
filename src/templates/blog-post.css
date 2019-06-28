@@ -34,6 +34,11 @@
     border-color: white;
     box-shadow: 5px 5px 5px #888888;
   }
+
+  .blog_post_image{
+      width: 100%;
+      height: 400px;
+  }
   
   @media (max-width: 768px) {
     .container {
