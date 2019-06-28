@@ -10571,6 +10571,13 @@ querystringify@^2.0.0:
   resolved "http://registry.npm.taobao.org/querystringify/download/querystringify-2.1.0.tgz#7ded8dfbf7879dcc60d0a644ac6754b283ad17ef"
   integrity sha1-fe2N+/eHncxg0KZErGdUsoOtF+8=
 
+raf@^3.3.0:
+  version "3.4.1"
+  resolved "https://registry.npm.taobao.org/raf/download/raf-3.4.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fraf%2Fdownload%2Fraf-3.4.1.tgz#0742e99a4a6552f445d73e3ee0328af0ff1ede39"
+  integrity sha1-B0LpmkplUvRF1z4+4DKK8P8e3jk=
+  dependencies:
+    performance-now "^2.1.0"
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.0.6"
   resolved "http://registry.npm.taobao.org/randombytes/download/randombytes-2.0.6.tgz#d302c522948588848a8d300c932b44c24231da80"
@@ -10675,16 +10682,6 @@ react-dom@16.8.6, react-dom@^16.0.0:
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
-react-dom@^15.6.1:
-  version "15.6.2"
-  resolved "https://registry.npm.taobao.org/react-dom/download/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
-  integrity sha1-Qc+t9pO3V/rycIRDodH9WgK+9zA=
-  dependencies:
-    fbjs "^0.8.9"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
-
 react-emotion@^9.2.12:
   version "9.2.12"
   resolved "https://registry.npm.taobao.org/react-emotion/download/react-emotion-9.2.12.tgz#74d1494f89e22d0b9442e92a33ca052461955c83"
@@ -10717,15 +10714,6 @@ react-flip-move@2.9.14:
   resolved "https://registry.npm.taobao.org/react-flip-move/download/react-flip-move-2.9.14.tgz#3b60e44493a4bbe115a8c3d678b844776bbab453"
   integrity sha1-O2DkRJOku+EVqMPWeLhEd2u6tFM=
 
-react-full-header@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/react-full-header/download/react-full-header-1.0.1.tgz#41b52e83ad803fab15c0d8b2d53dad046a5fba36"
-  integrity sha1-QbUug62AP6sVwNiy1T2tBGpfujY=
-  dependencies:
-    prop-types "^15.5.10"
-    react "^15.6.1"
-    react-dom "^15.6.1"
-
 react-fullpage-lgy@0.1.19:
   version "0.1.19"
   resolved "https://registry.npm.taobao.org/react-fullpage-lgy/download/react-fullpage-lgy-0.1.19.tgz?cache=0&sync_timestamp=1561083075249&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-fullpage-lgy%2Fdownload%2Freact-fullpage-lgy-0.1.19.tgz#28fcc5a57cf03b83775ae2328667dfa213aab124"
@@ -10734,6 +10722,15 @@ react-fullpage-lgy@0.1.19:
     babel-preset-stage-2 "^6.24.1"
     react "16.4.2"
     react-dom "16.4.2"
+
+react-headroom@^2.2.8:
+  version "2.2.8"
+  resolved "https://registry.npm.taobao.org/react-headroom/download/react-headroom-2.2.8.tgz#68c1233262efe028c591b9096c522207362ad133"
+  integrity sha1-aMEjMmLv4CjFkbkJbFIiBzYq0TM=
+  dependencies:
+    prop-types "^15.5.8"
+    raf "^3.3.0"
+    shallowequal "^1.1.0"
 
 react-helmet@^5.2.0:
   version "5.2.1"
@@ -10803,6 +10800,13 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
+react-sticky-header@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/react-sticky-header/download/react-sticky-header-0.2.0.tgz#cf4ebb30ebcb2763898c2026f72b3ae3746dd037"
+  integrity sha1-z067MOvLJ2OJjCAm9ys643Rt0Dc=
+  dependencies:
+    react "^15.5.4"
+
 react-transition-group@^4.0.0:
   version "4.1.1"
   resolved "https://registry.npm.taobao.org/react-transition-group/download/react-transition-group-4.1.1.tgz#16efe9ac8c68306f6bef59c7da5a96b4dfd9fb32"
@@ -10838,7 +10842,7 @@ react@16.8.6, react@^16.0.0, react@^16.4.2, react@^16.8.4:
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
-react@^15.6.1:
+react@^15.5.4:
   version "15.6.2"
   resolved "https://registry.npm.taobao.org/react/download/react-15.6.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact%2Fdownload%2Freact-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
   integrity sha1-26BDSrQ5z+gvEI8PURZjkIF5qnI=
@@ -11647,7 +11651,7 @@ shallow-compare@^1.2.2:
   resolved "http://registry.npm.taobao.org/shallow-compare/download/shallow-compare-1.2.2.tgz#fa4794627bf455a47c4f56881d8a6132d581ffdb"
   integrity sha1-+keUYnv0VaR8T1aIHYphMtWB/9s=
 
-shallowequal@^1.0.1, shallowequal@^1.0.2:
+shallowequal@^1.0.1, shallowequal@^1.0.2, shallowequal@^1.1.0:
   version "1.1.0"
   resolved "http://registry.npm.taobao.org/shallowequal/download/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
   integrity sha1-GI1SHelbkIdAT9TctosT3wrk5/g=
