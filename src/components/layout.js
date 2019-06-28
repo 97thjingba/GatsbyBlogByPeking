@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import { SectionsContainer, Section } from 'react-fullpage-lgy';
 import { FaGithub, FaTencentWeibo } from 'react-icons/fa';
 import Footer from "./Footer/Footer"
+
 let options = {
     sectionClassName: 'section',
     anchors: ['one'],
