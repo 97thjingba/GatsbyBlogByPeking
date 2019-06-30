@@ -6,6 +6,7 @@ import Footer from "../components/Footer/footer";
 
 export default ({ data }) => {
     const post = data.markdownRemark
+    
     return (
         <div>
             <div className="body_background">
