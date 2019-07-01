@@ -1,22 +1,32 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import React from "react";
+import { graphql } from "gatsby";
 import { Container } from "reactbulma";
-import "./blog-post.css"
+import "./blog-post.css";
+import Footer from "../components/Footer/Footer";
+import Img from "react-lazy-img";
 
 export default ({ data }) => {
     const post = data.markdownRemark
     return (
-        <Layout>
+        <div>
+            <div>
+                <Img
+                    src={post.frontmatter.image.publicURL}
+                    width={2000}
+                    height={400}
+                    offset={1}
+                    transition="opacity 1s ease-in"
+                />
+            </div>
             <div className="has-background-black">
-                <h1 className="title center">{post.frontmatter.title}</h1>
-                <div className="container has-background-white blog_post_container">
+                <div className="container has-background-white blog_post_container blog_post_box">
                     <div className="hero-body font-size font-weight">
                         <div dangerouslySetInnerHTML={{ __html: post.html }} />
                     </div>
                 </div>
+                <Footer />
             </div>
-        </Layout>
+        </div>
     )
 }
 
@@ -26,6 +36,9 @@ export const query = graphql`
       html
       frontmatter {
         title
+        image{
+            publicURL
+        }
       }
     }
   }

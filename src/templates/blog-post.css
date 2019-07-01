@@ -34,9 +34,15 @@
     border-color: white;
     box-shadow: 5px 5px 5px #888888;
   }
+
+  .blog_post_box{
+    position: relative;
+    top: -30px;
+      
+  }
   
   @media (max-width: 768px) {
     .container {
       width: 100%;
-    }
+    }   
   }
