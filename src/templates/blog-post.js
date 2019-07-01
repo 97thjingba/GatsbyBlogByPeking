@@ -4,11 +4,16 @@ import { Container } from "reactbulma";
 import "./blog-post.css";
 import Footer from "../components/Footer/Footer";
 
-
 export default ({ data }) => {
     const post = data.markdownRemark
     return (
         <div>
+            <div className="center">
+                <img
+                    src={post.frontmatter.image.publicURL}
+                    className="header_room"
+                />
+            </div>
             <div className="has-background-black">
                 <div className="container has-background-white blog_post_container blog_post_box">
                     <div className="hero-body font-size font-weight">
