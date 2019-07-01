@@ -23,7 +23,7 @@
     font-weight: bold;
   }
   
-  .has-background-black {
+  .body_background {
     background: rgb(243, 245, 247);
   }
   
@@ -35,6 +35,9 @@
     box-shadow: 5px 5px 5px #888888;
   }
   
+  .post_html{
+    margin-top:2rem;
+  }
   @media (max-width: 768px) {
     .container {
       width: 100%;
