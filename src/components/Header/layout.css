@@ -5,7 +5,7 @@
 }
 
 #slide{
-    background-image: url('../../static/assets/HomePage.jpg');
+    background-image: url('./HomePage.jpg');
     background-position: 51% 70%;
 }
 
