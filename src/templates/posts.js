@@ -30,6 +30,8 @@ const NavLink = props => {
     }
 };
 
+//添加完毕blog以后，必须修改一下graphql 查询
+
 export const query = graphql`
   query {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
@@ -44,7 +46,7 @@ export const query = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 50)
+          excerpt(pruneLength: 49)
         }
       }
     }
