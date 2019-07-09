@@ -11,18 +11,9 @@ import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
 import Burger from "@material-ui/icons/FormatAlignJustify";
 import { Container } from "reactbulma";
+import './DrawerLeftStyle';
 
-// const useStyles = makeStyles({
-//     list: {
-//         width: 250,
-//     },
-//     fullList: {
-//         width: 'auto',
-//     },
-// });
-
-// const classes = useStyles();
-
+const useStyles = makeStyles();
 class DrawerLeft extends Component {
     constructor(props) {
         super(props);
@@ -42,7 +33,7 @@ class DrawerLeft extends Component {
     _sideList = () => {
         return (
             <div
-            // className={classes.list}
+                className={useStyles.list}
             >
                 <List>
                     {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
@@ -72,8 +63,8 @@ class DrawerLeft extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar" role="navigation" aria-label="main navigation">
-                    <div className="navbar-brand">
+                <nav className={useStyles.navbar} role="navigation" aria-label="main navigation">
+                    <div className="navbar-brand ">
                         <Button
                             onClick={() => {
                                 this._toggleDrawer();

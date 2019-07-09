@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from "gatsby";
 import "./layout.css";
 import { Helmet } from "react-helmet";
 import { SectionsContainer, Section } from "react-fullpage-lgy";
-
+import DrawerLeft from "../Drawer/DrawerLeft"
 let options = {
     sectionClassName: "section",
     anchors: ["one"],
@@ -44,6 +44,7 @@ class Header extends Component {
                         <div>
                             <SectionsContainer {...options}>
                                 <Section id="slide">
+                                    <DrawerLeft/>
                                     <div className="center">
                                         <h1 className="has-text-white title title_position">
                                             LGY'S blog - by GATSBY
