@@ -46,7 +46,7 @@ export const query = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 49)
+          excerpt(pruneLength: 50)
         }
       }
     }
@@ -61,8 +61,7 @@ const IndexPage = ({ data, pathContext }) => {
 
     return (
         <div>
-            <DrawerLeft/>
-            <Header />
+            <Header className=""/>
             <Section className="hero is-fullheight has-background-light">
                 <div className="container">
                     <p className="center  index_title_style">lgy的小博客</p>
@@ -109,10 +108,7 @@ const IndexPage = ({ data, pathContext }) => {
                                                         color="textSecondary"
                                                         component="p"
                                                     >
-                                                        This impressive paella is a perfect party dish and a
-                                                        fun meal to cook together with your guests. Add 1
-                                                        cup of frozen peas along with the mussels, if you
-                                                        like.
+                                                        {node.frontmatter.coverText}
                                                     </Typography>
                                                 </CardContent>
                                                 <CardActions disableSpacing>

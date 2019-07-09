@@ -38,7 +38,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               fields {
                 slug
               }
-              excerpt(pruneLength:50)
+              excerpt(pruneLength:49)
             }
           }
         }
