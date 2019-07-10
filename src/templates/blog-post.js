@@ -3,12 +3,14 @@ import { graphql } from "gatsby";
 import { Container } from "reactbulma";
 import "./blog-post.css";
 import Footer from "../components/Footer/Footer";
+import DrawerLeft from "../components/Drawer/DrawerLeft";
 
 export default ({ data }) => {
     const post = data.markdownRemark
     return (
         <div>
-            <div className="center">
+            <div className="">
+            <DrawerLeft/>
                 <img
                     src={post.frontmatter.image.publicURL}
                     className="header_room"
