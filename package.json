@@ -35,6 +35,7 @@
         "react-icons": "3.7.0",
         "react-typography": "0.16.13",
         "reactbulma": "3.0.4",
+        "styled-components": "5.0.0-beta.8",
         "typography": "0.16.17",
         "typography-theme-kirkham": "0.16.3"
     }

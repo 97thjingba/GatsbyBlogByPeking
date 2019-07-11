@@ -1,10 +1,25 @@
 import React, { Component } from "react";
 import { StaticQuery, graphql } from "gatsby";
-import "./layout.css";
+import "./HeaderStyle.css";
 import { Helmet } from "react-helmet";
 import { SectionsContainer, Section } from "react-fullpage-lgy";
-import DrawerLeft from "../Drawer/DrawerLeft"
-let options = {
+import DrawerLeft from "../Drawer/DrawerLeft";
+import styled from "styled-components";
+
+const BoxPosition = styled.section`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const TitlePostion = styled.section`
+  margin-top: 20%;
+`;
+
+const TitleFont = styled.section`
+`;
+
+const options = {
     sectionClassName: "section",
     anchors: ["one"],
     scrollBar: false,
@@ -22,15 +37,15 @@ class Header extends Component {
         return (
             <StaticQuery
                 query={graphql`
-                            query {
-                                site {
-                                siteMetadata {
-                                    title
-                                    description
-                                }
-                                }
-                            }
-                            `}
+          query {
+            site {
+              siteMetadata {
+                title
+                description
+              }
+            }
+          }
+        `}
                 render={data => (
                     <body>
                         <Helmet>
@@ -41,18 +56,18 @@ class Header extends Component {
                                 content={data.site.siteMetadata.description}
                             />
                         </Helmet>
-                        <div>
-                            <SectionsContainer {...options}>
-                                <Section id="slide">
-                                    <DrawerLeft/>
-                                    <div className="center">
-                                        <h1 className="has-text-white title title_position">
+                        <SectionsContainer {...options}>
+                            <Section id="slide">
+                                <DrawerLeft />
+                                <BoxPosition>
+                                    <TitlePostion>
+                                        <TitleFont className="has-text-white title">
                                             LGY'S blog - by GATSBY
-                                        </h1>
-                                    </div>
-                                </Section>
-                            </SectionsContainer>
-                        </div>
+                                        </TitleFont>
+                                    </TitlePostion>
+                                </BoxPosition>
+                            </Section>
+                        </SectionsContainer>
                     </body>
                 )}
             />

@@ -1,6 +1,6 @@
 import React,{Component} from "react"
 import {Container} from "reactbulma";
-import { FaGithub, FaTencentWeibo } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 class Footer extends Component {
     constructor(props) {
