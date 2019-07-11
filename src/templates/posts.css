@@ -49,6 +49,10 @@
   .content {
     max-height: 18rem;
   }
+
+  .drawer{
+      
+  }
   
   @media (max-width: 768px) {
     .index_title_style {

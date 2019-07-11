@@ -11,9 +11,12 @@ import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
 import Burger from "@material-ui/icons/FormatAlignJustify";
 import { Container } from "reactbulma";
-import './DrawerLeftStyle';
+import styled from "styled-components";
 
-const useStyles = makeStyles();
+const BoxWidth = styled.section`
+  width: 200px;
+`;
+
 class DrawerLeft extends Component {
     constructor(props) {
         super(props);
@@ -32,9 +35,7 @@ class DrawerLeft extends Component {
 
     _sideList = () => {
         return (
-            <div
-                className={useStyles.list}
-            >
+            <BoxWidth>
                 <List>
                     {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
                         <ListItem button key={text}>
@@ -56,14 +57,14 @@ class DrawerLeft extends Component {
                         </ListItem>
                     ))}
                 </List>
-            </div>
+            </BoxWidth>
         );
     };
 
     render() {
         return (
             <div>
-                <nav className={useStyles.navbar} role="navigation" aria-label="main navigation">
+                <nav role="navigation" aria-label="main navigation">
                     <div className="navbar-brand ">
                         <Button
                             onClick={() => {
