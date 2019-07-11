@@ -9,8 +9,8 @@ export default ({ data }) => {
     const post = data.markdownRemark
     return (
         <div>
-            <div className="">
-            <DrawerLeft/>
+            <div>
+                <DrawerLeft/>
                 <img
                     src={post.frontmatter.image.publicURL}
                     className="header_room"

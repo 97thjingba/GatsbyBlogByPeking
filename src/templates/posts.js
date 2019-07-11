@@ -16,7 +16,6 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import "./posts.css";
 import useStyles from "../style/cardStyle";
 import Footer from "../components/Footer/Footer";
-import DrawerLeft from "../components/Drawer/DrawerLeft"
 
 const NavLink = props => {
     if (!props.test) {
@@ -61,7 +60,7 @@ const IndexPage = ({ data, pathContext }) => {
 
     return (
         <div>
-            <Header className=""/>
+            <Header/>
             <Section className="hero is-fullheight has-background-light">
                 <div className="container">
                     <p className="center  index_title_style">lgy的小博客</p>
