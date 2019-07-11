@@ -1,50 +1,22 @@
 ---
-title: "blog"
-date: "2018-10-01"
+title: "暂时博客写成这样吧"
+date: "2019-07-11"
 image: "./img-three.jpg"
-coverText: '使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)'
+coverText: '暂时算是完成了我的个人博客吧'
 ---
 
-# GATSBY BLOG
+# 有关博客的样式或者什么的暂时先写到这里吧
 
-**使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)**
+**接下来我将会在测试和更加底层的javascript进行学习和理解**
 
-**所使用的技术:**
-
-#### Address:
-**https://flamboyant-liskov-886aeb.netlify.com/**
-
----
-- [Gatsby](https://www.gatsbyjs.org/)
-- [Netlify](https://www.netlify.com/)
-- [reactbulma](https://github.com/kulakowka/react-bulma)
-
-#####  Plugin
-
+### 目标
 
 ```
-gatsby
-gatsby-image
-gatsby-paginate
-gatsby-plugin-emotion
-gatsby-plugin-google-analytics
-gatsby-plugin-react-helmet
-gatsby-plugin-sharp
-gatsby-plugin-sitemap
-gatsby-plugin-typography
-gatsby-remark-images
-gatsby-source-filesystem
-gatsby-transformer-remark
-gatsby-transformer-sharp
-gitalk
+1. jest 测试
+2. 完成对33个必懂js概念的理解
 ```
 
-# 使用方法
 
-```
-git clone https://github.com/97thjingba/blog_gatsby.git
-```
----
-```
-npm install
-```
+
+
+![](code.png)
