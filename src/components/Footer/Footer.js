@@ -1,5 +1,5 @@
-import React,{Component} from "react"
-import {Container} from "reactbulma";
+import React, { Component } from "react"
+import { Container } from "reactbulma";
 import { FaGithub } from 'react-icons/fa';
 
 class Footer extends Component {

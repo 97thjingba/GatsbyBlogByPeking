@@ -9,7 +9,6 @@
         "serve": "gatsby serve"
     },
     "dependencies": {
-        "@fullpage/react-fullpage": "0.1.14",
         "@material-ui/core": "4.1.1",
         "@material-ui/icons": "4.2.0",
         "@material/react-drawer": "0.13.0",
@@ -26,7 +25,6 @@
         "gatsby-source-filesystem": "2.0.10",
         "gatsby-transformer-remark": "2.1.15",
         "gatsby-transformer-sharp": "2.1.10",
-        "md5": "^2.2.1",
         "react": "16.8.6",
         "react-dom": "16.8.6",
         "react-fullpage-lgy": "0.1.19",
