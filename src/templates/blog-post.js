@@ -1,6 +1,5 @@
 import React from "react";
 import { graphql } from "gatsby";
-import "./blog-post.css";
 import Footer from "../components/Footer/Footer";
 import DrawerLeft from "../components/Drawer/DrawerLeft";
 import styled from "styled-components";

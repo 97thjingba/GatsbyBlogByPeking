@@ -6,6 +6,7 @@ coverText: '加快git clone 几十倍速度的小方法 '
 ---
 
 # 加快git clone 几十倍速度的小方法 （30KB vs 2M）
+
 git clone（有些地区较快，有些地区较慢）；但总体来说,基本都在10KiB/s-40KiB/s之间。
 作为linux运维人员来讲，经常需要在服务器上git
 clone；分享给大家个加速小办法，亲测有效！

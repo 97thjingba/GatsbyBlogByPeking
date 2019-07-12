@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import { Link, graphql } from "gatsby";
-import { Section, SubTitle, Media, Content, Title } from "reactbulma";
 import Card from "@material-ui/core/Card";
 import CardHeader from "@material-ui/core/CardHeader";
 import CardMedia from "@material-ui/core/CardMedia";
@@ -13,7 +12,6 @@ import Typography from "@material-ui/core/Typography";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
-import "./posts.css";
 import useStyles from "../style/postsCardStyle";
 import Footer from "../components/Footer/Footer";
 import styled from "styled-components";
@@ -21,7 +19,7 @@ import styled from "styled-components";
 const NavLink = props => {
     if (!props.test) {
         return (
-            <Link to={props.url} id="navlink" className="has-text-primary">
+            <Link to={props.url} id="navlink">
                 {props.text}
             </Link>
         );
@@ -29,6 +27,50 @@ const NavLink = props => {
         return <span>{props.text}</span>;
     }
 };
+
+const Blog = styled.section``;
+
+const SectionBox = styled.section`
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+const ContainerBox = styled.section`
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+`;
+
+const BlogTitle = styled.p`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #363636;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125;
+`;
+
+const SubTitleBox = styled.h4`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const BlogContent = styled.section`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 const ColumnsBox = styled.section`
   display: flex;
@@ -94,18 +136,13 @@ const IndexPage = ({ data, pageContext }) => {
     const classes = useStyles();
 
     return (
-        <div>
+        <Blog>
             <Header />
-            <Section className="hero is-fullheight has-background-light">
-                <div className="container">
-                    <p className="center  index_title_style">lgy的小博客</p>
-                    <SubTitle className="center index_title_style">
-                        Record every day of life
-                    </SubTitle>
-                    <div>
-                        <h4 className="center">
-                            {data.allMarkdownRemark.totalCount}篇小文章
-                        </h4>
+            <SectionBox>
+                <ContainerBox>
+                    <BlogTitle>lgy的小博客</BlogTitle>
+                    <SubTitleBox>{data.allMarkdownRemark.totalCount}篇小文章</SubTitleBox>
+                    <BlogContent>
                         <ColumnsBox>
                             {group.map(({ node }) => (
                                 <ColumnBox>
@@ -155,15 +192,15 @@ const IndexPage = ({ data, pageContext }) => {
                                 </ColumnBox>
                             ))}
                         </ColumnsBox>
-                    </div>
-                </div>
+                    </BlogContent>
+                </ContainerBox>
                 <PaginationBox>
                     <NavLink test={first} url={previousUrl} text="<<<上一页" />
                     <NavLink test={last} url={nextUrl} text="下一页>>>" />
                 </PaginationBox>
-            </Section>
+            </SectionBox>
             <Footer />
-        </div>
+        </Blog>
     );
 };
 export default IndexPage;
