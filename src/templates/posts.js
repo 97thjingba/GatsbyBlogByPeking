@@ -14,8 +14,9 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import "./posts.css";
-import useStyles from "../style/cardStyle";
+import useStyles from "../style/postsCardStyle";
 import Footer from "../components/Footer/Footer";
+import styled from "styled-components";
 
 const NavLink = props => {
     if (!props.test) {
@@ -29,6 +30,40 @@ const NavLink = props => {
     }
 };
 
+const ColumnsBox = styled.section`
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+
+  @media (max-width: 768px) {
+    width: 107%;
+  }
+`;
+
+const ColumnBox = styled.section`
+  display: block;
+  flex: none;
+  width: 33.333333%;
+  padding: 0.75rem;
+
+  @media (max-width: 768px) {
+    width: -webkit-fill-available;
+  }
+`;
+
+const ContentBox = styled.section`
+  margin-top: 5rem;
+`;
+
+const PaginationBox = styled.section`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+`;
 //添加完毕blog以后，必须修改一下graphql 查询
 
 export const query = graphql`
@@ -52,15 +87,15 @@ export const query = graphql`
   }
 `;
 
-const IndexPage = ({ data, pathContext }) => {
-    const { group, index, first, last, pageCount } = pathContext;
+const IndexPage = ({ data, pageContext }) => {
+    const { group, index, first, last, pageCount } = pageContext;
     const previousUrl = index - 1 == 1 ? "" : (index - 1).toString();
     const nextUrl = (index + 1).toString();
     const classes = useStyles();
 
     return (
         <div>
-            <Header/>
+            <Header />
             <Section className="hero is-fullheight has-background-light">
                 <div className="container">
                     <p className="center  index_title_style">lgy的小博客</p>
@@ -71,10 +106,10 @@ const IndexPage = ({ data, pathContext }) => {
                         <h4 className="center">
                             {data.allMarkdownRemark.totalCount}篇小文章
                         </h4>
-                        <div className="columns is-multiline">
+                        <ColumnsBox>
                             {group.map(({ node }) => (
-                                <div className="column is-one-third">
-                                    <div key={node.id} className="blog_style">
+                                <ColumnBox>
+                                    <ContentBox key={node.id}>
                                         <Card className={classes.card}>
                                             <Link to={node.fields.slug}>
                                                 <CardHeader
@@ -91,8 +126,8 @@ const IndexPage = ({ data, pathContext }) => {
                                                             <MoreVertIcon />
                                                         </IconButton>
                                                     }
-                                                    title="Shrimp and Chorizo Paella"
-                                                    subheader="September 14, 2016"
+                                                    title={node.frontmatter.title}
+                                                    subheader={node.frontmatter.date}
                                                 />
                                                 <CardMedia
                                                     className={classes.media}
@@ -102,11 +137,7 @@ const IndexPage = ({ data, pathContext }) => {
                                                     title="Paella dish"
                                                 />
                                                 <CardContent>
-                                                    <Typography
-                                                        variant="body2"
-                                                        color="textSecondary"
-                                                        component="p"
-                                                    >
+                                                    <Typography variant="body2" color="textSecondary">
                                                         {node.frontmatter.coverText}
                                                     </Typography>
                                                 </CardContent>
@@ -120,16 +151,16 @@ const IndexPage = ({ data, pathContext }) => {
                                                 </CardActions>
                                             </Link>
                                         </Card>
-                                    </div>
-                                </div>
+                                    </ContentBox>
+                                </ColumnBox>
                             ))}
-                        </div>
+                        </ColumnsBox>
                     </div>
                 </div>
-                <div className="pagination" id="pagination">
+                <PaginationBox>
                     <NavLink test={first} url={previousUrl} text="<<<上一页" />
                     <NavLink test={last} url={nextUrl} text="下一页>>>" />
-                </div>
+                </PaginationBox>
             </Section>
             <Footer />
         </div>
