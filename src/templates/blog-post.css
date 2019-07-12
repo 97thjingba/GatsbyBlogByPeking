@@ -1,52 +1,14 @@
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .blog_post_container {
-    width: 50%;
-  }
-  
-  h1 {
+h1 {
     font-size: 200%;
     font-weight: bold;
-  }
-  
-  h3 {
+}
+
+h3 {
     font-size: 160%;
     font-weight: bold;
-  }
-  
-  h4 {
+}
+
+h4 {
     font-size: 150%;
     font-weight: bold;
-  }
-  
-  .has-background-black {
-    background: rgb(243, 245, 247);
-  }
-  
-  .hero-body {
-    background-color: white;
-    border: 1px solid;
-    border-radius: 15px;
-    border-color: white;
-    box-shadow: 5px 5px 5px #888888;
-  }
-
-  .blog_post_box{
-    position: relative;
-    top: -30px;
-  }
-
-  .header_room{
-      width: 100%;
-      height:400px;
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      width: 100%;
-    }   
-  }
+}
