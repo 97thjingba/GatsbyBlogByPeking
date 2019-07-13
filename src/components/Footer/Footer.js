@@ -3,10 +3,6 @@ import { Container } from "reactbulma";
 import { FaGithub } from 'react-icons/fa';
 import styled from "styled-components";
 
-
-const FooterBox = styled.section`
-    max-height:150px
-`
 const GithubLink = styled.a`
     color:black
 `
