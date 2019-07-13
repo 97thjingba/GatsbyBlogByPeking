@@ -24,6 +24,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+            "gatsby-remark-prismjs",
           {
             resolve: `gatsby-remark-images`, //remarkdown里配置maxwidth的大小
             options: {

@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import Footer from "../components/Footer/Footer";
 import DrawerLeft from "../components/Drawer/DrawerLeft";
 import styled from "styled-components";
+import './blog-post.css'
 
 const HeaderBox = styled.section`
     width: 100%;

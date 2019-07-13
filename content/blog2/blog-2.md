@@ -12,7 +12,7 @@ coverText: 'React生命周期'
 constructor
 在该阶段组件中的构造方法 constructor() 接受 props 接收父组件传下来的 props。还可以在 constructor() 内部定义定义this.state 的初始内容。注意：在组件中写了 constructor 方法就必须在里面使用 super()，并且应在其他语句之前前调用 super(props)。否则，this.props 在构造函数中可能会出现未定义的 bug。
 
-```
+```javascript
 constructor(props) {
   super(props)
   console.log(this.props) // 在内部可以使用props
@@ -28,7 +28,7 @@ constructor(props) {
 componentWillMount
 在组件将要挂载到 DOM 前调用，只会被调用一次，在该方法中修改 state 的值，并不会引起组件重新渲染。(数据请求等异步操作不建议写在该方法内，异步操作可能阻塞 UI)。
 
-```
+```javascript
 componentWillMount(){}
 ```
 
