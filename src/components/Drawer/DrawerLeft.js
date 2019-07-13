@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Drawer from "@material-ui/core/Drawer";
+import { Link } from "gatsby";
 import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
@@ -10,6 +11,9 @@ import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
 import Burger from "@material-ui/icons/FormatAlignJustify";
 import styled from "styled-components";
+import DrawerListData from "../model/DrawerListData"
+import DrawerListModel from "../model/DrawerListModel"
+import { FaGithub } from 'react-icons/fa';
 
 const BoxWidth = styled.section`
   width: 200px;
@@ -18,8 +22,11 @@ const BoxWidth = styled.section`
 class DrawerLeft extends Component {
     constructor(props) {
         super(props);
+        this.drawerListModel = new DrawerListModel();
+        this.drawerListModel.createDrawerList(DrawerListData); 
         this.state = {
-            left: false
+            left: false,
+            list:this.drawerListModel.listItems()
         };
     }
 
@@ -35,13 +42,15 @@ class DrawerLeft extends Component {
         return (
             <BoxWidth>
                 <List>
-                    {["Home", "Github"].map((text, index) => (
-                        <ListItem button key={text}>
-                            <ListItemIcon>
-                                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                            </ListItemIcon>
-                            <ListItemText primary={text} />
-                        </ListItem>
+                    {this.state.list.map((item,index) => (
+                        <a href={item.title_link}>
+                            <ListItem button key={item.title}>
+                                <ListItemIcon>
+                                   
+                                </ListItemIcon>
+                                <ListItemText primary={item.title} />
+                            </ListItem>
+                        </a>
                     ))}
                 </List>
                 <Divider />
