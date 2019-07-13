@@ -32,7 +32,7 @@ class Header extends Component {
                 render={data => (
                     <body>
                         <Helmet>
-                            <html lang="en" />
+                            <html lang="en"  />
                             <title>{data.site.siteMetadata.title}</title>
                             <meta
                                 name="description"
