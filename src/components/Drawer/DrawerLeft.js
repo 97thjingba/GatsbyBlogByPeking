@@ -1,32 +1,32 @@
 import React, { Component } from "react";
 import Drawer from "@material-ui/core/Drawer";
-import { Link } from "gatsby";
 import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import MailIcon from "@material-ui/icons/Mail";
 import Burger from "@material-ui/icons/FormatAlignJustify";
 import styled from "styled-components";
-import DrawerListData from "../model/DrawerListData"
-import DrawerListModel from "../model/DrawerListModel"
-import { FaGithub } from 'react-icons/fa';
+import DrawerListData from "../model/DrawerListData";
+import DrawerListModel from "../model/DrawerListModel";
 
 const BoxWidth = styled.section`
   width: 200px;
+`;
+
+const Item = styled.a`
+  color: black;
 `;
 
 class DrawerLeft extends Component {
     constructor(props) {
         super(props);
         this.drawerListModel = new DrawerListModel();
-        this.drawerListModel.createDrawerList(DrawerListData); 
+        this.drawerListModel.createDrawerList(DrawerListData);
         this.state = {
             left: false,
-            list:this.drawerListModel.listItems()
+            list: this.drawerListModel.listItems()
         };
     }
 
@@ -42,15 +42,13 @@ class DrawerLeft extends Component {
         return (
             <BoxWidth>
                 <List>
-                    {this.state.list.map((item,index) => (
-                        <a href={item.title_link}>
+                    {this.state.list.map((item) => (
+                        <Item href={item.title_link}>
                             <ListItem button key={item.title}>
-                                <ListItemIcon>
-                                   
-                                </ListItemIcon>
+                                <ListItemIcon>{item.icon}</ListItemIcon>
                                 <ListItemText primary={item.title} />
                             </ListItem>
-                        </a>
+                        </Item>
                     ))}
                 </List>
                 <Divider />

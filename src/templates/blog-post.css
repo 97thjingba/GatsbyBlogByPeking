@@ -38,3 +38,7 @@ p {
 pre {
     margin-bottom:16px;
 }
+
+.footer{
+    max-height: 180px;
+}
