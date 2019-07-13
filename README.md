@@ -4,37 +4,19 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 
-**使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)**
+**使用gatsby.js 搭建的一个个人静态博客(部署在Netlift)**
 
-**所使用的技术:**
 
 #### Address:
-https://elated-lewin-51cf0d.netlify.com/
+**https://elated-lewin-51cf0d.netlify.com/**
 
 ---
 - [Gatsby](https://www.gatsbyjs.org/)
 - [Netlify](https://www.netlify.com/)
 - [reactbulma](https://github.com/kulakowka/react-bulma)
+- [material-ui](https://material-ui.com/styles/basics/)
 
-#####  Plugin
 
-
-```
-gatsby
-gatsby-image
-gatsby-paginate
-gatsby-plugin-emotion
-gatsby-plugin-google-analytics
-gatsby-plugin-react-helmet
-gatsby-plugin-sharp
-gatsby-plugin-sitemap
-gatsby-plugin-typography
-gatsby-remark-images
-gatsby-source-filesystem
-gatsby-transformer-remark
-gatsby-transformer-sharp
-gitalk
-```
 
 使用方法
 
@@ -42,6 +24,12 @@ gitalk
 git clone https://github.com/97thjingba/blog_gatsby.git
 ```
 
+---
+
 ```
 npm install
+```
+
+```
+gatsby develop
 ```
