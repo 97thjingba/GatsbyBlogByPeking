@@ -17,7 +17,7 @@ class Footer extends Component {
     }
     render() {
         return (
-            <FooterBox>
+            <div>
                 <footer class="footer">
                     <div class="content has-text-centered">
                         <p>
@@ -27,7 +27,7 @@ class Footer extends Component {
                         </p>
                     </div>
                 </footer>
-            </FooterBox>
+            </div>
         );
     }
 }
