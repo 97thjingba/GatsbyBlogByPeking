@@ -19,6 +19,9 @@ const Item = styled.a`
   color: black;
 `;
 
+const BurgerStyle = styled.section`
+  color: white;
+`;
 class DrawerLeft extends Component {
     constructor(props) {
         super(props);
@@ -42,7 +45,7 @@ class DrawerLeft extends Component {
         return (
             <BoxWidth>
                 <List>
-                    {this.state.list.map((item) => (
+                    {this.state.list.map(item => (
                         <Item href={item.title_link}>
                             <ListItem button key={item.title}>
                                 <ListItemIcon>{item.icon}</ListItemIcon>
@@ -60,13 +63,15 @@ class DrawerLeft extends Component {
         return (
             <div>
                 <nav role="navigation" aria-label="main navigation">
-                    <div className="navbar-brand ">
+                    <div className="navbar-brand">
                         <Button
                             onClick={() => {
                                 this._toggleDrawer();
                             }}
                         >
-                            <Burger />
+                            <BurgerStyle>
+                                <Burger />
+                            </BurgerStyle>
                         </Button>
                         <Drawer
                             open={this.state.left}
