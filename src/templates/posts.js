@@ -14,6 +14,7 @@ import ShareIcon from "@material-ui/icons/Share";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import useStyles from "../style/postsCardStyle";
 import Footer from "../components/Footer/Footer";
+import StyledBackgroundSection from "../components/Header/StyledBackgroundSection"
 import styled from "styled-components";
 
 const NavLink = props => {
@@ -28,7 +29,7 @@ const NavLink = props => {
     }
 };
 
-const Blog = styled.section``;
+const Blog = styled.div``;
 
 const SectionBox = styled.section`
   min-height: 100vh;
