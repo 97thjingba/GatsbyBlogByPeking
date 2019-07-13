@@ -4,7 +4,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 
-**使用gatsby.js 搭建的一个个人静态博客(部署在Netlift)**
+**使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)**
 
 
 #### Address:
