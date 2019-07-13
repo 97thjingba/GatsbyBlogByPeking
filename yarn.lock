@@ -5782,6 +5782,15 @@ functional-red-black-tree@^1.0.1:
   resolved "http://registry.npm.taobao.org/functional-red-black-tree/download/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
+gatsby-background-image@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.npm.taobao.org/gatsby-background-image/download/gatsby-background-image-0.8.0.tgz#8ff725f307b4a158a0e00a7158b267324f02d158"
+  integrity sha1-j/cl8we0oVig4ApxWLJnMk8C0Vg=
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+    global "^4.4.0"
+    prop-types "^15.7.2"
+
 gatsby-cli@^2.7.0:
   version "2.7.0"
   resolved "https://registry.npm.taobao.org/gatsby-cli/download/gatsby-cli-2.7.0.tgz#5fd22f0e2489f7153f552e489753cd9fc8a0daff"
@@ -6329,6 +6338,14 @@ global@^4.3.0, global@~4.3.0:
   dependencies:
     min-document "^2.19.0"
     process "~0.5.1"
+
+global@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.npm.taobao.org/global/download/global-4.4.0.tgz#3e7b105179006a323ed71aafca3e9c57a5cc6406"
+  integrity sha1-PnsQUXkAajI+1xqvyj6cV6XMZAY=
+  dependencies:
+    min-document "^2.19.0"
+    process "^0.11.10"
 
 globals@^11.1.0:
   version "11.9.0"

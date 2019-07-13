@@ -1,31 +1,14 @@
 import React, { Component } from "react";
 import { StaticQuery, graphql } from "gatsby";
-import "./HeaderStyle.css";
 import { Helmet } from "react-helmet";
-import { SectionsContainer, Section } from "react-fullpage-lgy";
 import DrawerLeft from "../Drawer/DrawerLeft";
+import StyledBackgroundSection from "./StyledBackgroundSection";
 import styled from "styled-components";
 
-const BoxPosition = styled.section`
-  display: flex;
-  align-items: center;
-  justify-content: center;
+const DrawerPosition = styled.section`
+  position: absolute;
+  top: 0;
 `;
-
-const TitlePostion = styled.section`
-  margin-top: 20%;
-`;
-
-const TitleFont = styled.section`
-`;
-
-const options = {
-    sectionClassName: "section",
-    anchors: ["one"],
-    scrollBar: false,
-    arrowNavigation: true,
-    navigation: false
-};
 
 class Header extends Component {
     constructor(props) {
@@ -56,18 +39,10 @@ class Header extends Component {
                                 content={data.site.siteMetadata.description}
                             />
                         </Helmet>
-                        <SectionsContainer {...options}>
-                            <Section id="slide">
-                                <DrawerLeft />
-                                <BoxPosition>
-                                    <TitlePostion>
-                                        <TitleFont className="has-text-white title">
-                                            LGY'S blog - by GATSBY
-                                        </TitleFont>
-                                    </TitlePostion>
-                                </BoxPosition>
-                            </Section>
-                        </SectionsContainer>
+                        <StyledBackgroundSection />
+                        <DrawerPosition>
+                            <DrawerLeft />
+                        </DrawerPosition>
                     </body>
                 )}
             />

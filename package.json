@@ -14,6 +14,7 @@
         "@material/react-drawer": "0.13.0",
         "blueimp-md5": "2.10.0",
         "gatsby": "2.10.0",
+        "gatsby-background-image": "^0.8.0",
         "gatsby-image": "2.1.4",
         "gatsby-paginate": "1.1.0",
         "gatsby-plugin-emotion": "2.0.7",
