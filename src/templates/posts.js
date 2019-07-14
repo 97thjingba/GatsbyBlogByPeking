@@ -41,7 +41,7 @@ const SectionBox = styled.section`
 `;
 
 const ContainerBox = styled.section`
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   position: relative;
 
