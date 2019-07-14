@@ -14,13 +14,13 @@ coverText: '使用react将代码抽象为组件'
 
 
 
-```
+```js
 Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
 ```
 
 下面我将举例解决这个问题
 
-```
+```js
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
@@ -59,12 +59,12 @@ export default Item;
 
 将***函数的执行变成函数的调用***
 
-```
+```js
 onClick={this.toggle()}
 ```
 
 变成
 
-```
+```js
 onClick={()=>{this.toggle()}}
 ```

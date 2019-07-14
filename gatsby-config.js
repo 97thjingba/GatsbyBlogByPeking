@@ -7,6 +7,20 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
+        resolve: `gatsby-transformer-remark`,
+        options: {
+          plugins: [
+              "gatsby-remark-prismjs",
+            {
+              resolve: `gatsby-remark-images`, //remarkdown里配置maxwidth的大小
+              options: {
+                maxWidth: 728,
+              },
+            },
+          ],
+        },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog`,
@@ -20,19 +34,5 @@ module.exports = {
         name: `assets`,
       },
     },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-            "gatsby-remark-prismjs",
-          {
-            resolve: `gatsby-remark-images`, //remarkdown里配置maxwidth的大小
-            options: {
-              maxWidth: 728,
-            },
-          },
-        ],
-      },
-    }
   ],
 }

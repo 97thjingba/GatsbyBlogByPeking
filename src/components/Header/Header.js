@@ -5,7 +5,7 @@ import DrawerLeft from "../Drawer/DrawerLeft";
 import StyledBackgroundSection from "./StyledBackgroundSection";
 import styled from "styled-components";
 
-const DrawerPositio = styled.section`
+const DrawerPosition = styled.section`
   position: absolute;
   top: 0;
 `;
@@ -40,9 +40,9 @@ class Header extends Component {
                             />
                         </Helmet>
                         <StyledBackgroundSection />
-                        <DrawerPositio>
+                        <DrawerPosition>
                             <DrawerLeft />
-                        </DrawerPositio>
+                        </DrawerPosition>
                     </body>
                 )}
             />

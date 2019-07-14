@@ -22,7 +22,7 @@ coverText: '使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)'
 #####  Plugin
 
 
-```
+```js
 gatsby
 gatsby-image
 gatsby-paginate
