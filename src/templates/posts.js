@@ -74,7 +74,7 @@ const BlogContent = styled.div`
 
 const ColumnsBox = styled.div`
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-wrap: wrap;
   margin-left: -0.75rem;
   margin-right: -0.75rem;
@@ -148,24 +148,25 @@ const IndexPage = ({ data, pageContext }) => {
                                 <ColumnBox>
                                     <ContentBox key={node.id}>
                                         <Card className={classes.card}>
-                                            <Link to={node.fields.slug}>
-                                                <CardHeader
-                                                    avatar={
-                                                        <Avatar
-                                                            aria-label="Recipe"
-                                                            className={classes.avatar}
-                                                        >
-                                                            R
+
+                                            <CardHeader
+                                                avatar={
+                                                    <Avatar
+                                                        aria-label="Recipe"
+                                                        className={classes.avatar}
+                                                    >
+                                                        R
                                                         </Avatar>
-                                                    }
-                                                    action={
-                                                        <IconButton aria-label="Settings">
-                                                            <MoreVertIcon />
-                                                        </IconButton>
-                                                    }
-                                                    title={node.frontmatter.title}
-                                                    subheader={node.frontmatter.date}
-                                                />
+                                                }
+                                                action={
+                                                    <IconButton aria-label="Settings">
+                                                        <MoreVertIcon />
+                                                    </IconButton>
+                                                }
+                                                title={node.frontmatter.title}
+                                                subheader={node.frontmatter.date}
+                                            />
+                                            <Link to={node.fields.slug}>
                                                 <CardMedia
                                                     className={classes.media}
                                                     image={
@@ -173,20 +174,21 @@ const IndexPage = ({ data, pageContext }) => {
                                                     }
                                                     title="Paella dish"
                                                 />
-                                                <CardContent>
-                                                    <Typography variant="body2" color="textSecondary">
-                                                        {node.frontmatter.coverText}
-                                                    </Typography>
-                                                </CardContent>
-                                                <CardActions disableSpacing>
-                                                    <IconButton aria-label="Add to favorites">
-                                                        <FavoriteIcon />
-                                                    </IconButton>
-                                                    <IconButton aria-label="Share">
-                                                        <ShareIcon />
-                                                    </IconButton>
-                                                </CardActions>
                                             </Link>
+                                            <CardContent>
+                                                <Typography variant="body2" color="textSecondary">
+                                                    {node.frontmatter.coverText}
+                                                </Typography>
+                                            </CardContent>
+                                            <CardActions disableSpacing>
+                                                <IconButton aria-label="Add to favorites">
+                                                    <FavoriteIcon />
+                                                </IconButton>
+                                                <IconButton aria-label="Share">
+                                                    <ShareIcon />
+                                                </IconButton>
+                                            </CardActions>
+
                                         </Card>
                                     </ContentBox>
                                 </ColumnBox>
