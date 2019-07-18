@@ -11,7 +11,7 @@ import styled from "styled-components";
 import DrawerListData from "../model/DrawerListData";
 import DrawerListModel from "../model/DrawerListModel";
 
-const BoxWidth = styled.div`
+const BoxWidth = styled.section`
   width: 200px;
 `;
 
@@ -19,7 +19,7 @@ const Item = styled.a`
   color: black;
 `;
 
-const BurgerStyle = styled.div`
+const BurgerStyle = styled.section`
   color: white;
 `;
 
