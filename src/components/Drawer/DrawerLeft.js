@@ -19,9 +19,10 @@ const Item = styled.a`
   color: black;
 `;
 
-const BurgerStyle = styled.section`
+const BurgerStyle = styled.div`
   color: white;
 `;
+
 class DrawerLeft extends Component {
     constructor(props) {
         super(props);
