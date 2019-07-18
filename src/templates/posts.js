@@ -13,23 +13,12 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import useStyles from "../style/postsCardStyle";
+import NavLink from "../components/Pagination/NavLink";
 import Footer from "../components/Footer/Footer";
-import StyledBackgroundSection from "../components/Header/StyledBackgroundSection"
 import styled from "styled-components";
+import { FaAngleDoubleLeft } from 'react-icons/fa';
+import { FaAngleDoubleRight } from 'react-icons/fa';
 
-const NavLink = props => {
-    if (!props.test) {
-        return (
-            <Link to={props.url} id="navlink">
-                {props.text}
-            </Link>
-        );
-    } else {
-        return <span>{props.text}</span>;
-    }
-};
-
-const Blog = styled.div``;
 
 const SectionBox = styled.div`
   min-height: 100vh;
@@ -136,7 +125,7 @@ const IndexPage = ({ data, pageContext }) => {
     const classes = useStyles();
 
     return (
-        <Blog>
+        <div>
             <Header />
             <SectionBox>
                 <ContainerBox>
@@ -197,12 +186,12 @@ const IndexPage = ({ data, pageContext }) => {
                     </BlogContent>
                 </ContainerBox>
                 <PaginationBox>
-                    <NavLink test={first} url={previousUrl} text="<<<上一页" />
-                    <NavLink test={last} url={nextUrl} text="下一页>>>" />
+                    <NavLink test={first} url={previousUrl} component={<FaAngleDoubleLeft />} />
+                    <NavLink test={last} url={nextUrl} component={<FaAngleDoubleRight />} />
                 </PaginationBox>
             </SectionBox>
             <Footer />
-        </Blog>
+        </div>
     );
 };
 export default IndexPage;
