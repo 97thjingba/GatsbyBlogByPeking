@@ -11,7 +11,7 @@ import styled from "styled-components";
 import DrawerListData from "../model/DrawerListData";
 import DrawerListModel from "../model/DrawerListModel";
 
-const BoxWidth = styled.section`
+const BoxWidth = styled.div`
   width: 200px;
 `;
 
