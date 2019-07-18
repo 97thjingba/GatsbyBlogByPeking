@@ -1,35 +1,72 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { Container } from "reactbulma";
-import "./blog-post.css";
 import Footer from "../components/Footer/Footer";
 import DrawerLeft from "../components/Drawer/DrawerLeft";
+import styled from "styled-components";
+import './blog-post.css'
+
+const HeaderBox = styled.section`
+    width: 100%;
+    height: 470px;
+`;
+
+const ImageBox = styled.img`
+    width: 100%;
+    height: 500px;
+`;
+
+const DraweLeftBox = styled.section`
+    position:absolute;
+    top:0;
+`
+
+const MarkdodownBackground = styled.section`
+    background: rgb(243, 245, 247);
+`
+
+const ContainerBox = styled.section`
+    width: 50%;
+    position: relative;
+    top: -30px;
+    margin:0 auto;
+    @media(max-width:768px){
+        width:100%;
+    }
+`
+
+const ContentBox = styled.section`
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: white;
+    box-shadow: 5px 5px 5px #888888;
+    flex-grow:1;
+    flex-shrink:0;
+    padding:3rem 1.5rem;
+`
 
 export default ({ data }) => {
-    const post = data.markdownRemark
+    const post = data.markdownRemark;
     return (
         <div>
-            <div className="headerBox">
-                 <img
-                    src={post.frontmatter.image.publicURL}
-                    className="imageBox"
-                />
-                <div className="drawerLeftPosition">
-                    <DrawerLeft/> 
-                </div>
-            </div>
-               
-            <div className="has-background-black">
-                <div className="container has-background-white blog_post_container blog_post_box">
-                    <div className="hero-body font-size font-weight">
+            <HeaderBox>
+                <ImageBox src={post.frontmatter.image.publicURL} />
+                <DraweLeftBox>
+                    <DrawerLeft />
+                </DraweLeftBox>
+            </HeaderBox>
+            <MarkdodownBackground >
+                <ContainerBox>
+                    <ContentBox>
                         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                    </div>
-                </div>
+                    </ContentBox>
+                </ContainerBox>
                 <Footer />
-            </div>
+            </MarkdodownBackground >
         </div>
-    )
-}
+    );
+};
+
 
 export const query = graphql`
   query($slug: String!) {

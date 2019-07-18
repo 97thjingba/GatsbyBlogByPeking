@@ -1,93 +1,44 @@
 h1 {
-  font-size: 2em;
-  font-weight: bold;
-  margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom:10px;
 }
 
 h2 {
-  font-size: 1.5em;
-  font-weight: bold;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 h3 {
-  font-size: 1.17em;
-  font-weight: bold;
+    font-size: 1.17em;
+    font-weight: bold;
 }
 
 h4 {
-  font-size: 1em;
-  font-weight: bold;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 h5 {
-  font-size: 0.83em;
-  font-weight: bold;
+    font-size: .83em;
+    font-weight: bold;
 }
 
 h6 {
-  font-size: 0.75em;
-  font-weight: bold;
+    font-size: .75em;
+    font-weight: bold;
 }
 
 p {
-  margin-bottom: 16px;
-  line-height: 2;
-  font-weight: 500;
+    margin-bottom:16px;
+    line-height: 2;
+    font-weight:500
 }
 
 pre {
-  margin-bottom: 16px;
-  background-color: #f6f8fa;
+    margin-bottom:16px;
 }
 
-.headerBox{
-    width:100%;
-    height:470px;
-}
-
-.imageBox {
-    width: 100%;
-    height:100%;
-}
-
-.drawerLeftPosition{
-    position: absolute;
-    top:0;
-}
-
-.footer {
-  max-height: 180px;
-}
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.blog_post_container {
-  width: 50%;
-}
-
-.has-background-black {
-  background: rgb(243, 245, 247);
-}
-
-.hero-body {
-  background-color: white;
-  border: 1px solid;
-  border-radius: 15px;
-  border-color: white;
-  box-shadow: 5px 5px 5px #888888;
-}
-
-.blog_post_box {
-  position: relative;
-  top: -30px;
-}
-
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
+.footer{
+    max-height: 180px;
 }
