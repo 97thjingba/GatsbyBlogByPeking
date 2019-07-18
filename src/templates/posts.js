@@ -31,16 +31,15 @@ const NavLink = props => {
 
 const Blog = styled.div``;
 
-const SectionBox = styled.section`
+const SectionBox = styled.div`
   min-height: 100vh;
-  padding: 3rem 1.5rem;
   align-items: stretch;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 `;
 
-const ContainerBox = styled.section`
+const ContainerBox = styled.div`
   width: 75%;
   margin: 0 auto;
   position: relative;
@@ -67,13 +66,13 @@ const SubTitleBox = styled.h4`
   justify-content: center;
 `;
 
-const BlogContent = styled.section`
+const BlogContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
-const ColumnsBox = styled.section`
+const ColumnsBox = styled.div`
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -82,11 +81,11 @@ const ColumnsBox = styled.section`
   margin-top: -0.75rem;
 
   @media (max-width: 768px) {
-    width: 107%;
+    width: 120%;
   }
 `;
 
-const ColumnBox = styled.section`
+const ColumnBox = styled.div`
   display: block;
   flex: none;
   width: 33.333333%;
@@ -97,11 +96,11 @@ const ColumnBox = styled.section`
   }
 `;
 
-const ContentBox = styled.section`
+const ContentBox = styled.div`
   margin-top: 5rem;
 `;
 
-const PaginationBox = styled.section`
+const PaginationBox = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
