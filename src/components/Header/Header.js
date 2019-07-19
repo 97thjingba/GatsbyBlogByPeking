@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import DrawerLeft from "../Drawer/DrawerLeft";
 import StyledBackgroundSection from "./StyledBackgroundSection";
 import styled from "styled-components";
+import GithubCorner from 'react-github-corner';
 
 const DrawerPosition = styled.section`
   position: absolute;
@@ -40,6 +41,7 @@ class Header extends Component {
                             />
                         </Helmet>
                         <StyledBackgroundSection />
+                        <GithubCorner bannerColor="#125648" href="https://github.com/97thjingba/blog_gatsby"/>
                         <DrawerPosition>
                             <DrawerLeft />
                         </DrawerPosition>
