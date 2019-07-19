@@ -16,9 +16,8 @@ import useStyles from "../style/postsCardStyle";
 import NavLink from "../components/Pagination/NavLink";
 import Footer from "../components/Footer/Footer";
 import styled from "styled-components";
-import { FaAngleDoubleLeft } from 'react-icons/fa';
-import { FaAngleDoubleRight } from 'react-icons/fa';
-
+import { FaAngleDoubleLeft } from "react-icons/fa";
+import { FaAngleDoubleRight } from "react-icons/fa";
 
 const SectionBox = styled.div`
   min-height: 100vh;
@@ -137,7 +136,6 @@ const IndexPage = ({ data, pageContext }) => {
                                 <ColumnBox>
                                     <ContentBox key={node.id}>
                                         <Card className={classes.card}>
-
                                             <CardHeader
                                                 avatar={
                                                     <Avatar
@@ -145,7 +143,7 @@ const IndexPage = ({ data, pageContext }) => {
                                                         className={classes.avatar}
                                                     >
                                                         R
-                                                        </Avatar>
+                          </Avatar>
                                                 }
                                                 action={
                                                     <IconButton aria-label="Settings">
@@ -177,7 +175,6 @@ const IndexPage = ({ data, pageContext }) => {
                                                     <ShareIcon />
                                                 </IconButton>
                                             </CardActions>
-
                                         </Card>
                                     </ContentBox>
                                 </ColumnBox>
@@ -186,8 +183,16 @@ const IndexPage = ({ data, pageContext }) => {
                     </BlogContent>
                 </ContainerBox>
                 <PaginationBox>
-                    <NavLink test={first} url={previousUrl} component={<FaAngleDoubleLeft />} />
-                    <NavLink test={last} url={nextUrl} component={<FaAngleDoubleRight />} />
+                    <NavLink
+                        test={first}
+                        url={previousUrl}
+                        component={<FaAngleDoubleLeft />}
+                    />
+                    <NavLink
+                        test={last}
+                        url={nextUrl}
+                        component={<FaAngleDoubleRight />}
+                    />
                 </PaginationBox>
             </SectionBox>
             <Footer />
