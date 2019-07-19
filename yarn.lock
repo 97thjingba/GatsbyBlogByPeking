@@ -2032,7 +2032,7 @@ babel-plugin-remove-graphql-queries@^2.7.0:
   resolved "https://registry.npm.taobao.org/babel-plugin-remove-graphql-queries/download/babel-plugin-remove-graphql-queries-2.7.0.tgz#dd5b1201cb90f1197e4588761af602f2e180f60a"
   integrity sha1-3VsSAcuQ8Rl+RYh2GvYC8uGA9go=
 
-"babel-plugin-styled-components@>= 1", babel-plugin-styled-components@^1.10.6:
+babel-plugin-styled-components@1.10.6, "babel-plugin-styled-components@>= 1":
   version "1.10.6"
   resolved "https://registry.npm.taobao.org/babel-plugin-styled-components/download/babel-plugin-styled-components-1.10.6.tgz#f8782953751115faf09a9f92431436912c34006b"
   integrity sha1-+HgpU3URFfrwmp+SQxQ2kSw0AGs=
@@ -5737,7 +5737,7 @@ functional-red-black-tree@^1.0.1:
   resolved "http://registry.npm.taobao.org/functional-red-black-tree/download/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-background-image@^0.8.0:
+gatsby-background-image@0.8.0:
   version "0.8.0"
   resolved "https://registry.npm.taobao.org/gatsby-background-image/download/gatsby-background-image-0.8.0.tgz#8ff725f307b4a158a0e00a7158b267324f02d158"
   integrity sha1-j/cl8we0oVig4ApxWLJnMk8C0Vg=
@@ -5880,7 +5880,7 @@ gatsby-plugin-sitemap@2.0.3:
     "@babel/runtime" "^7.0.0"
     sitemap "^1.12.0"
 
-gatsby-plugin-styled-components@^3.1.2:
+gatsby-plugin-styled-components@3.1.2:
   version "3.1.2"
   resolved "https://registry.npm.taobao.org/gatsby-plugin-styled-components/download/gatsby-plugin-styled-components-3.1.2.tgz#1f8ab130e2fdc02fbc8b158b237e7f620d15c2a9"
   integrity sha1-H4qxMOL9wC+8ixWLI35/Yg0Vwqk=
@@ -10770,6 +10770,11 @@ react-fullpage-lgy@0.1.19:
     react "16.4.2"
     react-dom "16.4.2"
 
+react-github-corner@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/react-github-corner/download/react-github-corner-2.3.0.tgz#73ab17324b670c9cd955567b09663d385cfb05ef"
+  integrity sha1-c6sXMktnDJzZVVZ7CWY9OFz7Be8=
+
 react-graceful-image@1.2.9:
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/react-graceful-image/-/react-graceful-image-1.2.9.tgz#aa228ef1877bfb552c12fa1414e3778ef2ed16f9"
@@ -12371,7 +12376,7 @@ style-to-object@^0.2.1:
   dependencies:
     css "2.2.4"
 
-styled-components@^4.3.2:
+styled-components@4.3.2:
   version "4.3.2"
   resolved "https://registry.npm.taobao.org/styled-components/download/styled-components-4.3.2.tgz#4ca81918c812d3006f60ac5fdec7d6b64a9509cc"
   integrity sha1-TKgZGMgS0wBvYKxf3sfWtkqVCcw=
