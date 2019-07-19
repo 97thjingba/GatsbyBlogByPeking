@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -39,6 +40,6 @@ module.exports = {
       options: {
         // Add any options here
       }
-    }
+    },
   ]
 };

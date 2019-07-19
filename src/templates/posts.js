@@ -143,7 +143,7 @@ const IndexPage = ({ data, pageContext }) => {
                                                         className={classes.avatar}
                                                     >
                                                         R
-                          </Avatar>
+                                                    </Avatar>
                                                 }
                                                 action={
                                                     <IconButton aria-label="Settings">
