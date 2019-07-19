@@ -5,6 +5,7 @@ import DrawerLeft from "../Drawer/DrawerLeft";
 import StyledBackgroundSection from "./StyledBackgroundSection";
 import styled from "styled-components";
 import GithubCorner from 'react-github-corner';
+import Headroom from "react-headroom";
 
 const DrawerPosition = styled.section`
   position: absolute;
@@ -33,18 +34,20 @@ class Header extends Component {
                 render={data => (
                     <body>
                         <Helmet>
-                            <html lang="en"  />
+                            <html lang="en" />
                             <title>{data.site.siteMetadata.title}</title>
                             <meta
                                 name="description"
                                 content={data.site.siteMetadata.description}
                             />
                         </Helmet>
+                        <Headroom>
+                            <GithubCorner bannerColor="#125648" href="https://github.com/97thjingba/blog_gatsby" />
+                            <DrawerPosition>
+                                <DrawerLeft />
+                            </DrawerPosition>
+                        </Headroom>
                         <StyledBackgroundSection />
-                        <GithubCorner bannerColor="#125648" href="https://github.com/97thjingba/blog_gatsby"/>
-                        <DrawerPosition>
-                            <DrawerLeft />
-                        </DrawerPosition>
                     </body>
                 )}
             />
