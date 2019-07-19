@@ -4,11 +4,11 @@ import { Helmet } from "react-helmet";
 import DrawerLeft from "../Drawer/DrawerLeft";
 import StyledBackgroundSection from "./StyledBackgroundSection";
 import styled from "styled-components";
-import GithubCorner from 'react-github-corner';
-import Headroom from "react-headroom";
+import GithubCorner from "react-github-corner";
 
 const DrawerPosition = styled.section`
-  position: absolute;
+  width: 100%;
+  position: fixed;
   top: 0;
 `;
 
@@ -41,13 +41,14 @@ class Header extends Component {
                                 content={data.site.siteMetadata.description}
                             />
                         </Helmet>
-                        <Headroom>
-                            <GithubCorner bannerColor="#125648" href="https://github.com/97thjingba/blog_gatsby" />
-                            <DrawerPosition>
-                                <DrawerLeft />
-                            </DrawerPosition>
-                        </Headroom>
                         <StyledBackgroundSection />
+                        <DrawerPosition>
+                            <GithubCorner
+                                bannerColor="#125648"
+                                href="https://github.com/97thjingba/blog_gatsby"
+                            />
+                            <DrawerLeft />
+                        </DrawerPosition>
                     </body>
                 )}
             />
