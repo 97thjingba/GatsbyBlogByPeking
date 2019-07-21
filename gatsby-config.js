@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `beibei-blog`,
-    description: `李贝贝的小博客`
+    title: `97thjingba‘s blog`,
+    description: `lgy's blog`
   },
   plugins: [
     `gatsby-plugin-sharp`,
