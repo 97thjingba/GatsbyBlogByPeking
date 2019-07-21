@@ -15,6 +15,9 @@
 - [Netlify](https://www.netlify.com/)
 - [reactbulma](https://github.com/kulakowka/react-bulma)
 - [material-ui](https://material-ui.com/styles/basics/)
+- [Netlify-cms](https://www.netlifycms.org/)
+- [styled-components](https://github.com/styled-components/styled-components)
+  
 
 
 
@@ -27,7 +30,7 @@ git clone https://github.com/97thjingba/blog_gatsby.git
 ---
 
 ```
-npm install
+yarn install
 ```
 
 ```
