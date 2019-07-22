@@ -1,12 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: `97thjingba‘s blog`,
-    description: `lgy's blog`
+    description: `lgy's blog`,
+    siteUrl: `https://elated-lewin-51cf0d.netlify.com/`,
   },
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
