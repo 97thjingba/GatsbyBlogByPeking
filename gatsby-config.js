@@ -46,7 +46,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: "UA-132772037-1",
+                trackingId: "UA-144300459-1",
                 // Defines where to place the tracking script - `true` in the head and `false` in the body
                 head: false,
                 // Setting this parameter is optional
@@ -58,9 +58,9 @@ module.exports = {
                 // Delays sending pageview hits on route update (in milliseconds)
                 pageTransitionDelay: 0,
                 // Enables Google Optimize using your container Id
-                optimizeId: "GTM-TM9N86Z",
-                // Enables Google Optimize Experiment ID
-                experimentId: "34k_dTOQT-6crrPo-knWIQ",
+                // optimizeId: "GTM-TM9N86Z",
+                // // Enables Google Optimize Experiment ID
+                // experimentId: "34k_dTOQT-6crrPo-knWIQ",
                 // Set Variation ID. 0 for original 1,2,3....
                 variationId: "",
                 // Any additional create only fields (optional)
