@@ -13,7 +13,7 @@ class testmap extends Component {
                     href="https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/"
                 >
                     Visit the Google Analytics plugin page!
-    </OutboundLink>
+                </OutboundLink>
             </div>
         );
     }

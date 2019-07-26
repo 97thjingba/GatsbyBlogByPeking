@@ -9,7 +9,7 @@ const GithubLink = styled.a`
 class Footer extends Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {}
     }
     render() {
         return (
