@@ -6,7 +6,7 @@
 
 **使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)**
 
-
+## If you have any questions, please leave a message in issue
 #### Address:
 **https://elated-lewin-51cf0d.netlify.com/**
 
