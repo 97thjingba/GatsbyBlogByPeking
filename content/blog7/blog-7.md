@@ -1,7 +1,7 @@
 ---
 title: "使用netlify-cms进行后台博客管理"
 date: "2019-07-21"
-image: "./zz.jpeg"
+image: "./img-seven.jpg"s
 coverText: '使用netlify-cms进行后台博客管理'
 ---
 

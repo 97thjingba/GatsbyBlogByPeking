@@ -30,7 +30,7 @@ exports.createPages = ({ graphql, actions }) => {
                     childImageSharp{
                         fluid{
                             src
-                        }
+                    }
                     }
                 }
                 coverText
@@ -38,7 +38,7 @@ exports.createPages = ({ graphql, actions }) => {
               fields {
                 slug
               }
-              excerpt(pruneLength:49)
+              excerpt(pruneLength:48)
             }
           }
         }
