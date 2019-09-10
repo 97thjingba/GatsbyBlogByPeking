@@ -1,7 +1,7 @@
 ---
 title: "blog"
 date: "2018-10-01"
-image: "./img-five.jpg"
+image: "./img-three.jpg"
 coverText: '使用gatsby.js 搭建的一个个人静态博客(部署在Netlify)'
 ---
 

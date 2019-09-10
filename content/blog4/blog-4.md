@@ -1,7 +1,7 @@
 ---
 title: "加快git clone 或者push 的方法"
 date: "2019-07-08"
-image: "./img-three.jpg"
+image: "./img-four.jpg"
 coverText: '加快git clone 几十倍速度的小方法 '
 ---
 

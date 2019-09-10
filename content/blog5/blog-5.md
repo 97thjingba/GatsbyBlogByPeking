@@ -1,7 +1,7 @@
 ---
 title: "暂时博客写成这样吧"
 date: "2019-07-11"
-image: "./img-three.jpg"
+image: "./img-five.jpg"
 coverText: '暂时算是完成了我的个人博客吧'
 ---
 
