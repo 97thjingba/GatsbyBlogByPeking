@@ -1,15 +1,16 @@
-import React from "react";
-import { Link } from "gatsby";
-const NavLink = props => {
-    if (!props.test) {
+import React from 'react';
+import { Link } from 'gatsby';
+
+const NavLink = (props) => {
+    const { url, component, test } = props;
+    if (!test) {
         return (
-            <Link to={props.url} id="navlink">
-                {props.component}
+            <Link to={url} id="navlink">
+                {component}
             </Link>
         );
-    } else {
-        return <span>{props.component}</span>;
     }
+    return <span>{component}</span>;
 };
 
 export default NavLink;

@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import { StaticQuery, graphql } from "gatsby";
-import { Helmet } from "react-helmet";
-import DrawerLeft from "../Drawer/DrawerLeft";
-import StyledBackgroundSection from "./StyledBackgroundSection";
-import styled from "styled-components";
-import GithubCorner from "react-github-corner";
+import React, { Component } from 'react';
+import { StaticQuery, graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
+import styled from 'styled-components';
+import GithubCorner from 'react-github-corner';
+import DrawerLeft from '../Drawer/DrawerLeft';
+import StyledBackgroundSection from './StyledBackgroundSection';
 
 const DrawerPosition = styled.section`
   width: 100%;
@@ -31,7 +31,7 @@ class Header extends Component {
             }
           }
         `}
-                render={data => (
+                render={(data) => (
                     <body>
                         <Helmet>
                             <html lang="en" />

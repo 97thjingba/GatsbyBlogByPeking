@@ -1,10 +1,12 @@
-import React from "react";
-import { graphql } from "gatsby";
-import Footer from "../components/Footer/Footer";
-import DrawerLeft from "../components/Drawer/DrawerLeft";
-import styled from "styled-components";
-import "./blog-post.css";
-import GithubCorner from "react-github-corner";
+/* eslint-disable react/no-danger */
+import React from 'react';
+import { graphql } from 'gatsby';
+import styled from 'styled-components';
+import Footer from '../components/Footer/Footer';
+import DrawerLeft from '../components/Drawer/DrawerLeft';
+import './blog-post.css';
+// eslint-disable-next-line import/order
+import GithubCorner from 'react-github-corner';
 
 const HeaderBox = styled.section`
   width: 100%;
