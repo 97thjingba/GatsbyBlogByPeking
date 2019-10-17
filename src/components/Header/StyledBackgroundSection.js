@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { graphql, StaticQuery } from "gatsby";
-import styled from "styled-components";
-import BackgroundImage from "gatsby-background-image";
+import React, { Component } from 'react';
+import { graphql, StaticQuery } from 'gatsby';
+import styled from 'styled-components';
+import BackgroundImage from 'gatsby-background-image';
 
 const Width = styled.section`
   height: 600px;
@@ -12,6 +12,7 @@ class StyledBackgroundSection extends Component {
         super(props);
         this.state = {};
     }
+
     render() {
         return (
             <StaticQuery
@@ -26,14 +27,14 @@ class StyledBackgroundSection extends Component {
                     }
                 }
                 `}
-                render={data => {
+                render={(data) => {
                     const imageData = data.desktop.childImageSharp.fluid;
                     return (
                         <BackgroundImage
                             Tag="section"
                             className=""
                             fluid={imageData}
-                            backgroundColor={`#040e18`}
+                            backgroundColor="#040e18"
                         >
                             <Width />
                         </BackgroundImage>

@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import Drawer from "@material-ui/core/Drawer";
-import Button from "@material-ui/core/Button";
-import List from "@material-ui/core/List";
-import Divider from "@material-ui/core/Divider";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText from "@material-ui/core/ListItemText";
-import Burger from "@material-ui/icons/FormatAlignJustify";
-import styled from "styled-components";
-import DrawerListData from "../model/DrawerListData";
-import DrawerListModel from "../model/DrawerListModel";
+import React, { Component } from 'react';
+import Drawer from '@material-ui/core/Drawer';
+import Button from '@material-ui/core/Button';
+import List from '@material-ui/core/List';
+import Divider from '@material-ui/core/Divider';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import Burger from '@material-ui/icons/FormatAlignJustify';
+import styled from 'styled-components';
+import DrawerListData from '../model/DrawerListData';
+import DrawerListModel from '../model/DrawerListModel';
 
 const BoxWidth = styled.section`
   width: 200px;
@@ -43,10 +43,11 @@ class DrawerLeft extends Component {
     };
 
     _sideList = () => {
+        const { list } = this.state;
         return (
             <BoxWidth>
                 <List>
-                    {this.state.list.map(item => (
+                    {list.map((item) => (
                         <Item href={item.title_link}>
                             <ListItem button key={item.title}>
                                 <ListItemIcon>{item.icon}</ListItemIcon>
@@ -61,6 +62,7 @@ class DrawerLeft extends Component {
     };
 
     render() {
+        const { left } = this.state;
         return (
             <div>
                 <nav role="navigation" aria-label="main navigation">
@@ -75,7 +77,7 @@ class DrawerLeft extends Component {
                             </BurgerStyle>
                         </Button>
                         <Drawer
-                            open={this.state.left}
+                            open={left}
                             onClose={() => {
                                 this._toClose();
                             }}

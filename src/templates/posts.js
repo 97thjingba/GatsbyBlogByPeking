@@ -1,23 +1,23 @@
-import React from "react";
-import Header from "../components/Header/Header";
-import { Link, graphql } from "gatsby";
-import Card from "@material-ui/core/Card";
-import CardHeader from "@material-ui/core/CardHeader";
-import CardMedia from "@material-ui/core/CardMedia";
-import CardContent from "@material-ui/core/CardContent";
-import CardActions from "@material-ui/core/CardActions";
-import Avatar from "@material-ui/core/Avatar";
-import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import ShareIcon from "@material-ui/icons/Share";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
-import useStyles from "../style/postsCardStyle";
-import NavLink from "../components/Pagination/NavLink";
-import Footer from "../components/Footer/Footer";
-import styled from "styled-components";
-import { FaAngleDoubleLeft } from "react-icons/fa";
-import { FaAngleDoubleRight } from "react-icons/fa";
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import Card from '@material-ui/core/Card';
+import CardHeader from '@material-ui/core/CardHeader';
+import CardMedia from '@material-ui/core/CardMedia';
+import CardContent from '@material-ui/core/CardContent';
+import CardActions from '@material-ui/core/CardActions';
+import Avatar from '@material-ui/core/Avatar';
+import IconButton from '@material-ui/core/IconButton';
+import Typography from '@material-ui/core/Typography';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import ShareIcon from '@material-ui/icons/Share';
+import MoreVertIcon from '@material-ui/icons/MoreVert';
+import styled from 'styled-components';
+import { FaAngleDoubleLeft, FaAngleDoubleRight } from 'react-icons/fa';
+import useStyles from '../style/postsCardStyle';
+import NavLink from '../components/Pagination/NavLink';
+import Footer from '../components/Footer/Footer';
+
+import Header from '../components/Header/Header';
 
 const SectionBox = styled.div`
   min-height: 100vh;
@@ -94,7 +94,7 @@ const PaginationBox = styled.div`
   align-items: center;
   margin-top: 2rem;
 `;
-//添加完毕blog以后，必须修改一下graphql 查询
+// 添加完毕blog以后，必须修改一下graphql 查询
 
 export const query = graphql`
   query {
@@ -118,9 +118,11 @@ export const query = graphql`
 `;
 
 const IndexPage = ({ data, pageContext }) => {
-    const { group, index, first, last, pageCount } = pageContext;
-    const previousUrl = index - 1 == 1 ? "" : (index - 1).toString();
-    const nextUrl = '//'+(index + 1).toString();
+    const {
+        group, index, first, last,
+    } = pageContext;
+    const previousUrl = index - 1 === 1 ? '' : (index - 1).toString();
+    const nextUrl = `//${(index + 1).toString()}`;
     const classes = useStyles();
 
     return (
@@ -129,7 +131,10 @@ const IndexPage = ({ data, pageContext }) => {
             <SectionBox>
                 <ContainerBox>
                     <BlogTitle>lgy的小博客</BlogTitle>
-                    <SubTitleBox>{data.allMarkdownRemark.totalCount}篇小文章</SubTitleBox>
+                    <SubTitleBox>
+                        {data.allMarkdownRemark.totalCount}
+篇小文章
+                    </SubTitleBox>
                     <BlogContent>
                         <ColumnsBox>
                             {group.map(({ node }) => (
@@ -137,19 +142,19 @@ const IndexPage = ({ data, pageContext }) => {
                                     <ContentBox key={node.id}>
                                         <Card className={classes.card}>
                                             <CardHeader
-                                                avatar={
+                                                avatar={(
                                                     <Avatar
                                                         aria-label="Recipe"
                                                         className={classes.avatar}
                                                     >
                                                         R
                                                     </Avatar>
-                                                }
-                                                action={
+                                                )}
+                                                action={(
                                                     <IconButton aria-label="Settings">
                                                         <MoreVertIcon />
                                                     </IconButton>
-                                                }
+                                                )}
                                                 title={node.frontmatter.title}
                                                 subheader={node.frontmatter.date}
                                             />
