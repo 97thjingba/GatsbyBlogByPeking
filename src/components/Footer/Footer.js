@@ -1,16 +1,19 @@
-import React, { Component } from "react"
-import { Container } from "reactbulma";
+/* eslint-disable react/no-unknown-property */
+import React, { Component } from 'react';
+// eslint-disable-next-line no-unused-vars
+import { Container } from 'reactbulma';
 import { FaGithub } from 'react-icons/fa';
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const GithubLink = styled.a`
     color:black
-`
+`;
 class Footer extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {};
     }
+
     render() {
         return (
             <div>
