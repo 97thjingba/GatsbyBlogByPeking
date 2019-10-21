@@ -24,16 +24,16 @@
         "react"
     ],
     "rules": {
-        "indent": [2, 4, { "SwitchCase": 1,"flatTernaryExpressions": true }],
-        "max-len": [2, { "code": 120, "ignoreUrls": true }],
+        "indent": ["error", 4, { "SwitchCase": 1,"flatTernaryExpressions": true }],
+        "max-len": ["error", { "code": 120, "ignoreUrls": true }],
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
-        "react/jsx-filename-extension": [1, { "extensions": [".js",".jsx"] }],
-        "react/prop-types": 0,
-        "no-unused-expressions": [0, { "allowShortCircuit": true }],
-        "no-underscore-dangle": [2, { "allowAfterThis": true }],
+        "react/jsx-filename-extension": ["warning", { "extensions": [".js",".jsx"] }],
+        "react/prop-types": "error",
+        "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+        "no-underscore-dangle": ["error", { "allowAfterThis": true }],
         "no-console": ["error", { "allow": ["log"] }],
-        "react/jsx-props-no-spreading": [2, { "custom": "ignore" }],
-        "import/no-cycle": [2, { "maxDepth": 2 }]
+        "react/jsx-props-no-spreading": ["error", { "custom": "ignore" }],
+        "import/no-cycle": ["error", { "maxDepth": 2 }]
     }
 }
