@@ -24,7 +24,7 @@
 使用方法
 
 ```
-git clone https://github.com/97thjingba/blog_gatsby.git
+https://github.com/97thjingba/GatsbyBlogByPeking.git
 ```
 
 ---
