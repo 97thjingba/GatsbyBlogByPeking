@@ -24,16 +24,19 @@
         "react"
     ],
     "rules": {
-        "indent": ["error", 4, { "SwitchCase": 1,"flatTernaryExpressions": true }],
-        "max-len": ["error", { "code": 120, "ignoreUrls": true }],
-        "react/jsx-indent": ["error", 4],
-        "react/jsx-indent-props": ["error", 4],
-        "react/jsx-filename-extension": ["warn", { "extensions": [".js",".jsx"] }],
-        "react/prop-types": "error",
-        "no-unused-expressions": ["error", { "allowShortCircuit": true }],
-        "no-underscore-dangle": ["error", { "allowAfterThis": true }],
-        "no-console": ["error", { "allow": ["log"] }],
-        "react/jsx-props-no-spreading": ["error", { "custom": "ignore" }],
-        "import/no-cycle": ["error", { "maxDepth": 2 }]
+        "indent": ["error", 4, { "SwitchCase": 1,"flatTernaryExpressions": true }], //一般代码的spaces
+        "max-len": ["error", { "code": 120, "ignoreUrls": true }],//代码最长长度
+        "react/jsx-indent": ["error", 4],//组件代码的spaces
+        "react/jsx-indent-props": ["error", 4], //组件接受的属性的spaces
+        "react/jsx-filename-extension": ["warn", { "extensions": [".js",".jsx"] }],//filename允许后缀名为js
+        "react/prop-types": "off",
+        "no-underscore-dangle": ["error", { "allowAfterThis": true }],//禁止在变量里添加下划线
+        "no-console": ["error", { "allow": ["log","error"] }],
+        "import/no-cycle": ["error", { "maxDepth": 2 }], //代码依赖树
+        "no-param-reassign":"off", //禁止对函数参数再赋值
+        "import/no-extraneous-dependencies": "off", //禁止使用无关软件包
+        "no-shadow" : "off",
+        "react/jsx-props-no-spreading":"off",//禁止传播jsx道具
+        "react/prefer-stateless-function":"off" //强制将无状态组件变为纯函数
     }
 }
