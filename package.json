@@ -8,14 +8,28 @@
         "build": "gatsby build",
         "serve": "gatsby serve"
     },
+    "husky": {
+        "hooks": {
+          "pre-commit": "lint-staged"
+        }
+    },
+      "lint-staged": {
+        "src/**/*.{jsx,txs,ts,js,vue}": [
+          "./node_modules/.bin/eslint --fix",
+          "git add"
+        ]
+    },
     "dependencies": {
         "@material-ui/core": "4.1.1",
         "@material-ui/icons": "4.2.0",
         "@material/react-drawer": "0.13.0",
         "babel-plugin-styled-components": "1.10.6",
         "blueimp-md5": "2.10.0",
-        "eslint": "6.5.1",
+        "eslint": "5.16.0",
         "eslint-config-airbnb": "18.0.1",
+        "eslint-plugin-import": "2.18.2",
+        "eslint-plugin-jsx-a11y": "6.2.3",
+        "eslint-plugin-react": "7.14.3",
         "gatsby": "2.16.3",
         "gatsby-background-image": "0.8.0",
         "gatsby-image": "2.1.4",
@@ -33,6 +47,8 @@
         "gatsby-source-filesystem": "2.0.10",
         "gatsby-transformer-remark": "2.1.15",
         "gatsby-transformer-sharp": "2.1.10",
+        "husky": "3.0.9",
+        "lint-staged": "9.4.2",
         "netlify-cms-app": "2.9.6",
         "prismjs": "1.16.0",
         "react": "16.8.6",
