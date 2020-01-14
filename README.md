@@ -33,6 +33,7 @@ https://github.com/97thjingba/GatsbyBlogByPeking.git
 yarn install
 ```
 
+
 ```
 gatsby develop
 ```
