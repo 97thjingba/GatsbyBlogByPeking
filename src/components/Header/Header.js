@@ -45,7 +45,7 @@ class Header extends Component {
                         <DrawerPosition>
                             <GithubCorner
                                 bannerColor="#125648"
-                                href="https://github.com/97thjingba/blog_gatsby"
+                                href="https://github.com/97thjingba/GatsbyBlogByPeking"
                             />
                             <DrawerLeft />
                         </DrawerPosition>

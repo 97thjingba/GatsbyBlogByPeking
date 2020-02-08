@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: '97thjingba‘s blog',
         description: 'lgy\'s blog',
-        siteUrl: 'https://elated-lewin-51cf0d.netlify.com/',
+        siteUrl: 'https://peking.netlify.com/',
     },
     plugins: [
         'gatsby-plugin-sharp',

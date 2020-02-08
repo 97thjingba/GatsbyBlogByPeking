@@ -5,12 +5,12 @@ import { FaGithub, FaCentos } from 'react-icons/fa';
 const DrawerListData = [
     {
         title: 'Home',
-        title_link: '/',
+        titleLink: '/',
         icon: <FaCentos size="2em" />,
     },
     {
         title: 'GitHub',
-        title_link: 'https://github.com/97thjingba/blog_gatsby',
+        titleLink: 'https://github.com/97thjingba/GatsbyBlogByPeking',
         icon: <FaGithub size="2em" />,
     },
 ];
