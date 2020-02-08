@@ -23,7 +23,7 @@ const BurgerStyle = styled.section`
   color: white;
 `;
 
-class DrawerLeft extends Component {
+export default class DrawerLeft extends Component {
     constructor(props) {
         super(props);
         this.drawerListModel = new DrawerListModel();
@@ -48,7 +48,7 @@ class DrawerLeft extends Component {
             <BoxWidth>
                 <List>
                     {list.map((item) => (
-                        <Item href={item.title_link}>
+                        <Item href={item.titleLink}>
                             <ListItem button key={item.title}>
                                 <ListItemIcon>{item.icon}</ListItemIcon>
                                 <ListItemText primary={item.title} />
@@ -78,9 +78,7 @@ class DrawerLeft extends Component {
                         </Button>
                         <Drawer
                             open={left}
-                            onClose={() => {
-                                this._toClose();
-                            }}
+                            onClose={() => {this._toClose();}}
                         >
                             {this._sideList()}
                         </Drawer>
@@ -90,5 +88,3 @@ class DrawerLeft extends Component {
         );
     }
 }
-
-export default DrawerLeft;

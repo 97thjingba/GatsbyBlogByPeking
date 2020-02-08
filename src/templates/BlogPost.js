@@ -59,7 +59,7 @@ export default ({ data }) => {
                     <DrawerLeft />
                     <GithubCorner
                         bannerColor="#125648"
-                        href="https://github.com/97thjingba/blog_gatsby"
+                        href="https://github.com/97thjingba/GatsbyBlogByPeking"
                     />
                 </DraweLeftBox>
             </HeaderBox>
