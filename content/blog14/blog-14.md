@@ -1,6 +1,6 @@
 ---
 title: "原型与原型链"
-date: "2020-02-6"
+date: "2020-2-6"
 image: "./img-14.jpg"
 coverText: "原型与原型链"
 ---
