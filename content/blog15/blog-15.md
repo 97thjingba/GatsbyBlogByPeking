@@ -1,8 +1,8 @@
 ---
 title: "inline主要inline-block与block的主要区别"
-date: "2020-02-10"
+date: "2020-2-10"
 image: "./img-15.jpg"
-coverText: "inline主要inline-block与block的主要区别"
+coverText: "inline inline-block与 lock的主要区别"
 ---
 
 #### inline、inline-block与block的主要区别就是：
