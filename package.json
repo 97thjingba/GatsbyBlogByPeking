@@ -1,6 +1,6 @@
 {
-    "name": "blog-by-peking",
-    "description": "lgy's blog",
+    "name": "gatsby-starter-hello-world",
+    "description": "Gatsby hello world starter",
     "license": "MIT",
     "scripts": {
         "develop": "gatsby develop",
