@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: 97thjingba/blog_gatsby
+  repo: 97thjingba/GatsbyBlogByPeking
 
 media_folder: static/assets
 public_folder: assets
