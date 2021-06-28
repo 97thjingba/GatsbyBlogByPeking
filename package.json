@@ -39,7 +39,7 @@
         "husky": "3.0.9",
         "lint-staged": "9.4.2",
         "netlify-cms-app": "2.9.6",
-        "prismjs": "1.21.0",
+        "prismjs": "1.24.0",
         "react": "16.8.6",
         "react-dom": "16.8.6",
         "react-fullpage-lgy": "0.1.19",
